@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"
+     role="img" aria-label="Value — balance beam">
+  <title>Value — Concept B: balance</title>
+  <!-- Mark only, no field. Inherits colour from context via currentColor. -->
+  <!--
+    A balance reduced to two dots and a beam, playing on "value system".
+    The dots are deliberately unequal and the beam tilted: an even beam with
+    matching dots reads as a dumbbell, whereas unequal weights read as a scale
+    immediately, and the tilt carries the idea of value in motion.
+    Both dots centred on the beam's endpoints; whole mark centred on 256,256.
+  -->
+  <g fill="currentColor" stroke="currentColor">
+    <path d="M150 310 L382 182" fill="none" stroke-width="34" stroke-linecap="round"/>
+    <circle cx="150" cy="310" r="58" stroke="none"/>
+    <circle cx="382" cy="182" r="38" stroke="none"/>
+  </g>
+</svg>

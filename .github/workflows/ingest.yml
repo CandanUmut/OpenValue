@@ -1,0 +1,102 @@
+name: Ingest market data
+
+# Cadence mirrors config/providers.ts. Keep the two in sync when it changes —
+# GitHub Actions cannot read cron schedules from a TypeScript file.
+on:
+  schedule:
+    # FX: twice daily. The ECB publishes once per working day around 16:00 CET,
+    # so 06:00 and 17:00 UTC brackets the release without wasted polling.
+    - cron: '0 6,17 * * *'
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which provider to ingest'
+        type: choice
+        options: [fx, all]
+        default: fx
+      backfill:
+        description: 'Full historical backfill (run once per provider, then never)'
+        type: boolean
+        default: false
+
+concurrency:
+  # Two runs writing data/ at once would race on the snapshot files.
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # No `npm ci`. Ingestion has zero dependencies and runs on Node's native
+      # TypeScript type-stripping, so there is no install step to break and no
+      # supply chain on the path to our published data.
+
+      - name: Seed universe
+        run: node ingest/seed.ts
+
+      - name: Ingest
+        id: ingest
+        # A provider failing must not fail the workflow — the run still produces
+        # a valid snapshot carrying the last good values plus updated health,
+        # and that snapshot is exactly what we need to commit.
+        continue-on-error: true
+        run: |
+          node ingest/run.ts \
+            "${{ inputs.job || 'fx' }}" \
+            ${{ inputs.backfill && '--backfill' || '' }}
+
+      - name: Commit snapshot
+        # Runs even when ingest reported a failure, so the health record and the
+        # staleness the app shows are always current.
+        if: always()
+        run: |
+          git config user.name  'value-ingest[bot]'
+          git config user.email 'value-ingest[bot]@users.noreply.github.com'
+          git add data
+          if git diff --cached --quiet; then
+            echo 'No change in this run.'
+            exit 0
+          fi
+          git commit -m "data: snapshot $(date -u +'%Y-%m-%dT%H:%MZ')"
+          # The scheduled job can collide with a push to the branch; rebase and
+          # retry rather than failing and skipping a whole cycle.
+          for attempt in 1 2 3 4; do
+            if git push; then exit 0; fi
+            sleep $((2 ** attempt))
+            git pull --rebase --autostash || true
+          done
+          echo 'Push failed after 4 attempts.' >&2
+          exit 1
+
+      - name: Report provider health
+        if: always()
+        run: |
+          echo '### Provider health' >> "$GITHUB_STEP_SUMMARY"
+          node -e '
+            const h = require("./data/health.json");
+            for (const p of Object.values(h)) {
+              const ok = p.consecutiveFailures === 0;
+              console.log(
+                `- ${ok ? "✅" : "⚠️"} **${p.provider}** — last success ` +
+                `${p.lastSuccessAt ?? "never"}` +
+                (ok ? "" : ` · ${p.consecutiveFailures} consecutive failures · ${p.lastError}`)
+              );
+            }
+          ' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail if every provider is down
+        # steps.ingest.outcome is 'failure' only when no provider succeeded.
+        if: steps.ingest.outcome == 'failure'
+        run: |
+          echo 'All providers failed this run — snapshot committed unchanged.' >&2
+          exit 1

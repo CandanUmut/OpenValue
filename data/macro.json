@@ -1,0 +1,53 @@
+{
+  "series": [
+    {
+      "seriesId": "FEDFUNDS",
+      "name": "Federal Funds Rate",
+      "unit": "percent",
+      "frequency": "monthly",
+      "sortOrder": 0,
+      "source": "fred"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "name": "CPI, All Urban Consumers",
+      "unit": "index 1982-84=100",
+      "frequency": "monthly",
+      "sortOrder": 1,
+      "source": "fred"
+    },
+    {
+      "seriesId": "UNRATE",
+      "name": "Unemployment Rate",
+      "unit": "percent",
+      "frequency": "monthly",
+      "sortOrder": 2,
+      "source": "fred"
+    },
+    {
+      "seriesId": "DGS10",
+      "name": "10-Year Treasury Yield",
+      "unit": "percent",
+      "frequency": "daily",
+      "sortOrder": 3,
+      "source": "fred"
+    },
+    {
+      "seriesId": "DGS2",
+      "name": "2-Year Treasury Yield",
+      "unit": "percent",
+      "frequency": "daily",
+      "sortOrder": 4,
+      "source": "fred"
+    },
+    {
+      "seriesId": "M2SL",
+      "name": "M2 Money Stock",
+      "unit": "billions of USD",
+      "frequency": "monthly",
+      "sortOrder": 5,
+      "source": "fred"
+    }
+  ],
+  "points": {}
+}

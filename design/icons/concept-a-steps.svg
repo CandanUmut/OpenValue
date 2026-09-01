@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"
+     role="img" aria-label="Value — ascending step line">
+  <title>Value — Concept A: ascending steps</title>
+  <!--
+    Three treads, two risers, climbing left to right.
+    Reads as "value over time" without the zigzag line every finance app uses.
+    Geometry is on a 512 grid: treads at y=352/256/160, risers at x=216/312.
+    Mark bbox is centred on 256,256 including the 44px stroke, so the same file
+    exports to every raster size without re-centring.
+  -->
+  <rect width="512" height="512" rx="112" fill="#0B0D10"/>
+  <path d="M120 352 H216 V256 H312 V160 H392"
+        fill="none" stroke="#19C2A8" stroke-width="44"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

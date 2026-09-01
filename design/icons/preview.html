@@ -1,0 +1,108 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Value — icon concepts</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root { --bg:#0B0D10; --fg:#E9E6DF; --dim:#8A8F98; --line:#1E2228; --teal:#19C2A8; --ivory:#EDE8DC; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:40px 32px 80px; background:var(--bg); color:var(--fg);
+         font:14px/1.5 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+         font-variant-numeric: tabular-nums; }
+  h1 { font-size:20px; font-weight:600; margin:0 0 4px; letter-spacing:-.01em; }
+  h2 { font-size:13px; font-weight:600; margin:44px 0 14px; text-transform:uppercase;
+       letter-spacing:.09em; color:var(--dim); border-top:1px solid var(--line); padding-top:16px; }
+  p.lede { color:var(--dim); margin:0 0 8px; max-width:62ch; }
+  .row { display:flex; gap:32px; align-items:flex-end; flex-wrap:wrap; }
+  .cell { text-align:center; }
+  /* The icon field is near-black; without a contrasting tile behind it the
+     rounded square is invisible and the mark looks like it floats. */
+  .tile { background:#2A2F36; padding:14px; border-radius:14px; display:inline-block; }
+  .cell figcaption { margin-top:8px; color:var(--dim); font-size:11px; }
+  .name { color:var(--fg); font-size:11px; margin-top:2px; }
+  svg { display:block; }
+  .light { background:#F5F3EE; padding:24px; border-radius:12px; }
+  .circle { border-radius:50%; overflow:hidden; }
+  .squircle { border-radius:24%; overflow:hidden; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:28px; }
+</style>
+
+<h1>Value — icon concepts</h1>
+<p class="lede">Three marks, same 512 grid. Judge them at 48px first — that is the size that
+decides an icon. Everything below is generated from the SVG files in this folder.</p>
+
+<h2>All three, at icon sizes</h2>
+<p class="lede">B is the brief's alternate, reduced to two dots and a beam. It reads as a dumbbell, not a balance — B′ adds the fulcrum that forces the intended reading.</p>
+<div class="row" id="sizes"></div>
+
+<h2>48px, side by side (the real test)</h2>
+<div class="row" id="tiny"></div>
+
+<h2>Single colour — must survive with no field</h2>
+<div class="row" id="mono"></div>
+
+<h2>Maskable: mark at 60%, cropped to Android's circle and squircle</h2>
+<p class="lede">Android crops maskable icons. Anything outside the inner 80% is gone; at 60%
+scale both marks clear the safe zone with room to spare.</p>
+<div class="row" id="maskable"></div>
+
+<h2>Colourway</h2>
+<p class="lede">Teal is the app's semantic "up" colour. A teal mark risks reading as a
+direction rather than a brand, so the ivory alternate is shown for comparison.</p>
+<div class="grid" id="colour"></div>
+
+<script type="module">
+const A = `<rect width="512" height="512" rx="112" fill="__FIELD__"/>
+  <path d="M120 352 H216 V256 H312 V160 H392" fill="none" stroke="__MARK__" stroke-width="44"
+        stroke-linecap="round" stroke-linejoin="round"/>`;
+const B = `<rect width="512" height="512" rx="112" fill="__FIELD__"/>
+  <g fill="__MARK__" stroke="__MARK__">
+    <path d="M150 310 L382 182" fill="none" stroke-width="34" stroke-linecap="round"/>
+    <circle cx="150" cy="310" r="58" stroke="none"/>
+    <circle cx="382" cy="182" r="38" stroke="none"/>
+  </g>`;
+
+const B2 = `<rect width="512" height="512" rx="112" fill="__FIELD__"/>
+  <g fill="__MARK__" stroke="__MARK__" stroke-linecap="round">
+    <path d="M264 215 V351" fill="none" stroke-width="32"/>
+    <path d="M136 251 L392 179" fill="none" stroke-width="32"/>
+    <circle cx="136" cy="251" r="50" stroke="none"/>
+    <circle cx="392" cy="179" r="34" stroke="none"/>
+  </g>`;
+
+const CONCEPTS = [['A — steps', A], ['B — balance', B], ["B\u2032 — balance + fulcrum", B2]];
+const TEAL = '#19C2A8', IVORY = '#EDE8DC', FIELD = '#0B0D10';
+
+const svg = (body, size, { mark = TEAL, field = FIELD, scale = 1 } = {}) => {
+  const inner = body.replaceAll('__MARK__', mark).replaceAll('__FIELD__', field);
+  const g = scale === 1 ? inner
+    : `<rect width="512" height="512" fill="${field}"/>` +
+      `<g transform="translate(256,256) scale(${scale}) translate(-256,-256)">` +
+      inner.replace(/<rect[^>]*\/>/, '') + `</g>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="${size}" height="${size}">${g}</svg>`;
+};
+
+const cell = (html, caption, name = '', cls = '') =>
+  `<figure class="cell" style="margin:0"><div class="tile"><div class="${cls}">${html}</div></div>` +
+  `<figcaption>${caption}</figcaption><div class="name">${name}</div></figure>`;
+
+document.getElementById('sizes').innerHTML = CONCEPTS.flatMap(([n, b]) =>
+  [192, 96].map(s => cell(svg(b, s), `${s}px`, n))).join('');
+
+document.getElementById('tiny').innerHTML = CONCEPTS.flatMap(([n, b]) =>
+  [48, 32].map(s => cell(svg(b, s), `${s}px`, n))).join('');
+
+document.getElementById('mono').innerHTML = CONCEPTS.flatMap(([n, b]) => [
+  cell(svg(b, 96, { mark: '#E9E6DF', field: '#0B0D10' }), 'mono on dark', n),
+  cell(svg(b, 96, { mark: '#0B0D10', field: '#F5F3EE' }), 'mono on light', n),
+]).join('');
+
+document.getElementById('maskable').innerHTML = CONCEPTS.flatMap(([n, b]) => [
+  cell(svg(b, 96, { scale: 0.6 }), 'circle crop', n, 'circle'),
+  cell(svg(b, 96, { scale: 0.6 }), 'squircle crop', n, 'squircle'),
+]).join('');
+
+document.getElementById('colour').innerHTML = CONCEPTS.flatMap(([n, b]) => [
+  cell(svg(b, 128, { mark: TEAL }), 'teal #19C2A8', n),
+  cell(svg(b, 128, { mark: IVORY }), 'ivory #EDE8DC', n),
+]).join('');
+</script>
