@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T21:25:16.507Z",
+  "generatedAt": "2026-09-01T21:48:24.488Z",
   "schemaVersion": 1,
   "assets": [
     {
@@ -1016,47 +1016,54 @@
   "health": {
     "frankfurter": {
       "provider": "frankfurter",
-      "lastAttemptAt": "2026-09-01T21:25:16.504Z",
-      "lastSuccessAt": "2026-09-01T21:25:16.504Z",
+      "lastAttemptAt": "2026-09-01T21:48:24.485Z",
+      "lastSuccessAt": "2026-09-01T21:48:24.485Z",
       "lastErrorAt": null,
       "lastError": null,
       "consecutiveFailures": 0,
       "windowDate": "2026-09-01",
-      "requestsInWindow": 4
+      "requestsInWindow": 8
     }
   },
   "attribution": [
     {
+      "id": "frankfurter",
       "name": "Frankfurter",
       "homepage": "https://frankfurter.dev",
       "text": "FX rates: Frankfurter (European Central Bank reference rates)"
     },
     {
+      "id": "gold-api",
       "name": "gold-api.com",
       "homepage": "https://gold-api.com",
       "text": "Metals spot prices: gold-api.com"
     },
     {
+      "id": "goldprice",
       "name": "goldprice.dev",
       "homepage": "https://goldprice.dev",
       "text": "Metals fallback: goldprice.dev"
     },
     {
+      "id": "coingecko",
       "name": "CoinGecko (Demo tier)",
       "homepage": "https://www.coingecko.com/en/api",
       "text": "Crypto data: CoinGecko"
     },
     {
+      "id": "finnhub",
       "name": "Finnhub",
       "homepage": "https://finnhub.io",
       "text": "Equity quotes: Finnhub"
     },
     {
+      "id": "twelvedata",
       "name": "Twelve Data",
       "homepage": "https://twelvedata.com",
       "text": "Equity history: Twelve Data"
     },
     {
+      "id": "fred",
       "name": "FRED (Federal Reserve Bank of St. Louis)",
       "homepage": "https://fred.stlouisfed.org",
       "text": "Macro series: FRED, Federal Reserve Bank of St. Louis"

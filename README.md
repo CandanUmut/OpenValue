@@ -10,17 +10,91 @@ number on screen carries the timestamp it was actually true at.
 
 ## Status
 
-Build steps 1 and 2 are complete: schema, seed, and the Frankfurter FX provider
-running end to end through the cache-first pipeline. Nothing else is wired up yet.
+The app is built and deployable to GitHub Pages. Frankfurter FX is the only
+provider wired up, so currencies are live and the other categories render an
+explicit "not ingested yet" notice rather than pretending to be empty.
 
 | Step | State |
 |---|---|
 | 1. Schema + seed for the asset universe | done |
 | 2. Frankfurter FX end to end | done |
-| 3. Overview page from cache | not started |
-| 4. PWA shell | not started |
-| 5. Remaining providers | not started |
-| 6–9. Converter, charts, favourites, design pass | not started |
+| 3. Overview page from cache | done |
+| 4. PWA shell — manifest, icons, service worker, offline, install hints | done |
+| 5. Remaining providers | **not started** — each needs an API key |
+| 6. Converter | done |
+| 7. Charts + detail pages | done |
+| 8. Favourites + shareable watchlist link | done |
+| 9. Design pass | done for the surfaces that exist |
+
+### The app
+
+- **Overview** — top movers, favourites, then one section per category. Every row
+  carries a sparkline, a signed change with an arrow, and a staleness badge.
+- **Asset detail** — 7D / 1M / 3M / 1Y / Max, with a hover readout. FX Max is the
+  full ECB series back to 1999: 7,083 daily closes.
+- **Convert** — any-to-any across everything priced, metals in troy ounces and
+  grams, inverse rate and rate date shown.
+- **Search** — fuzzy on symbol and name, `/` to focus on desktop.
+
+### Weight
+
+| | raw | gzipped |
+|---|---|---|
+| JS | 38.5 KB | 14.3 KB |
+| CSS | 11.2 KB | 3.1 KB |
+| Font (Inter, latin subset, self-hosted) | 48.3 KB | — |
+| `latest.json` (35 assets) | 26 KB | 5.6 KB |
+
+Against a 100 KB budget for the overview route. Preact rather than React, and
+charts are hand-drawn SVG — a charting library would have cost more than the
+whole application does.
+
+## Deploying to GitHub Pages
+
+`.github/workflows/deploy.yml` builds and deploys on every push to `main`,
+including the data-only commits the ingest workflow makes. To turn it on:
+
+1. **Settings → Pages → Source: GitHub Actions.**
+2. Push to `main`. The site lands at `https://<user>.github.io/<repo>/`.
+
+`VITE_BASE` is derived from the repository name, so a fork or a rename needs no
+edit. For a custom domain or a `<user>.github.io` repo, set `VITE_BASE: /`.
+
+`npm run verify` guards the things that break a PWA under a project-page path and
+produce no visible error: an asset URL outside the base, a `./`-relative URL that
+works at the root and 404s on every deep link, a manifest `start_url` outside its
+`scope`, a missing maskable icon, a missing SPA fallback, or a service worker
+precaching a path that does not exist. It runs in CI before deploy.
+
+### PWA notes
+
+- `404.html` is a copy of `index.html`. Pages has no rewrite rules, so this is
+  what makes a refresh on `/a/fx-eur` load the app instead of a 404 page.
+- The service worker precaches the shell and serves `data/*.json`
+  stale-while-revalidate. Offline shows the last known values behind an
+  "Offline — showing data from …" bar, never a browser error page.
+- iOS has no install prompt API, so a dismissible sheet explains Share → Add to
+  Home Screen. Android and desktop get a header button driven by
+  `beforeinstallprompt`. There is no Background Sync anywhere — iOS does not
+  support it — so data refreshes on launch and on `visibilitychange`.
+- Verified end to end under a simulated Pages subpath: deep links, service worker
+  scope, precache, and offline rendering.
+
+## Favourites without accounts
+
+One `localStorage` key, `value.favorites`. No auth, no database, nothing to breach.
+
+Two consequences of having no server, both solved by the shareable link rather
+than by adding accounts:
+
+- On iOS an installed PWA gets a storage partition **entirely separate from
+  Safari's**, so a watchlist built while browsing does not follow the user into
+  the installed app. This is why the install hint appears early.
+- Browsers can evict `localStorage` under pressure or long disuse.
+
+The watchlist encodes into the URL hash (`#w=fx-eur,fx-jpy`), which browsers never
+send to a server. Opening one asks before merging or replacing — it never
+silently overwrites. Plain JSON export is offered as a fallback.
 
 ## Architecture: cache-first, always
 
@@ -113,13 +187,26 @@ the converter rather than a duplicate asset row.
 
 ## Running it
 
+Ingestion has no dependencies and needs no install:
+
 ```bash
 node ingest/seed.ts              # seed the universe (idempotent)
 node ingest/run.ts fx            # incremental FX ingest — 2 requests
 node ingest/run.ts fx --backfill # full ECB history to 1999 — also 2 requests
 ```
 
-No install step. Requires Node 22.18+ for native type-stripping.
+The app does:
+
+```bash
+npm install
+npm run dev        # vite dev server
+npm run build      # static build into dist/, then data + sw + 404 fallback
+npm run verify     # deployability checks (also run in CI)
+npm run typecheck
+npm run icons      # regenerate the icon set from design/icons/
+```
+
+Requires Node 22.18+ for native type-stripping.
 
 ### Verified behaviour
 
@@ -134,6 +221,10 @@ No install step. Requires Node 22.18+ for native type-stripping.
 ## Layout
 
 ```
+index.html            app entry; iOS meta tags live here, not in the manifest
+src/                  the app — screens, components, and a ~40-line router
+public/               manifest, icons, self-hosted font
+scripts/              icon generation, build-time SW + Pages steps, verifier
 config/providers.ts   rate limits, cadence, attribution, verification dates
 config/universe.ts    the fixed asset universe
 db/schema.sql         canonical Postgres schema (Option A swap target)
@@ -146,6 +237,19 @@ data/                 the committed snapshot
 design/icons/         icon concepts; open preview.html to compare
 ```
 
-## Licence
+## Icon
 
-MIT — see [LICENSE](LICENSE).
+The mark is Concept A, an ascending step line. Concept B (the brief's alternate,
+a balance reduced to two dots and a beam) reads as a dumbbell, and B′ with a
+fulcrum goes mushy below 48px — `design/icons/preview.html` renders all three at
+icon sizes so the comparison is checkable rather than asserted.
+
+Changing the mark means pointing `CONCEPT` in `scripts/build-icons.mjs` at a
+different SVG and re-running `npm run icons`. Every raster size derives from that
+one file.
+
+## Licences
+
+Inter is used under the SIL Open Font License 1.1 — see `public/fonts/README.txt`.
+
+This project is MIT — see [LICENSE](LICENSE).

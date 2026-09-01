@@ -1,0 +1,57 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    # A data-only commit from the ingest workflow must redeploy too — that is the
+    # entire point of a cache-first app whose data ships as static files.
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  # Only the newest snapshot matters; cancel a deploy that a fresher one supersedes.
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        env:
+          # GitHub Pages serves a project site from /<repo>/. Deriving it from the
+          # repository name means a fork or a rename needs no edit here. Set this
+          # to "/" when serving from a custom domain or a <user>.github.io repo.
+          VITE_BASE: /${{ github.event.repository.name }}/
+        run: npm run build
+
+      - name: Verify the build is deployable
+        run: node scripts/verify-build.mjs
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

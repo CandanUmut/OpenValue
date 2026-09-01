@@ -36,7 +36,8 @@ async function main(): Promise<void> {
   const target = args[0] ?? 'all';
   const backfill = args.includes('--backfill');
 
-  const jobs = target === 'all' ? Object.values(JOBS) : [JOBS[target]].filter(Boolean);
+  const selected = JOBS[target];
+  const jobs: Job[] = target === 'all' ? Object.values(JOBS) : selected ? [selected] : [];
   if (jobs.length === 0) {
     console.error(`Unknown job "${target}". Known: ${Object.keys(JOBS).join(', ')}, all`);
     process.exit(2);

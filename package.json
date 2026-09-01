@@ -2,7 +2,7 @@
   "name": "value-markets",
   "version": "0.1.0",
   "private": true,
-  "description": "Value — an installable economic dashboard. Cache-first, no accounts.",
+  "description": "Value \u2014 an installable economic dashboard. Cache-first, no accounts.",
   "license": "MIT",
   "type": "module",
   "engines": {
@@ -12,7 +12,20 @@
     "seed": "node ingest/seed.ts",
     "ingest": "node ingest/run.ts",
     "ingest:fx": "node ingest/run.ts fx",
-    "backfill:fx": "node ingest/run.ts fx --backfill"
+    "backfill:fx": "node ingest/run.ts fx --backfill",
+    "dev": "vite",
+    "build": "vite build && node scripts/build-pages.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "icons": "node scripts/build-icons.mjs",
+    "verify": "node scripts/verify-build.mjs"
   },
-  "//": "Ingestion has no dependencies on purpose — it runs on Node's native TypeScript type-stripping, so there is no install step in CI and no supply chain on the path to our published data."
+  "//": "Ingestion has no dependencies on purpose \u2014 it runs on Node's native TypeScript type-stripping, so there is no install step in CI and no supply chain on the path to our published data.",
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "preact": "^10.29.8",
+    "sharp": "^0.33.5",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3"
+  }
 }

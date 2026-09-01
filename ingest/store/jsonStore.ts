@@ -133,10 +133,9 @@ export class JsonStore implements Store {
 
     for (const [assetId, years] of byAsset) {
       const dir = this.file('history', historySlug(assetId));
-      const index = await readJson<HistoryIndex>(
-        path.join(dir, 'index.json'), EMPTY_INDEX(assetId),
-      );
-      const source = [...years.values()][0][0].source;
+      // Every point in a batch comes from the same provider run, so any of them
+      // carries the source. Falling back keeps a hypothetical empty bucket safe.
+      const source = points.find((p) => p.assetId === assetId)?.source ?? 'frankfurter';
 
       for (const [year, incoming] of years) {
         const shardFile = path.join(dir, `${year}.json`);
@@ -180,7 +179,7 @@ export class JsonStore implements Store {
   /** Cheap: reads only each shard's length, never the whole series into memory at once. */
   private async rebuildHistoryIndex(assetId: string, source: string): Promise<void> {
     const dir = this.file('history', historySlug(assetId));
-    const years = (await fs.readdir(dir).catch(() => []))
+    const years = (await fs.readdir(dir).catch((): string[] => []))
       .filter((f) => /^\d{4}\.json$/.test(f))
       .map((f) => f.slice(0, 4))
       .sort();
@@ -195,7 +194,7 @@ export class JsonStore implements Store {
       );
       if (shard.points.length === 0) continue;
       count += shard.points.length;
-      firstDate ??= shard.points[0][0];
+      firstDate ??= shard.points[0]![0];
       lastDate = shard.points.at(-1)![0];
     }
 
@@ -331,6 +330,9 @@ export class JsonStore implements Store {
       },
       health,
       attribution: Object.values(PROVIDERS).map((p) => ({
+        // The id lets the app credit only the providers that actually supplied
+        // a value, rather than every provider we intend to use one day.
+        id: p.id,
         name: p.name,
         homepage: p.homepage,
         text: p.attribution,

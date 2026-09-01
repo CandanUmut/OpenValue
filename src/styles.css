@@ -1,0 +1,608 @@
+/* ---------------------------------------------------------------------------
+   Value — design tokens.
+
+   Restrained and editorial, closer to an almanac than a trading terminal.
+   Two rules do most of the work:
+
+     1. Every number is tabular. Misaligned digits are the single fastest way to
+        make a finance UI feel untrustworthy.
+     2. Colour is semantic only. Direction gets colour; nothing else does. The
+        pair is teal/amber rather than green/red so it survives the common forms
+        of colour blindness, and it is ALWAYS paired with an arrow and a sign so
+        colour is never the only carrier of meaning.
+--------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+2000-206F, U+2212, U+25B2, U+25BC;
+}
+
+:root {
+  --bg: #0B0D10;
+  --surface: #12151A;
+  --surface-hover: #171B21;
+  --line: #232830;
+  --text: #E9E6DF;
+  --dim: #8B929C;
+  --dimmer: #626973;
+  --up: #29C9AE;
+  --down: #E2A33F;
+  --focus: #6FA8FF;
+
+  --radius: 10px;
+  --tap: 44px;
+  --shell: 44rem;
+
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #FAF8F4;
+    --surface: #FFFFFF;
+    --surface-hover: #F3F0EA;
+    --line: #E3DED4;
+    --text: #14171B;
+    --dim: #5F6670;
+    --dimmer: #868D96;
+    /* Darkened from the dark-theme pair to clear 4.5:1 on a light ground. */
+    --up: #067A67;
+    --down: #8A5A0C;
+    --focus: #1A5FD0;
+
+    color-scheme: light;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  /* The one detail that matters most in the whole build. */
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.006em;
+  /* Bottom nav plus the home indicator on a notched phone. */
+  padding-bottom: calc(80px + env(safe-area-inset-bottom));
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* --- shell ---------------------------------------------------------------- */
+
+.shell {
+  max-width: var(--shell);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: var(--shell);
+  margin: 0 auto;
+  /* black-translucent puts content under the notch, so this is required. */
+  padding: calc(14px + env(safe-area-inset-top)) 20px 14px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+
+.mark { color: var(--up); flex: none; }
+
+.header-actions { display: flex; align-items: center; gap: 12px; }
+.header-age { color: var(--dimmer); font-size: 12px; }
+
+.offline-bar {
+  margin: 0;
+  padding: 10px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  color: var(--down);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* --- sections ------------------------------------------------------------- */
+
+.section { margin: 40px 0; }
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--dim);
+}
+
+.section-count { color: var(--dimmer); font-weight: 400; letter-spacing: 0; }
+.section-note, .section-empty { color: var(--dim); font-size: 13px; margin: 0 0 12px; }
+
+.rows { list-style: none; margin: 0; padding: 0; }
+
+/* --- asset row ------------------------------------------------------------ */
+
+.row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--line);
+}
+
+.row:first-child { border-top: 1px solid var(--line); }
+
+.star {
+  flex: none;
+  width: var(--tap);
+  min-height: var(--tap);
+  background: none;
+  border: 0;
+  color: var(--dimmer);
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 120ms ease;
+}
+
+.star[aria-pressed='true'] { color: var(--text); }
+.star:hover { color: var(--text); }
+.star-lg { width: auto; font-size: 24px; padding: 0 4px; }
+
+.row-main {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 14px;
+  min-height: var(--tap);
+  padding: 10px 4px 10px 0;
+  transition: background-color 120ms ease;
+}
+
+.row-main:hover { background: var(--surface-hover); }
+.row-static .row-main:hover { background: none; }
+
+.row-id { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+
+.row-symbol { font-weight: 600; font-size: 14px; letter-spacing: -0.01em; }
+
+.row-name {
+  color: var(--dim);
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row-figures {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: none;
+  /* Fixed width so every price in the column shares one right edge. */
+  min-width: 116px;
+}
+
+.row-price { font-size: 14px; font-weight: 500; }
+.row-unit { color: var(--dimmer); font-size: 11px; }
+
+.row-change, .mover-change, .detail-change {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+[data-tone='up'] { color: var(--up); }
+[data-tone='down'] { color: var(--down); }
+[data-tone='flat'] { color: var(--dimmer); }
+
+.badge-stale {
+  flex: none;
+  align-self: center;
+  margin-left: 8px;
+  padding: 2px 6px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--dim);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* --- sparkline ------------------------------------------------------------ */
+
+.spark { flex: none; overflow: visible; }
+.spark path { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linejoin: round; }
+.spark-empty { display: inline-block; width: 72px; flex: none; }
+
+/* --- movers strip --------------------------------------------------------- */
+
+.movers { margin: 24px 0 8px; }
+
+.movers-strip {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0 0 4px;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.movers-strip::-webkit-scrollbar { display: none; }
+
+.mover {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 118px;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.mover:hover { background: var(--surface-hover); }
+.mover-symbol { font-size: 12px; font-weight: 600; color: var(--dim); }
+.mover-price { font-size: 15px; font-weight: 500; }
+
+/* --- detail --------------------------------------------------------------- */
+
+.detail { padding-top: 28px; }
+
+.detail-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.detail-symbol { margin: 0; font-size: 26px; font-weight: 600; letter-spacing: -0.02em; }
+.detail-name { margin: 2px 0 0; color: var(--dim); font-size: 14px; }
+
+.detail-price {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 20px 0 24px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.detail-change { font-size: 14px; font-weight: 500; }
+.detail-unpriced { margin: 20px 0 24px; color: var(--dim); font-size: 15px; }
+.detail-change-abs { color: var(--dimmer); }
+
+.range-tabs { display: flex; gap: 4px; margin-bottom: 16px; }
+
+.range-tab {
+  min-height: 36px;
+  padding: 0 14px;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  color: var(--dim);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.range-tab[aria-selected='true'] {
+  background: var(--surface);
+  border-color: var(--line);
+  color: var(--text);
+}
+
+/* --- chart ---------------------------------------------------------------- */
+
+.chart { margin: 0 0 28px; }
+.chart svg { width: 100%; height: auto; display: block; touch-action: pan-y; }
+.chart .grid { stroke: var(--line); stroke-width: 1; }
+.chart .axis { fill: var(--dimmer); font-size: 11px; font-variant-numeric: tabular-nums; }
+.chart .line { fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linejoin: round; }
+.chart .area { fill: currentColor; opacity: 0.08; stroke: none; }
+.chart .crosshair { stroke: var(--dim); stroke-width: 1; stroke-dasharray: 3 3; }
+.chart .dot { fill: currentColor; }
+.chart[data-tone='up'] { color: var(--up); }
+.chart[data-tone='down'] { color: var(--down); }
+
+.chart-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-height: 22px;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.chart-readout-value { font-weight: 600; }
+.chart-readout-date, .chart-readout-hint { color: var(--dimmer); font-size: 12px; }
+.chart-empty { color: var(--dim); font-size: 13px; padding: 40px 0; }
+
+/* --- stats ---------------------------------------------------------------- */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  margin: 0 0 28px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+/* Dividers as an overlapping shadow rather than a gap over a coloured
+   background: an incomplete last row then shows the page, not the line colour. */
+.stat { padding: 12px 14px; box-shadow: 1px 1px 0 0 var(--line); }
+.stat dt { color: var(--dim); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+.stat dd { margin: 4px 0 0; font-size: 14px; }
+
+.detail-note { color: var(--dim); font-size: 12px; line-height: 1.6; }
+
+/* --- convert -------------------------------------------------------------- */
+
+.screen-title { margin: 28px 0 20px; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; }
+
+.convert-field {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: 'label label' 'amount select';
+  gap: 8px 12px;
+  align-items: center;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.convert-label {
+  grid-area: label;
+  color: var(--dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.convert-amount {
+  grid-area: amount;
+  min-width: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--text);
+  font: inherit;
+  font-size: 26px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.convert-amount[aria-invalid='true'] { color: var(--down); }
+.convert-result { display: block; }
+
+.convert-select {
+  grid-area: select;
+  min-height: var(--tap);
+  padding: 0 10px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+}
+
+.convert-swap {
+  display: block;
+  width: var(--tap);
+  height: var(--tap);
+  margin: 10px auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--dim);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.convert-rates {
+  display: grid;
+  gap: 10px;
+  margin: 28px 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.convert-rates > div { display: flex; justify-content: space-between; gap: 16px; }
+.convert-rates dt { color: var(--dim); }
+.convert-rates dd { margin: 0; font-weight: 500; }
+
+/* --- search --------------------------------------------------------------- */
+
+.search-input {
+  width: 100%;
+  min-height: var(--tap);
+  margin-bottom: 20px;
+  padding: 0 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+}
+
+.search-input::placeholder { color: var(--dimmer); }
+
+/* --- watchlist + import --------------------------------------------------- */
+
+.watchlist-share { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.watchlist-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+
+.watchlist-url {
+  display: block;
+  padding: 10px;
+  background: var(--bg);
+  border-radius: 6px;
+  color: var(--dim);
+  font-size: 11px;
+  word-break: break-all;
+}
+
+.import-bar {
+  max-width: var(--shell);
+  margin: 16px auto 0;
+  padding: 16px 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 14px;
+}
+
+.import-bar p { margin: 0 0 12px; }
+.import-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.button {
+  min-height: 38px;
+  padding: 0 14px;
+  background: var(--text);
+  border: 1px solid var(--text);
+  border-radius: var(--radius);
+  color: var(--bg);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-quiet { background: none; border-color: var(--line); color: var(--text); }
+
+/* --- footer --------------------------------------------------------------- */
+
+.footer { margin: 56px 0 24px; padding-top: 24px; border-top: 1px solid var(--line); }
+.disclaimer { margin: 0 0 8px; color: var(--dim); font-size: 12px; line-height: 1.6; }
+.data-health { margin: 0 0 16px; color: var(--dimmer); font-size: 12px; }
+.attribution { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.attribution a { color: var(--dimmer); font-size: 11px; text-decoration: underline; text-underline-offset: 2px; }
+
+/* --- tab bar -------------------------------------------------------------- */
+
+.tabbar {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 20;
+  display: flex;
+  /* The home indicator sits below the nav on a notched phone. */
+  padding-bottom: env(safe-area-inset-bottom);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--line);
+}
+
+.tab {
+  flex: 1;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dim);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.tab[aria-current='page'] { color: var(--text); box-shadow: inset 0 2px 0 var(--up); }
+
+/* --- install hint --------------------------------------------------------- */
+
+.install-sheet {
+  position: fixed;
+  inset: auto 12px calc(68px + env(safe-area-inset-bottom)) 12px;
+  z-index: 30;
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.install-copy { flex: 1; font-size: 13px; }
+.install-steps { margin: 8px 0; padding-left: 20px; color: var(--dim); }
+.install-note { margin: 8px 0 0; color: var(--dimmer); font-size: 11px; line-height: 1.5; }
+.ios-share { font-family: -apple-system, system-ui, sans-serif; }
+
+.install-dismiss {
+  flex: none;
+  width: 32px; height: 32px;
+  background: none; border: 0;
+  color: var(--dim); font-size: 14px; cursor: pointer;
+}
+
+.update-toast {
+  position: fixed;
+  inset: auto 16px calc(72px + env(safe-area-inset-bottom)) auto;
+  z-index: 40;
+  padding: 12px 16px;
+  background: var(--text);
+  border: 0;
+  border-radius: var(--radius);
+  color: var(--bg);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Transitions aid comprehension or they do not belong. Honour the preference. */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+@media (min-width: 640px) {
+  body { padding-bottom: 40px; }
+  .tabbar {
+    position: static;
+    max-width: var(--shell);
+    margin: 0 auto;
+    padding-bottom: 0;
+    background: none;
+    backdrop-filter: none;
+    border-top: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .tab { min-height: 44px; }
+  .tab[aria-current='page'] { box-shadow: inset 0 -2px 0 var(--up); }
+  .install-sheet { display: none; }
+}
