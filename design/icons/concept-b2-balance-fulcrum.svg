@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"
+     role="img" aria-label="Value — balance on a fulcrum">
+  <title>Value — Concept B′: balance with fulcrum</title>
+  <!--
+    B′ repairs B. Two dots and a beam alone read as a dumbbell, not a balance —
+    see preview.html at 48px. The fulcrum is the element that forces the
+    balance reading, so it is not decoration and cannot be dropped.
+    Beam midpoint is exactly (264,215); the post hangs from it.
+  -->
+  <rect width="512" height="512" rx="112" fill="#0B0D10"/>
+  <g fill="#19C2A8" stroke="#19C2A8" stroke-linecap="round">
+    <path d="M264 215 V351" fill="none" stroke-width="32"/>
+    <path d="M136 251 L392 179" fill="none" stroke-width="32"/>
+    <circle cx="136" cy="251" r="50" stroke="none"/>
+    <circle cx="392" cy="179" r="34" stroke="none"/>
+  </g>
+</svg>
