@@ -111,8 +111,12 @@ export async function ingestFrankfurter(
   const asOf = asOfFromDate(latest.date);
   const quotes: Quote[] = [
     { symbol: 'USD', price: 1 },
-    ...SYMBOLS.filter((s) => isUsableRate(latest.rates[s]))
-      .map((s) => ({ symbol: s, price: toUsdPrice(latest.rates[s]) })),
+    ...SYMBOLS.flatMap((s) => {
+      const rate = latest.rates[s];
+      // A currency missing from the latest response keeps its previous quote
+      // rather than being written as a hole.
+      return isUsableRate(rate) ? [{ symbol: s, price: toUsdPrice(rate) }] : [];
+    }),
   ].map(({ symbol, price }) => {
     const previous = previousByAsset.get(idFor(symbol)) ?? null;
     return {
