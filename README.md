@@ -10,9 +10,8 @@ number on screen carries the timestamp it was actually true at.
 
 ## Status
 
-The app is built and deployable to GitHub Pages. Frankfurter FX is the only
-provider wired up, so currencies are live and the other categories render an
-explicit "not ingested yet" notice rather than pretending to be empty.
+Complete and deployable to GitHub Pages. **Every category runs with no API keys
+at all** — 85 priced assets and 6 macro series, from five keyless sources.
 
 | Step | State |
 |---|---|
@@ -20,11 +19,21 @@ explicit "not ingested yet" notice rather than pretending to be empty.
 | 2. Frankfurter FX end to end | done |
 | 3. Overview page from cache | done |
 | 4. PWA shell — manifest, icons, service worker, offline, install hints | done |
-| 5. Remaining providers | **not started** — each needs an API key |
+| 5. All providers — FX, metals, crypto, equities, macro | done, all keyless |
 | 6. Converter | done |
 | 7. Charts + detail pages | done |
 | 8. Favourites + shareable watchlist link | done |
 | 9. Design pass | done for the surfaces that exist |
+
+### What is live
+
+| Category | Count | Source | Key |
+|---|---|---|---|
+| Currencies | 12 | Frankfurter (ECB) | none |
+| Metals | 4 | gold-api | none |
+| Crypto | 50 | CoinGecko | none |
+| Equities | 19 | Nasdaq | none |
+| Macro | 6 series, 32,283 observations | FRED | none |
 
 ### The app
 
@@ -40,10 +49,10 @@ explicit "not ingested yet" notice rather than pretending to be empty.
 
 | | raw | gzipped |
 |---|---|---|
-| JS | 38.5 KB | 14.3 KB |
-| CSS | 11.2 KB | 3.1 KB |
+| JS | 39.4 KB | 14.6 KB |
+| CSS | 11.3 KB | 3.1 KB |
 | Font (Inter, latin subset, self-hosted) | 48.3 KB | — |
-| `latest.json` (35 assets) | 26 KB | 5.6 KB |
+| `latest.json` (85 assets + macro) | 63 KB | 10.1 KB |
 
 Against a 100 KB budget for the overview route. Preact rather than React, and
 charts are hand-drawn SVG — a charting library would have cost more than the
@@ -154,13 +163,45 @@ date. The scheduler reads cadence from that file; nothing hardcodes intervals.
 
 | Category | Source | Key | Verified |
 |---|---|---|---|
-| FX | [Frankfurter](https://frankfurter.dev) (ECB reference rates) | no | 2026-09-01 |
-| Metals | [gold-api.com](https://gold-api.com) | no | 2026-09-01 |
-| Metals fallback | goldprice.dev | yes | not yet |
-| Crypto | CoinGecko Demo | yes | not yet |
-| Equity quotes | Finnhub | yes | not yet |
-| Equity history | Twelve Data | yes | not yet |
-| Macro | FRED | yes | not yet |
+| FX | [Frankfurter](https://frankfurter.dev) (ECB reference rates) | none | 2026-09-01 |
+| Metals spot | [gold-api.com](https://gold-api.com) | none | 2026-09-01 |
+| Crypto | [CoinGecko](https://www.coingecko.com/en/api) | none (a Demo key only raises limits) | 2026-09-01 |
+| Equities | [Nasdaq](https://www.nasdaq.com) | none | 2026-09-01 |
+| Macro | [FRED](https://fred.stlouisfed.org) | none | 2026-09-01 |
+| Equities (optional upgrade) | [Finnhub](https://finnhub.io/register) | free key, no card | not yet |
+
+### How each category avoids needing a key
+
+- **FX** — Frankfurter is keyless by design.
+- **Crypto** — CoinGecko's public tier serves `/coins/markets` without a key:
+  one request returns all 50 coins with their 24h change. A Demo key raises the
+  rate limit but unlocks nothing.
+- **Macro** — the documented FRED JSON API needs a key, but `fredgraph.csv?id=…`,
+  the download behind every FRED chart, does not, and returns the complete
+  observation history. That is 32,283 observations going back to 1947.
+- **Equities** — `api.nasdaq.com`, the API nasdaq.com itself calls. First-party
+  and unauthenticated, but **not a published contract**, so it can change without
+  notice; the parser validates every field rather than trusting the shape. Set
+  `FINNHUB_API_KEY` and the equities job switches to Finnhub, which is documented
+  and supported. A free Finnhub key takes about thirty seconds and no card.
+- **Metals** — gold-api serves spot without a key. No keyless *history* source
+  survived testing (below), so the metals series accumulates one close per day.
+
+### Sources evaluated and rejected
+
+Recorded so nobody spends an afternoon rediscovering them:
+
+- **LBMA** (`prices.lbma.org.uk/json/*.json`) — would have been ideal: keyless
+  daily gold and silver auction fixes back to **1968**, platinum and palladium to
+  1990. It sits behind Imunify360, which serves curl normally but returns a
+  JavaScript challenge page to Node's `fetch` from the same IP in the same
+  second. That is TLS-fingerprint filtering, and defeating it would be both
+  fragile and not something worth building.
+- **Yahoo Finance** (`query1.finance.yahoo.com`) — 429 on every attempt, and
+  unofficial.
+- **Stooq** — behind a JavaScript challenge.
+- **FRED's LBMA-derived gold series** (`GOLDPMGBD228NLBM` and friends) — removed
+  from FRED; they 404 now.
 
 ### Corrections to the brief, from probing the live APIs
 
@@ -169,9 +210,18 @@ date. The scheduler reads cadence from that file; nothing hardcodes intervals.
   series. All 12 currencies in our universe are covered, so nothing is lost —
   but "Max" on an FX chart means 1999, and adding a 13th currency means checking
   it is one of the 30 first.
-- **gold-api.com has no history endpoint.** Metals charts can only accumulate
-  from our own daily snapshots going forward. If deeper metals history matters,
-  that needs a different provider and is worth deciding early.
+- **gold-api.com has no history endpoint**, and no keyless replacement worked.
+  Metals accumulate one close per day from here.
+- **CoinGecko's keyless tier rejects `/coins/market_chart`** (429 on the first
+  call), so crypto has no backfill either and accumulates the same way. The
+  detail page says so rather than showing a bare "not enough history".
+- **FRED writes a missing observation as an empty CSV cell**, not only as its
+  documented `.` placeholder — the October 2025 US government shutdown left
+  UNRATE and CPIAUCSL empty for that month. `Number('')` is `0`, not `NaN`, so a
+  plain `isFinite` check accepts it and the chart shows unemployment falling to
+  zero. Both forms are now skipped, and because an upsert can never *remove* a
+  point it wrote in error, series that return their complete history replace it
+  instead.
 
 ## Pricing convention
 
@@ -190,10 +240,15 @@ the converter rather than a duplicate asset row.
 Ingestion has no dependencies and needs no install:
 
 ```bash
-node ingest/seed.ts              # seed the universe (idempotent)
-node ingest/run.ts fx            # incremental FX ingest — 2 requests
-node ingest/run.ts fx --backfill # full ECB history to 1999 — also 2 requests
+node ingest/seed.ts               # seed the universe (idempotent)
+node ingest/run.ts all            # every provider, fault-isolated
+node ingest/run.ts fx --backfill  # full ECB history to 1999 — 2 requests
+node ingest/run.ts crypto         # one provider at a time
 ```
+
+Jobs: `fx`, `metals`, `crypto`, `equities`, `macro`, or `all`. No keys required
+for any of them. `FINNHUB_API_KEY` is read if present and switches equities from
+Nasdaq to Finnhub.
 
 The app does:
 
@@ -231,7 +286,7 @@ db/schema.sql         canonical Postgres schema (Option A swap target)
 ingest/run.ts         entrypoint; fault isolation and health accounting
 ingest/seed.ts        seeds assets and macro series
 ingest/lib/http.ts    backoff, pacing, per-provider budget guard
-ingest/providers/     one module per provider
+ingest/providers/     one module per provider, each fault-isolated
 ingest/store/         Store interface + JSON implementation
 data/                 the committed snapshot
 design/icons/         icon concepts; open preview.html to compare

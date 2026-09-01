@@ -35,8 +35,10 @@ export function AssetRow({ row, isFavorite, onToggleFavorite }: Props) {
 
         <span class="row-figures">
           <span class="row-price">{formatPrice(row.price, row.currency)}</span>
-          <span class="row-change" data-tone={tone}>
-            <span aria-hidden="true">{DIRECTION_GLYPH[tone]}</span>
+          <span class="row-change" data-tone={row.changePct24h === null ? 'flat' : tone}>
+            {/* A null change is unknown, not flat. Pairing an em dash with the
+                "no movement" glyph would assert something we do not know. */}
+            {row.changePct24h !== null && <span aria-hidden="true">{DIRECTION_GLYPH[tone]}</span>}
             {formatPct(row.changePct24h)}
           </span>
         </span>

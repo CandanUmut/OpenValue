@@ -1,6 +1,7 @@
 import type { ComponentChildren } from 'preact';
 import { AssetRow } from '../components/AssetRow.tsx';
-import { DIRECTION_GLYPH, direction, formatPct, formatPrice, timeAgo } from '../lib/format.ts';
+import { Sparkline } from '../components/Sparkline.tsx';
+import { DIRECTION_GLYPH, direction, formatDate, formatPct, formatPrice, timeAgo } from '../lib/format.ts';
 import { linkProps } from '../lib/router.ts';
 import { CATEGORY_LABELS, CATEGORY_ORDER } from '../lib/types.ts';
 import type { AssetRow as Row, Snapshot } from '../lib/types.ts';
@@ -112,9 +113,7 @@ function MacroSection({ snapshot }: { snapshot: Snapshot }) {
     return (
       <section class="section">
         <h2 class="section-heading">Macro</h2>
-        <p class="section-empty">
-          Not ingested yet — the FRED provider is not wired up.
-        </p>
+        <p class="section-empty">Not ingested yet — the FRED provider is not wired up.</p>
       </section>
     );
   }
@@ -124,7 +123,17 @@ function MacroSection({ snapshot }: { snapshot: Snapshot }) {
       <h2 class="section-heading">Macro <span class="section-count">{series.length}</span></h2>
       <ul class="rows">
         {series.map((s) => {
-          const last = snapshot.macro.latest[s.seriesId]!.last!;
+          const entry = snapshot.macro.latest[s.seriesId]!;
+          const last = entry.last!;
+          const points = entry.points;
+          // Macro releases are monthly for most of these series, so the change is
+          // against the previous observation, not against "24 hours ago".
+          const previous = points.length > 1 ? points[points.length - 2]![1] : null;
+          const changePct = previous !== null && previous !== 0
+            ? ((last[1] - previous) / Math.abs(previous)) * 100
+            : null;
+          const tone = direction(changePct);
+
           return (
             <li key={s.seriesId} class="row row-static">
               <span class="row-main">
@@ -132,17 +141,46 @@ function MacroSection({ snapshot }: { snapshot: Snapshot }) {
                   <span class="row-symbol">{s.seriesId}</span>
                   <span class="row-name">{s.name}</span>
                 </span>
+
+                <Sparkline values={points.map((p) => p[1])} tone={tone} />
+
                 <span class="row-figures">
-                  <span class="row-price">{last[1].toLocaleString()}</span>
-                  <span class="row-unit">{s.unit}</span>
+                  <span class="row-price">{formatMacro(last[1], s.unit)}</span>
+                  <span class="row-change" data-tone={tone}>
+                    {changePct === null
+                      ? <span class="row-unit">{formatDate(last[0])}</span>
+                      : <>
+                          <span aria-hidden="true">{DIRECTION_GLYPH[tone]}</span>
+                          {formatPct(changePct)}
+                        </>}
+                  </span>
                 </span>
               </span>
             </li>
           );
         })}
       </ul>
+      <p class="section-note">
+        Latest observation per series. Most are monthly, so the change is against
+        the previous release rather than the previous day.
+      </p>
     </section>
   );
+}
+
+/**
+ * Macro series do not share a unit — a percent, an index and a money stock in
+ * billions cannot all be rendered the same way without one of them reading as
+ * nonsense (M2 as "23218.0%" or the fed funds rate as "$3.63").
+ */
+function formatMacro(value: number, unit: string): string {
+  if (unit === 'percent') return `${value.toFixed(2)}%`;
+  if (unit.startsWith('billions')) {
+    return value >= 1000
+      ? `$${(value / 1000).toFixed(2)}T`
+      : `$${value.toFixed(0)}B`;
+  }
+  return value.toLocaleString('en-US', { maximumFractionDigits: 3 });
 }
 
 export function DataAge({ snapshot }: { snapshot: Snapshot }) {

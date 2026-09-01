@@ -27,6 +27,11 @@ export type AssetSeed = {
   /** The identifier this provider knows the asset by. */
   sourceSymbol: string;
   sortOrder: number;
+  /**
+   * Equities only. Nasdaq's quote endpoint requires assetclass=etf or stocks and
+   * 404s on the wrong one, so which it is has to be recorded rather than guessed.
+   */
+  instrument?: 'etf' | 'stock';
 };
 
 const fx = (symbol: string, name: string, i: number): AssetSeed => ({
@@ -93,36 +98,38 @@ export const GRAMS_PER_TROY_OUNCE = 31.1034768;
  * international, duration, credit, gold and oil — plus 8 large caps. One
  * Finnhub call each.
  */
-export const EQUITIES: AssetSeed[] = [
-  ['SPY', 'SPDR S&P 500 ETF'],
-  ['QQQ', 'Invesco QQQ Trust'],
-  ['DIA', 'SPDR Dow Jones Industrial Average ETF'],
-  ['IWM', 'iShares Russell 2000 ETF'],
-  ['VT', 'Vanguard Total World Stock ETF'],
-  ['EFA', 'iShares MSCI EAFE ETF'],
-  ['EEM', 'iShares MSCI Emerging Markets ETF'],
-  ['TLT', 'iShares 20+ Year Treasury Bond ETF'],
-  ['HYG', 'iShares iBoxx High Yield Corporate Bond ETF'],
-  ['GLD', 'SPDR Gold Shares'],
-  ['USO', 'United States Oil Fund'],
-  ['AAPL', 'Apple'],
-  ['MSFT', 'Microsoft'],
-  ['NVDA', 'NVIDIA'],
-  ['AMZN', 'Amazon'],
-  ['GOOGL', 'Alphabet'],
-  ['META', 'Meta Platforms'],
-  ['TSLA', 'Tesla'],
-  ['BRK.B', 'Berkshire Hathaway'],
-].map(([s, n], i) => ({
-  id: `equity:${(s as string).toLowerCase().replace('.', '-')}`,
-  symbol: s as string,
-  name: n as string,
+export const EQUITIES: AssetSeed[] = ([
+  ['SPY', 'SPDR S&P 500 ETF', 'etf'],
+  ['QQQ', 'Invesco QQQ Trust', 'etf'],
+  ['DIA', 'SPDR Dow Jones Industrial Average ETF', 'etf'],
+  ['IWM', 'iShares Russell 2000 ETF', 'etf'],
+  ['VT', 'Vanguard Total World Stock ETF', 'etf'],
+  ['EFA', 'iShares MSCI EAFE ETF', 'etf'],
+  ['EEM', 'iShares MSCI Emerging Markets ETF', 'etf'],
+  ['TLT', 'iShares 20+ Year Treasury Bond ETF', 'etf'],
+  ['HYG', 'iShares iBoxx High Yield Corporate Bond ETF', 'etf'],
+  ['GLD', 'SPDR Gold Shares', 'etf'],
+  ['USO', 'United States Oil Fund', 'etf'],
+  ['AAPL', 'Apple', 'stock'],
+  ['MSFT', 'Microsoft', 'stock'],
+  ['NVDA', 'NVIDIA', 'stock'],
+  ['AMZN', 'Amazon', 'stock'],
+  ['GOOGL', 'Alphabet', 'stock'],
+  ['META', 'Meta Platforms', 'stock'],
+  ['TSLA', 'Tesla', 'stock'],
+  ['BRK.B', 'Berkshire Hathaway', 'stock'],
+] as const).map(([s, n, instrument], i) => ({
+  id: `equity:${s.toLowerCase().replace('.', '-')}`,
+  symbol: s,
+  name: n,
   category: 'equity' as const,
   unit: '1 share',
   quoteCurrency: 'USD',
-  source: 'finnhub' as ProviderId,
-  sourceSymbol: s as string,
+  // Overridden per run by whichever equity provider actually answered.
+  source: 'nasdaq' as ProviderId,
+  sourceSymbol: s,
   sortOrder: i,
+  instrument,
 }));
 
 export type MacroSeed = {

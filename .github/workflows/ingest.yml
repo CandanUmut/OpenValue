@@ -4,18 +4,22 @@ name: Ingest market data
 # GitHub Actions cannot read cron schedules from a TypeScript file.
 on:
   schedule:
-    # FX: twice daily. The ECB publishes once per working day around 16:00 CET,
-    # so 06:00 and 17:00 UTC brackets the release without wasted polling.
-    - cron: '0 6,17 * * *'
+    # Crypto, metals and equities move intraday, so the fast lane runs hourly.
+    # Anything faster would spend Actions minutes to redraw a chart nobody is
+    # watching; cadence per provider is declared in config/providers.ts.
+    - cron: '17 * * * *'
+    # FX and macro update once a working day. 06:20 and 17:20 UTC brackets the
+    # ECB release around 16:00 CET without polling in between.
+    - cron: '20 6,17 * * *'
   workflow_dispatch:
     inputs:
       job:
         description: 'Which provider to ingest'
         type: choice
-        options: [fx, all]
-        default: fx
+        options: [all, fx, metals, crypto, equities, macro]
+        default: all
       backfill:
-        description: 'Full historical backfill (run once per provider, then never)'
+        description: 'Full historical backfill (FX and macro only; run once)'
         type: boolean
         default: false
 
@@ -50,10 +54,23 @@ jobs:
         # a valid snapshot carrying the last good values plus updated health,
         # and that snapshot is exactly what we need to commit.
         continue-on-error: true
+        env:
+          # Optional. Present: equities use Finnhub, which is a documented,
+          # supported API. Absent: they fall back to Nasdaq's keyless endpoint
+          # and nothing is lost. No other provider reads a key.
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
-          node ingest/run.ts \
-            "${{ inputs.job || 'fx' }}" \
-            ${{ inputs.backfill && '--backfill' || '' }}
+          # The twice-daily schedule covers the slow providers; every other run
+          # is the hourly one. A manual run does exactly what it was asked.
+          if [ -n "${{ inputs.job }}" ]; then
+            JOB='${{ inputs.job }}'
+          elif [ "${{ github.event.schedule }}" = '20 6,17 * * *' ]; then
+            JOB=all
+          else
+            JOB=fast
+          fi
+          echo "Running job: $JOB"
+          node ingest/run.ts "$JOB" ${{ inputs.backfill && '--backfill' || '' }}
 
       - name: Commit snapshot
         # Runs even when ingest reported a failure, so the health record and the

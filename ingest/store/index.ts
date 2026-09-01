@@ -15,6 +15,11 @@ export interface Store {
   upsertDaily(points: DailyPoint[]): Promise<void>;
   upsertMacroSeries(series: MacroSeries[]): Promise<void>;
   upsertMacroPoints(points: MacroPoint[]): Promise<void>;
+  /**
+   * Replace a series' points wholesale. Only for providers that return the
+   * complete history, and the only way a previously-written bad point is undone.
+   */
+  replaceMacroPoints(points: MacroPoint[]): Promise<void>;
 
   getAssets(): Promise<Asset[]>;
   getQuotes(): Promise<Quote[]>;

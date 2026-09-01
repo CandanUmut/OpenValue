@@ -9,6 +9,7 @@
 export type ProviderId =
   | 'frankfurter'
   | 'gold-api'
+  | 'nasdaq'
   | 'goldprice'
   | 'coingecko'
   | 'finnhub'
@@ -32,6 +33,13 @@ export type Provider = {
   attribution: string;
   /** Env var holding the API key. null = keyless. Never read in client code. */
   apiKeyEnv: string | null;
+  /**
+   * True when apiKeyEnv is set but the provider also works without it — a key
+   * only raises the limits. The runner then attempts the provider either way.
+   */
+  keyOptional?: boolean;
+  /** Where to get a key, shown in the runner's error when one is required. */
+  signupUrl?: string;
   baseUrl: string;
   budget: Budget;
   /** Minimum seconds between ingestion runs for this provider. */
@@ -87,8 +95,30 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     notes:
       'Keyless, CORS-enabled, no documented rate limit on live prices. VERIFIED: ' +
       'XAU/XAG/XPT/XPD all return USD/troy-oz with an updatedAt timestamp. ' +
-      'One request per metal — no batch endpoint. NO history endpoint, so the metals ' +
-      'series can only accumulate from our own daily snapshots going forward.',
+      'One request per metal — no batch endpoint. NO history endpoint, and no ' +
+      'keyless metals history source survived testing (see README), so the metals ' +
+      'series accumulates one close per day from our own snapshots.',
+    verifiedAt: '2026-09-01',
+  },
+
+  nasdaq: {
+    id: 'nasdaq',
+    name: 'Nasdaq',
+    homepage: 'https://www.nasdaq.com',
+    attribution: 'Equity quotes: Nasdaq',
+    apiKeyEnv: null,
+    baseUrl: 'https://api.nasdaq.com/api',
+    budget: { perMinute: 30, perDay: null, perMonth: null },
+    cadenceSeconds: 15 * MIN,
+    stalenessSeconds: 40 * MIN,
+    hasHistory: false,
+    notes:
+      'VERIFIED keyless for all 19 symbols including BRK.B, via Node fetch. This is ' +
+      'the API nasdaq.com itself calls — first-party and unauthenticated, but NOT a ' +
+      'published contract, so it can change without notice. Finnhub is the ' +
+      'documented, supported alternative and takes precedence whenever ' +
+      'FINNHUB_API_KEY is set. One request per symbol; needs assetclass=etf or ' +
+      'stocks, which is why the universe records which each symbol is.',
     verifiedAt: '2026-09-01',
   },
 
@@ -117,17 +147,21 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     homepage: 'https://www.coingecko.com/en/api',
     attribution: 'Crypto data: CoinGecko',
     apiKeyEnv: 'COINGECKO_API_KEY',
+    keyOptional: true,
+    signupUrl: 'https://www.coingecko.com/en/api/pricing (Demo plan, free)',
     baseUrl: 'https://api.coingecko.com/api/v3',
-    budget: { perMinute: 30, perDay: null, perMonth: 10_000 },
+    budget: { perMinute: 5, perDay: null, perMonth: 10_000 },
     cadenceSeconds: 10 * MIN,
     stalenessSeconds: 25 * MIN,
-    hasHistory: true,
+    hasHistory: false,
     notes:
-      'Use /coins/markets with per_page=250 — ONE call returns the whole top-50 ' +
-      'universe. Never loop per coin. 10k/month against a 10-minute cadence is ' +
-      '~4,320 calls/month for quotes, leaving headroom for backfill. The published ' +
-      '"100 calls/min" figure is a ceiling; 30/min is the number to design to.',
-    verifiedAt: 'unverified',
+      'VERIFIED working with NO key: /coins/markets?per_page=250 returns the whole ' +
+      'top-50 universe with 24h change in ONE call. A Demo key raises the limits ' +
+      'but is not required. The keyless tier is strict — /coins/{id}/market_chart ' +
+      'returned 429 immediately — so per-coin history backfill is NOT attempted ' +
+      'and crypto series accumulate from our own daily snapshots. hasHistory is ' +
+      'false for that reason, not because CoinGecko lacks the endpoint.',
+    verifiedAt: '2026-09-01',
   },
 
   finnhub: {
@@ -136,6 +170,7 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     homepage: 'https://finnhub.io',
     attribution: 'Equity quotes: Finnhub',
     apiKeyEnv: 'FINNHUB_API_KEY',
+    signupUrl: 'https://finnhub.io/register (free, no card)',
     baseUrl: 'https://finnhub.io/api/v1',
     budget: { perMinute: 60, perDay: null, perMonth: null },
     cadenceSeconds: 15 * MIN,
@@ -144,7 +179,10 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     notes:
       'One call per symbol (/quote) — 19 equity symbols per run sits inside the ' +
       '60/min limit but must be paced. No daily cap documented. Outside US market ' +
-      'hours the scheduler drops to hourly (see marketHours below).',
+      'hours the scheduler drops to hourly (see MARKET_HOURS below). OPTIONAL: the ' +
+      'equities job falls back to Nasdaq when no key is set, so nothing is lost ' +
+      'without one. Finnhub is preferred when available because it is a documented, ' +
+      'supported API rather than an undocumented first-party endpoint.',
     verifiedAt: 'unverified',
   },
 
@@ -172,17 +210,19 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     name: 'FRED (Federal Reserve Bank of St. Louis)',
     homepage: 'https://fred.stlouisfed.org',
     attribution: 'Macro series: FRED, Federal Reserve Bank of St. Louis',
-    apiKeyEnv: 'FRED_API_KEY',
-    baseUrl: 'https://api.stlouisfed.org/fred',
-    budget: { perMinute: 120, perDay: null, perMonth: null },
+    apiKeyEnv: null,
+    baseUrl: 'https://fred.stlouisfed.org/graph/fredgraph.csv',
+    budget: { perMinute: 60, perDay: null, perMonth: null },
     cadenceSeconds: 24 * HOUR,
     stalenessSeconds: 72 * HOUR,
     hasHistory: true,
     notes:
-      'Six series, once daily. Most series are monthly and only change on release ' +
-      'days; the ingester upserts and is a no-op when the latest observation is ' +
-      'unchanged.',
-    verifiedAt: 'unverified',
+      'VERIFIED keyless. The documented api.stlouisfed.org JSON API needs a key, ' +
+      'but fredgraph.csv?id=<SERIES> is a public download that returns the full ' +
+      'observation history as CSV and needs none. Six series, one request each, ' +
+      'once daily. Missing observations come through as "." and are skipped rather ' +
+      'than written as zero.',
+    verifiedAt: '2026-09-01',
   },
 };
 

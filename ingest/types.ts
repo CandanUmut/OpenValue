@@ -66,6 +66,15 @@ export type IngestResult = {
   daily: DailyPoint[];
   macroSeries?: MacroSeries[];
   macroPoints?: MacroPoint[];
+  /**
+   * True when macroPoints is the COMPLETE series, not an increment.
+   *
+   * An upsert can add and correct points but can never remove one, so a value
+   * we wrote in error stays forever. FRED returns the full history on every
+   * request, which lets the store replace the series outright — that is how a
+   * bad point actually disappears.
+   */
+  macroPointsComplete?: boolean;
   /** New assets discovered at run time (crypto). Upserted before quotes. */
   assets?: Asset[];
   requestsUsed: number;

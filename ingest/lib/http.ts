@@ -75,7 +75,19 @@ export class ProviderClient {
    * other than 429 means we asked the wrong question, and asking it four more
    * times just spends budget.
    */
-  async getJson<T>(url: string, { attempts = 4 }: { attempts?: number } = {}): Promise<T> {
+  async getJson<T>(url: string, opts: RequestOptions = {}): Promise<T> {
+    return this.get(url, 'application/json', opts) as Promise<T>;
+  }
+
+  /** Same policy, for providers that serve CSV rather than JSON (FRED). */
+  async getText(url: string, opts: RequestOptions = {}): Promise<string> {
+    return this.get(url, 'text/csv, text/plain', opts) as Promise<string>;
+  }
+
+  private async get(
+    url: string, accept: string, { attempts = 4, headers = {} }: RequestOptions,
+  ): Promise<unknown> {
+    const json = accept.includes('json');
     let lastError: unknown;
 
     for (let attempt = 0; attempt < attempts; attempt++) {
@@ -86,11 +98,11 @@ export class ProviderClient {
         this.used++;
         this.lastRequestAt = Date.now();
         const res = await fetch(url, {
-          headers: { accept: 'application/json', 'user-agent': USER_AGENT },
-          signal: AbortSignal.timeout(20_000),
+          headers: { accept, 'user-agent': USER_AGENT, ...headers },
+          signal: AbortSignal.timeout(30_000),
         });
 
-        if (res.ok) return (await res.json()) as T;
+        if (res.ok) return json ? await res.json() : await res.text();
 
         const body = await res.text().catch(() => '');
         const err = new HttpError(res.status, url, body);
@@ -113,6 +125,12 @@ export class ProviderClient {
     throw lastError instanceof Error ? lastError : new Error(String(lastError));
   }
 }
+
+export type RequestOptions = {
+  attempts?: number;
+  /** Extra request headers, e.g. an optional API key. Never logged. */
+  headers?: Record<string, string>;
+};
 
 const USER_AGENT = 'Value/0.1 (+https://github.com/CandanUmut/OpenValue)';
 
