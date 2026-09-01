@@ -65,8 +65,8 @@ export function AssetDetail({ slug, snapshot, isFavorite, onToggleFavorite }: {
       ) : (
         <p class="detail-price">
           {formatPrice(asset.price, asset.currency)}
-          <span class="detail-change" data-tone={tone}>
-            <span aria-hidden="true">{DIRECTION_GLYPH[tone]}</span>
+          <span class="detail-change" data-tone={asset.changePct24h === null ? 'flat' : tone}>
+            {asset.changePct24h !== null && <span aria-hidden="true">{DIRECTION_GLYPH[tone]}</span>}
             {formatPct(asset.changePct24h)}
             <span class="detail-change-abs">{formatSignedChange(asset.changeAbs, asset.price)}</span>
           </span>
@@ -84,15 +84,25 @@ export function AssetDetail({ slug, snapshot, isFavorite, onToggleFavorite }: {
         ))}
       </div>
 
-      {loading && !series
-        ? <p class="chart-empty">Loading {range} history…</p>
-        : (
-          <Chart
-            points={series?.points ?? []}
-            currency={asset.currency}
-            ariaLabel={`${asset.name} price over ${range}`}
-          />
-        )}
+      {loading && !series ? (
+        <p class="chart-empty">Loading {range} history…</p>
+      ) : (series?.total ?? 0) < 3 ? (
+        // "Not enough history" is true but unhelpful on its own. These series
+        // have no backfillable source, so they genuinely start the day we first
+        // ingested them, and saying so beats leaving the reader wondering
+        // whether something is broken.
+        <p class="chart-empty">
+          No chart yet. {asset.source} publishes a current price but no history,
+          so this series builds one close per day from{' '}
+          {formatDate(series?.firstDate ?? asset.asOf)} onward.
+        </p>
+      ) : (
+        <Chart
+          points={series?.points ?? []}
+          currency={asset.currency}
+          ariaLabel={`${asset.name} price over ${range}`}
+        />
+      )}
 
       <dl class="stats">
         <Stat label="Unit">{asset.unit}</Stat>

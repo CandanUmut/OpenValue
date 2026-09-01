@@ -1,22 +1,924 @@
 {
-  "generatedAt": "2026-09-01T21:48:24.488Z",
+  "generatedAt": "2026-09-01T22:57:22.609Z",
   "schemaVersion": 1,
   "assets": [
+    {
+      "id": "crypto:bitcoin",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "category": "crypto",
+      "unit": "1 BTC",
+      "source": "coingecko",
+      "retired": false,
+      "price": 77284,
+      "changeAbs": -1251.167660690291,
+      "changePct24h": -1.6785,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        77284
+      ]
+    },
+    {
+      "id": "crypto:ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "category": "crypto",
+      "unit": "1 ETH",
+      "source": "coingecko",
+      "retired": false,
+      "price": 2413.37,
+      "changeAbs": -52.715208006552075,
+      "changePct24h": -2.27491,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        2413.37
+      ]
+    },
+    {
+      "id": "crypto:tether",
+      "symbol": "USDT",
+      "name": "Tether",
+      "category": "crypto",
+      "unit": "1 USDT",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999609,
+      "changeAbs": -0.000158523088237716,
+      "changePct24h": -0.02023,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999609
+      ]
+    },
+    {
+      "id": "crypto:binancecoin",
+      "symbol": "BNB",
+      "name": "BNB",
+      "category": "crypto",
+      "unit": "1 BNB",
+      "source": "coingecko",
+      "retired": false,
+      "price": 680.73,
+      "changeAbs": -10.11987800222073,
+      "changePct24h": -1.45092,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        680.73
+      ]
+    },
+    {
+      "id": "crypto:ripple",
+      "symbol": "XRP",
+      "name": "XRP",
+      "category": "crypto",
+      "unit": "1 XRP",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1.35,
+      "changeAbs": -0.03256826725065931,
+      "changePct24h": -2.50499,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1.35
+      ]
+    },
+    {
+      "id": "crypto:usd-coin",
+      "symbol": "USDC",
+      "name": "USDC",
+      "category": "crypto",
+      "unit": "1 USDC",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999764,
+      "changeAbs": -0.000113588321857039,
+      "changePct24h": -0.01357,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999764
+      ]
+    },
+    {
+      "id": "crypto:solana",
+      "symbol": "SOL",
+      "name": "Solana",
+      "category": "crypto",
+      "unit": "1 SOL",
+      "source": "coingecko",
+      "retired": false,
+      "price": 99.69,
+      "changeAbs": -3.2873874210996803,
+      "changePct24h": -3.42276,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        99.69
+      ]
+    },
+    {
+      "id": "crypto:tron",
+      "symbol": "TRX",
+      "name": "TRON",
+      "category": "crypto",
+      "unit": "1 TRX",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.322607,
+      "changeAbs": -0.009958389060734263,
+      "changePct24h": -3.01312,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.322607
+      ]
+    },
+    {
+      "id": "crypto:figure-heloc",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "category": "crypto",
+      "unit": "1 FIGR_HELOC",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1.013,
+      "changeAbs": 0.01017143,
+      "changePct24h": -2.66974,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1.013
+      ]
+    },
+    {
+      "id": "crypto:hyperliquid",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "category": "crypto",
+      "unit": "1 HYPE",
+      "source": "coingecko",
+      "retired": false,
+      "price": 82.46,
+      "changeAbs": -1.5793276561837217,
+      "changePct24h": -2.41468,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        82.46
+      ]
+    },
+    {
+      "id": "crypto:zcash",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "category": "crypto",
+      "unit": "1 ZEC",
+      "source": "coingecko",
+      "retired": false,
+      "price": 827.48,
+      "changeAbs": -20.522118809247104,
+      "changePct24h": -2.51416,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        827.48
+      ]
+    },
+    {
+      "id": "crypto:dogecoin",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "category": "crypto",
+      "unit": "1 DOGE",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.08154,
+      "changeAbs": -0.001259051977087172,
+      "changePct24h": -1.78151,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.08154
+      ]
+    },
+    {
+      "id": "crypto:rain",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "category": "crypto",
+      "unit": "1 RAIN",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.01668452,
+      "changeAbs": -0.000016706159283862,
+      "changePct24h": -0.28767,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.01668452
+      ]
+    },
+    {
+      "id": "crypto:usds",
+      "symbol": "USDS",
+      "name": "USDS",
+      "category": "crypto",
+      "unit": "1 USDS",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.99981,
+      "changeAbs": -0.000019568362489952,
+      "changePct24h": -0.01176,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.99981
+      ]
+    },
+    {
+      "id": "crypto:monero",
+      "symbol": "XMR",
+      "name": "Monero",
+      "category": "crypto",
+      "unit": "1 XMR",
+      "source": "coingecko",
+      "retired": false,
+      "price": 496.03,
+      "changeAbs": -21.217888133262306,
+      "changePct24h": -5.08488,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        496.03
+      ]
+    },
+    {
+      "id": "crypto:leo-token",
+      "symbol": "LEO",
+      "name": "LEO Token",
+      "category": "crypto",
+      "unit": "1 LEO",
+      "source": "coingecko",
+      "retired": false,
+      "price": 9.37,
+      "changeAbs": -0.19220887793639108,
+      "changePct24h": -2.2022,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        9.37
+      ]
+    },
+    {
+      "id": "crypto:whitebit",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "category": "crypto",
+      "unit": "1 WBT",
+      "source": "coingecko",
+      "retired": false,
+      "price": 71.08,
+      "changeAbs": -1.3049532119083693,
+      "changePct24h": -1.91593,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        71.08
+      ]
+    },
+    {
+      "id": "crypto:chainlink",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "category": "crypto",
+      "unit": "1 LINK",
+      "source": "coingecko",
+      "retired": false,
+      "price": 11.19,
+      "changeAbs": -0.12950314323007106,
+      "changePct24h": -1.29424,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        11.19
+      ]
+    },
+    {
+      "id": "crypto:cardano",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "category": "crypto",
+      "unit": "1 ADA",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.195534,
+      "changeAbs": -0.002085540996876023,
+      "changePct24h": -1.61983,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.195534
+      ]
+    },
+    {
+      "id": "crypto:stellar",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "category": "crypto",
+      "unit": "1 XLM",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.175148,
+      "changeAbs": -0.002046980853599445,
+      "changePct24h": -1.24823,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.175148
+      ]
+    },
+    {
+      "id": "crypto:bitcoin-cash",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "category": "crypto",
+      "unit": "1 BCH",
+      "source": "coingecko",
+      "retired": false,
+      "price": 244.87,
+      "changeAbs": -1.966329297966979,
+      "changePct24h": -0.78889,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        244.87
+      ]
+    },
+    {
+      "id": "crypto:dai",
+      "symbol": "DAI",
+      "name": "Dai",
+      "category": "crypto",
+      "unit": "1 DAI",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999857,
+      "changeAbs": 0.00001981,
+      "changePct24h": -0.01217,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999857
+      ]
+    },
+    {
+      "id": "crypto:canton-network",
+      "symbol": "CC",
+      "name": "Canton",
+      "category": "crypto",
+      "unit": "1 CC",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.113743,
+      "changeAbs": -0.00704512111096682,
+      "changePct24h": -6.71094,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.113743
+      ]
+    },
+    {
+      "id": "crypto:ethena-usde",
+      "symbol": "USDE",
+      "name": "Ethena USDe",
+      "category": "crypto",
+      "unit": "1 USDE",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999441,
+      "changeAbs": -0.000234331833926182,
+      "changePct24h": -0.02539,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999441
+      ]
+    },
+    {
+      "id": "crypto:usd1-wlfi",
+      "symbol": "USD1",
+      "name": "USD1",
+      "category": "crypto",
+      "unit": "1 USD1",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999327,
+      "changeAbs": -0.000171718514687003,
+      "changePct24h": -0.02235,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999327
+      ]
+    },
+    {
+      "id": "crypto:litecoin",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "category": "crypto",
+      "unit": "1 LTC",
+      "source": "coingecko",
+      "retired": false,
+      "price": 49.58,
+      "changeAbs": 1.07,
+      "changePct24h": 2.06241,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        49.58
+      ]
+    },
+    {
+      "id": "crypto:the-open-network",
+      "symbol": "GRAM",
+      "name": "Gram (prev. Toncoin)",
+      "category": "crypto",
+      "unit": "1 GRAM",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1.32,
+      "changeAbs": -0.07416316755449515,
+      "changePct24h": -6.37171,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1.32
+      ]
+    },
+    {
+      "id": "crypto:uniswap",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "category": "crypto",
+      "unit": "1 UNI",
+      "source": "coingecko",
+      "retired": false,
+      "price": 5.83,
+      "changeAbs": 0.609892,
+      "changePct24h": 11.51666,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        5.83
+      ]
+    },
+    {
+      "id": "crypto:global-dollar",
+      "symbol": "USDG",
+      "name": "Global Dollar",
+      "category": "crypto",
+      "unit": "1 USDG",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999898,
+      "changeAbs": -0.000144599134152434,
+      "changePct24h": -0.03396,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999898
+      ]
+    },
+    {
+      "id": "crypto:hedera-hashgraph",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "category": "crypto",
+      "unit": "1 HBAR",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.073941,
+      "changeAbs": 0.00036448,
+      "changePct24h": 0.45625,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.073941
+      ]
+    },
+    {
+      "id": "crypto:avalanche-2",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "category": "crypto",
+      "unit": "1 AVAX",
+      "source": "coingecko",
+      "retired": false,
+      "price": 7.19,
+      "changeAbs": -0.03919733818414706,
+      "changePct24h": -0.46975,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        7.19
+      ]
+    },
+    {
+      "id": "crypto:shiba-inu",
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "category": "crypto",
+      "unit": "1 SHIB",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.00000513,
+      "changeAbs": 6.6911e-8,
+      "changePct24h": 1.1329,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.00000513
+      ]
+    },
+    {
+      "id": "crypto:sui",
+      "symbol": "SUI",
+      "name": "Sui",
+      "category": "crypto",
+      "unit": "1 SUI",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.719326,
+      "changeAbs": -0.006629685144240449,
+      "changePct24h": -0.95417,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.719326
+      ]
+    },
+    {
+      "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+      "symbol": "BUIDL",
+      "name": "BlackRock USD Institutional Digital Liquidity Fund",
+      "category": "crypto",
+      "unit": "1 BUIDL",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1,
+      "changeAbs": 0,
+      "changePct24h": 0,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1
+      ]
+    },
+    {
+      "id": "crypto:paypal-usd",
+      "symbol": "PYUSD",
+      "name": "PayPal USD",
+      "category": "crypto",
+      "unit": "1 PYUSD",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999506,
+      "changeAbs": -0.000401655101176734,
+      "changePct24h": -0.04547,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999506
+      ]
+    },
+    {
+      "id": "crypto:hashnote-usyc",
+      "symbol": "USYC",
+      "name": "Circle USYC",
+      "category": "crypto",
+      "unit": "1 USYC",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1.14,
+      "changeAbs": 0.00010291,
+      "changePct24h": 0.00906,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1.14
+      ]
+    },
+    {
+      "id": "crypto:crypto-com-chain",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "category": "crypto",
+      "unit": "1 CRO",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.054733,
+      "changeAbs": -0.001972877903722747,
+      "changePct24h": -3.75114,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.054733
+      ]
+    },
+    {
+      "id": "crypto:tether-gold",
+      "symbol": "XAUT",
+      "name": "Tether Gold",
+      "category": "crypto",
+      "unit": "1 XAUT",
+      "source": "coingecko",
+      "retired": false,
+      "price": 4332.19,
+      "changeAbs": -108.26152219814867,
+      "changePct24h": -2.3746,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        4332.19
+      ]
+    },
+    {
+      "id": "crypto:near",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "category": "crypto",
+      "unit": "1 NEAR",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1.89,
+      "changeAbs": -0.02265169351839469,
+      "changePct24h": -0.68847,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1.89
+      ]
+    },
+    {
+      "id": "crypto:memecore",
+      "symbol": "M",
+      "name": "MemeCore",
+      "category": "crypto",
+      "unit": "1 M",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1.059,
+      "changeAbs": -0.03588584006900941,
+      "changePct24h": -3.20936,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1.059
+      ]
+    },
+    {
+      "id": "crypto:ripple-usd",
+      "symbol": "RLUSD",
+      "name": "Ripple USD",
+      "category": "crypto",
+      "unit": "1 RLUSD",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999955,
+      "changeAbs": -0.000144683009806079,
+      "changePct24h": -0.01877,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.999955
+      ]
+    },
+    {
+      "id": "crypto:okb",
+      "symbol": "OKB",
+      "name": "OKB",
+      "category": "crypto",
+      "unit": "1 OKB",
+      "source": "coingecko",
+      "retired": false,
+      "price": 110.26,
+      "changeAbs": -1.8335124390697501,
+      "changePct24h": -1.91663,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        110.26
+      ]
+    },
+    {
+      "id": "crypto:ondo-us-dollar-yield",
+      "symbol": "USDY",
+      "name": "Ondo US Dollar Yield",
+      "category": "crypto",
+      "unit": "1 USDY",
+      "source": "coingecko",
+      "retired": false,
+      "price": 1.14,
+      "changeAbs": -0.00274120135907463,
+      "changePct24h": -0.19117,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        1.14
+      ]
+    },
+    {
+      "id": "crypto:bittensor",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "category": "crypto",
+      "unit": "1 TAO",
+      "source": "coingecko",
+      "retired": false,
+      "price": 220.11,
+      "changeAbs": -10.11295832625757,
+      "changePct24h": -4.30092,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        220.11
+      ]
+    },
+    {
+      "id": "crypto:aave",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "category": "crypto",
+      "unit": "1 AAVE",
+      "source": "coingecko",
+      "retired": false,
+      "price": 126.87,
+      "changeAbs": 2.93,
+      "changePct24h": 2.16937,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        126.87
+      ]
+    },
+    {
+      "id": "crypto:pax-gold",
+      "symbol": "PAXG",
+      "name": "PAX Gold",
+      "category": "crypto",
+      "unit": "1 PAXG",
+      "source": "coingecko",
+      "retired": false,
+      "price": 4339.49,
+      "changeAbs": -108.45658156176432,
+      "changePct24h": -2.35377,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        4339.49
+      ]
+    },
+    {
+      "id": "crypto:aster-2",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "category": "crypto",
+      "unit": "1 ASTER",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.689904,
+      "changeAbs": -0.01041111714530607,
+      "changePct24h": -1.43497,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.689904
+      ]
+    },
+    {
+      "id": "crypto:world-liberty-financial",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "category": "crypto",
+      "unit": "1 WLFI",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.056927,
+      "changeAbs": -0.000442149147786196,
+      "changePct24h": -1.23721,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.056927
+      ]
+    },
+    {
+      "id": "crypto:morpho",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "category": "crypto",
+      "unit": "1 MORPHO",
+      "source": "coingecko",
+      "retired": false,
+      "price": 2.59,
+      "changeAbs": 0.064699,
+      "changePct24h": 2.65571,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        2.59
+      ]
+    },
+    {
+      "id": "crypto:mantle",
+      "symbol": "MNT",
+      "name": "Mantle",
+      "category": "crypto",
+      "unit": "1 MNT",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.534139,
+      "changeAbs": -0.01210945852509382,
+      "changePct24h": -3.60292,
+      "currency": "USD",
+      "asOf": "2026-09-01T22:53:20.000Z",
+      "stale": false,
+      "spark": [
+        0.534139
+      ]
+    },
     {
       "id": "equity:spy",
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 761.8898,
+      "changeAbs": 0.1698,
+      "changePct24h": 0.02,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        761.8898
+      ]
     },
     {
       "id": "equity:qqq",
@@ -24,15 +926,17 @@
       "name": "Invesco QQQ Trust",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 707.89,
+      "changeAbs": 0.25,
+      "changePct24h": 0.04,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:55:00.000Z",
+      "stale": false,
+      "spark": [
+        707.89
+      ]
     },
     {
       "id": "equity:dia",
@@ -40,15 +944,17 @@
       "name": "SPDR Dow Jones Industrial Average ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 527.7913,
+      "changeAbs": 0.0513,
+      "changePct24h": 0.01,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        527.7913
+      ]
     },
     {
       "id": "equity:iwm",
@@ -56,15 +962,17 @@
       "name": "iShares Russell 2000 ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 290.52,
+      "changeAbs": -0.11,
+      "changePct24h": -0.04,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:55:00.000Z",
+      "stale": false,
+      "spark": [
+        290.52
+      ]
     },
     {
       "id": "equity:vt",
@@ -72,15 +980,17 @@
       "name": "Vanguard Total World Stock ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 160.28,
+      "changeAbs": 0.945,
+      "changePct24h": 0.59,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        160.28
+      ]
     },
     {
       "id": "equity:efa",
@@ -88,15 +998,17 @@
       "name": "iShares MSCI EAFE ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 106.52,
+      "changeAbs": 0.03,
+      "changePct24h": 0.03,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        106.52
+      ]
     },
     {
       "id": "equity:eem",
@@ -104,15 +1016,17 @@
       "name": "iShares MSCI Emerging Markets ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 66.82,
+      "changeAbs": 0.03,
+      "changePct24h": 0.04,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        66.82
+      ]
     },
     {
       "id": "equity:tlt",
@@ -120,15 +1034,17 @@
       "name": "iShares 20+ Year Treasury Bond ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 81.84,
+      "changeAbs": -0.03,
+      "changePct24h": -0.04,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        81.84
+      ]
     },
     {
       "id": "equity:hyg",
@@ -136,15 +1052,17 @@
       "name": "iShares iBoxx High Yield Corporate Bond ETF",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 79.1,
+      "changeAbs": 0.01,
+      "changePct24h": 0.01,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        79.1
+      ]
     },
     {
       "id": "equity:gld",
@@ -152,15 +1070,17 @@
       "name": "SPDR Gold Shares",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 397.0946,
+      "changeAbs": 0.2546,
+      "changePct24h": 0.06,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        397.0946
+      ]
     },
     {
       "id": "equity:uso",
@@ -168,15 +1088,17 @@
       "name": "United States Oil Fund",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 141.1,
+      "changeAbs": 0.18,
+      "changePct24h": 0.13,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:00.000Z",
+      "stale": false,
+      "spark": [
+        141.1
+      ]
     },
     {
       "id": "equity:aapl",
@@ -184,15 +1106,17 @@
       "name": "Apple",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 324.94,
+      "changeAbs": -0.19,
+      "changePct24h": -0.06,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        324.94
+      ]
     },
     {
       "id": "equity:msft",
@@ -200,15 +1124,17 @@
       "name": "Microsoft",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 501.15,
+      "changeAbs": 0.13,
+      "changePct24h": 0.03,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        501.15
+      ]
     },
     {
       "id": "equity:nvda",
@@ -216,15 +1142,17 @@
       "name": "NVIDIA",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 217.45,
+      "changeAbs": 0.01,
+      "changePct24h": 0,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        217.45
+      ]
     },
     {
       "id": "equity:amzn",
@@ -232,15 +1160,17 @@
       "name": "Amazon",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 255.1,
+      "changeAbs": 0.18,
+      "changePct24h": 0.07,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        255.1
+      ]
     },
     {
       "id": "equity:googl",
@@ -248,15 +1178,17 @@
       "name": "Alphabet",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 337.262,
+      "changeAbs": 2.242,
+      "changePct24h": 0.67,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        337.262
+      ]
     },
     {
       "id": "equity:meta",
@@ -264,15 +1196,17 @@
       "name": "Meta Platforms",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 577.7,
+      "changeAbs": -0.84,
+      "changePct24h": -0.15,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        577.7
+      ]
     },
     {
       "id": "equity:tsla",
@@ -280,15 +1214,17 @@
       "name": "Tesla",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 355.2708,
+      "changeAbs": -0.8192,
+      "changePct24h": -0.23,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        355.2708
+      ]
     },
     {
       "id": "equity:brk-b",
@@ -296,15 +1232,17 @@
       "name": "Berkshire Hathaway",
       "category": "equity",
       "unit": "1 share",
-      "source": "finnhub",
+      "source": "nasdaq",
       "retired": false,
-      "price": null,
-      "changeAbs": null,
-      "changePct24h": null,
+      "price": 502.45,
+      "changeAbs": -0.07,
+      "changePct24h": -0.01,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:57:00.000Z",
+      "stale": false,
+      "spark": [
+        502.45
+      ]
     },
     {
       "id": "fx:usd",
@@ -878,13 +1816,15 @@
       "unit": "1 troy ounce",
       "source": "gold-api",
       "retired": false,
-      "price": null,
+      "price": 4330.399902,
       "changeAbs": null,
       "changePct24h": null,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:20.000Z",
+      "stale": false,
+      "spark": [
+        4330.399902
+      ]
     },
     {
       "id": "metal:xag",
@@ -894,13 +1834,15 @@
       "unit": "1 troy ounce",
       "source": "gold-api",
       "retired": false,
-      "price": null,
+      "price": 64.220001,
       "changeAbs": null,
       "changePct24h": null,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:20.000Z",
+      "stale": false,
+      "spark": [
+        64.220001
+      ]
     },
     {
       "id": "metal:xpt",
@@ -910,13 +1852,15 @@
       "unit": "1 troy ounce",
       "source": "gold-api",
       "retired": false,
-      "price": null,
+      "price": 1747,
       "changeAbs": null,
       "changePct24h": null,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:23.000Z",
+      "stale": false,
+      "spark": [
+        1747
+      ]
     },
     {
       "id": "metal:xpd",
@@ -926,13 +1870,15 @@
       "unit": "1 troy ounce",
       "source": "gold-api",
       "retired": false,
-      "price": null,
+      "price": 1326,
       "changeAbs": null,
       "changePct24h": null,
       "currency": "USD",
-      "asOf": null,
-      "stale": true,
-      "spark": []
+      "asOf": "2026-09-01T22:56:21.000Z",
+      "stale": false,
+      "spark": [
+        1326
+      ]
     }
   ],
   "macro": {
@@ -988,41 +1934,825 @@
     ],
     "latest": {
       "FEDFUNDS": {
-        "points": [],
-        "last": null
+        "points": [
+          [
+            "2024-03-01",
+            5.33
+          ],
+          [
+            "2024-04-01",
+            5.33
+          ],
+          [
+            "2024-05-01",
+            5.33
+          ],
+          [
+            "2024-06-01",
+            5.33
+          ],
+          [
+            "2024-07-01",
+            5.33
+          ],
+          [
+            "2024-08-01",
+            5.33
+          ],
+          [
+            "2024-09-01",
+            5.13
+          ],
+          [
+            "2024-10-01",
+            4.83
+          ],
+          [
+            "2024-11-01",
+            4.64
+          ],
+          [
+            "2024-12-01",
+            4.48
+          ],
+          [
+            "2025-01-01",
+            4.33
+          ],
+          [
+            "2025-02-01",
+            4.33
+          ],
+          [
+            "2025-03-01",
+            4.33
+          ],
+          [
+            "2025-04-01",
+            4.33
+          ],
+          [
+            "2025-05-01",
+            4.33
+          ],
+          [
+            "2025-06-01",
+            4.33
+          ],
+          [
+            "2025-07-01",
+            4.33
+          ],
+          [
+            "2025-08-01",
+            4.33
+          ],
+          [
+            "2025-09-01",
+            4.22
+          ],
+          [
+            "2025-10-01",
+            4.09
+          ],
+          [
+            "2025-11-01",
+            3.88
+          ],
+          [
+            "2025-12-01",
+            3.72
+          ],
+          [
+            "2026-01-01",
+            3.64
+          ],
+          [
+            "2026-02-01",
+            3.64
+          ],
+          [
+            "2026-03-01",
+            3.64
+          ],
+          [
+            "2026-04-01",
+            3.64
+          ],
+          [
+            "2026-05-01",
+            3.63
+          ],
+          [
+            "2026-06-01",
+            3.63
+          ],
+          [
+            "2026-07-01",
+            3.63
+          ],
+          [
+            "2026-08-01",
+            3.63
+          ]
+        ],
+        "last": [
+          "2026-08-01",
+          3.63
+        ]
       },
       "CPIAUCSL": {
-        "points": [],
-        "last": null
+        "points": [
+          [
+            "2024-01-01",
+            309.698
+          ],
+          [
+            "2024-02-01",
+            310.967
+          ],
+          [
+            "2024-03-01",
+            312.345
+          ],
+          [
+            "2024-04-01",
+            313.023
+          ],
+          [
+            "2024-05-01",
+            313.175
+          ],
+          [
+            "2024-06-01",
+            313.044
+          ],
+          [
+            "2024-07-01",
+            313.569
+          ],
+          [
+            "2024-08-01",
+            314.062
+          ],
+          [
+            "2024-09-01",
+            314.732
+          ],
+          [
+            "2024-10-01",
+            315.631
+          ],
+          [
+            "2024-11-01",
+            316.528
+          ],
+          [
+            "2024-12-01",
+            317.604
+          ],
+          [
+            "2025-01-01",
+            318.961
+          ],
+          [
+            "2025-02-01",
+            319.679
+          ],
+          [
+            "2025-03-01",
+            319.785
+          ],
+          [
+            "2025-04-01",
+            320.302
+          ],
+          [
+            "2025-05-01",
+            320.62
+          ],
+          [
+            "2025-06-01",
+            321.435
+          ],
+          [
+            "2025-07-01",
+            322.169
+          ],
+          [
+            "2025-08-01",
+            323.291
+          ],
+          [
+            "2025-09-01",
+            324.245
+          ],
+          [
+            "2025-11-01",
+            325.063
+          ],
+          [
+            "2025-12-01",
+            326.031
+          ],
+          [
+            "2026-01-01",
+            326.588
+          ],
+          [
+            "2026-02-01",
+            327.46
+          ],
+          [
+            "2026-03-01",
+            330.293
+          ],
+          [
+            "2026-04-01",
+            332.407
+          ],
+          [
+            "2026-05-01",
+            333.979
+          ],
+          [
+            "2026-06-01",
+            332.568
+          ],
+          [
+            "2026-07-01",
+            332.813
+          ]
+        ],
+        "last": [
+          "2026-07-01",
+          332.813
+        ]
       },
       "UNRATE": {
-        "points": [],
-        "last": null
+        "points": [
+          [
+            "2024-01-01",
+            3.7
+          ],
+          [
+            "2024-02-01",
+            3.9
+          ],
+          [
+            "2024-03-01",
+            3.9
+          ],
+          [
+            "2024-04-01",
+            3.9
+          ],
+          [
+            "2024-05-01",
+            3.9
+          ],
+          [
+            "2024-06-01",
+            4.1
+          ],
+          [
+            "2024-07-01",
+            4.2
+          ],
+          [
+            "2024-08-01",
+            4.2
+          ],
+          [
+            "2024-09-01",
+            4.1
+          ],
+          [
+            "2024-10-01",
+            4.1
+          ],
+          [
+            "2024-11-01",
+            4.2
+          ],
+          [
+            "2024-12-01",
+            4.1
+          ],
+          [
+            "2025-01-01",
+            4
+          ],
+          [
+            "2025-02-01",
+            4.2
+          ],
+          [
+            "2025-03-01",
+            4.2
+          ],
+          [
+            "2025-04-01",
+            4.2
+          ],
+          [
+            "2025-05-01",
+            4.3
+          ],
+          [
+            "2025-06-01",
+            4.1
+          ],
+          [
+            "2025-07-01",
+            4.3
+          ],
+          [
+            "2025-08-01",
+            4.3
+          ],
+          [
+            "2025-09-01",
+            4.4
+          ],
+          [
+            "2025-11-01",
+            4.5
+          ],
+          [
+            "2025-12-01",
+            4.4
+          ],
+          [
+            "2026-01-01",
+            4.3
+          ],
+          [
+            "2026-02-01",
+            4.4
+          ],
+          [
+            "2026-03-01",
+            4.3
+          ],
+          [
+            "2026-04-01",
+            4.3
+          ],
+          [
+            "2026-05-01",
+            4.3
+          ],
+          [
+            "2026-06-01",
+            4.2
+          ],
+          [
+            "2026-07-01",
+            4.1
+          ]
+        ],
+        "last": [
+          "2026-07-01",
+          4.1
+        ]
       },
       "DGS10": {
-        "points": [],
-        "last": null
+        "points": [
+          [
+            "2026-07-21",
+            4.63
+          ],
+          [
+            "2026-07-22",
+            4.67
+          ],
+          [
+            "2026-07-23",
+            4.71
+          ],
+          [
+            "2026-07-24",
+            4.69
+          ],
+          [
+            "2026-07-27",
+            4.65
+          ],
+          [
+            "2026-07-28",
+            4.61
+          ],
+          [
+            "2026-07-29",
+            4.67
+          ],
+          [
+            "2026-07-30",
+            4.68
+          ],
+          [
+            "2026-07-31",
+            4.75
+          ],
+          [
+            "2026-08-03",
+            4.7
+          ],
+          [
+            "2026-08-04",
+            4.63
+          ],
+          [
+            "2026-08-05",
+            4.63
+          ],
+          [
+            "2026-08-06",
+            4.69
+          ],
+          [
+            "2026-08-07",
+            4.65
+          ],
+          [
+            "2026-08-10",
+            4.72
+          ],
+          [
+            "2026-08-11",
+            4.7
+          ],
+          [
+            "2026-08-12",
+            4.68
+          ],
+          [
+            "2026-08-13",
+            4.63
+          ],
+          [
+            "2026-08-14",
+            4.68
+          ],
+          [
+            "2026-08-17",
+            4.72
+          ],
+          [
+            "2026-08-18",
+            4.71
+          ],
+          [
+            "2026-08-19",
+            4.65
+          ],
+          [
+            "2026-08-20",
+            4.69
+          ],
+          [
+            "2026-08-21",
+            4.74
+          ],
+          [
+            "2026-08-24",
+            4.7
+          ],
+          [
+            "2026-08-25",
+            4.64
+          ],
+          [
+            "2026-08-26",
+            4.66
+          ],
+          [
+            "2026-08-27",
+            4.67
+          ],
+          [
+            "2026-08-28",
+            4.73
+          ],
+          [
+            "2026-08-31",
+            4.75
+          ]
+        ],
+        "last": [
+          "2026-08-31",
+          4.75
+        ]
       },
       "DGS2": {
-        "points": [],
-        "last": null
+        "points": [
+          [
+            "2026-07-21",
+            4.26
+          ],
+          [
+            "2026-07-22",
+            4.31
+          ],
+          [
+            "2026-07-23",
+            4.37
+          ],
+          [
+            "2026-07-24",
+            4.33
+          ],
+          [
+            "2026-07-27",
+            4.31
+          ],
+          [
+            "2026-07-28",
+            4.26
+          ],
+          [
+            "2026-07-29",
+            4.22
+          ],
+          [
+            "2026-07-30",
+            4.23
+          ],
+          [
+            "2026-07-31",
+            4.28
+          ],
+          [
+            "2026-08-03",
+            4.25
+          ],
+          [
+            "2026-08-04",
+            4.2
+          ],
+          [
+            "2026-08-05",
+            4.18
+          ],
+          [
+            "2026-08-06",
+            4.25
+          ],
+          [
+            "2026-08-07",
+            4.19
+          ],
+          [
+            "2026-08-10",
+            4.25
+          ],
+          [
+            "2026-08-11",
+            4.22
+          ],
+          [
+            "2026-08-12",
+            4.2
+          ],
+          [
+            "2026-08-13",
+            4.15
+          ],
+          [
+            "2026-08-14",
+            4.17
+          ],
+          [
+            "2026-08-17",
+            4.19
+          ],
+          [
+            "2026-08-18",
+            4.19
+          ],
+          [
+            "2026-08-19",
+            4.19
+          ],
+          [
+            "2026-08-20",
+            4.19
+          ],
+          [
+            "2026-08-21",
+            4.24
+          ],
+          [
+            "2026-08-24",
+            4.24
+          ],
+          [
+            "2026-08-25",
+            4.17
+          ],
+          [
+            "2026-08-26",
+            4.19
+          ],
+          [
+            "2026-08-27",
+            4.2
+          ],
+          [
+            "2026-08-28",
+            4.34
+          ],
+          [
+            "2026-08-31",
+            4.34
+          ]
+        ],
+        "last": [
+          "2026-08-31",
+          4.34
+        ]
       },
       "M2SL": {
-        "points": [],
-        "last": null
+        "points": [
+          [
+            "2024-02-01",
+            20921.7
+          ],
+          [
+            "2024-03-01",
+            20965.9
+          ],
+          [
+            "2024-04-01",
+            20955.5
+          ],
+          [
+            "2024-05-01",
+            21021.7
+          ],
+          [
+            "2024-06-01",
+            21070.7
+          ],
+          [
+            "2024-07-01",
+            21098.8
+          ],
+          [
+            "2024-08-01",
+            21191.9
+          ],
+          [
+            "2024-09-01",
+            21275.5
+          ],
+          [
+            "2024-10-01",
+            21336.7
+          ],
+          [
+            "2024-11-01",
+            21454.8
+          ],
+          [
+            "2024-12-01",
+            21487.6
+          ],
+          [
+            "2025-01-01",
+            21539.3
+          ],
+          [
+            "2025-02-01",
+            21607.3
+          ],
+          [
+            "2025-03-01",
+            21684.1
+          ],
+          [
+            "2025-04-01",
+            21770.8
+          ],
+          [
+            "2025-05-01",
+            21836.1
+          ],
+          [
+            "2025-06-01",
+            21942.6
+          ],
+          [
+            "2025-07-01",
+            22025.5
+          ],
+          [
+            "2025-08-01",
+            22092.6
+          ],
+          [
+            "2025-09-01",
+            22176.1
+          ],
+          [
+            "2025-10-01",
+            22249.8
+          ],
+          [
+            "2025-11-01",
+            22279.8
+          ],
+          [
+            "2025-12-01",
+            22355.3
+          ],
+          [
+            "2026-01-01",
+            22413.4
+          ],
+          [
+            "2026-02-01",
+            22598.9
+          ],
+          [
+            "2026-03-01",
+            22640.4
+          ],
+          [
+            "2026-04-01",
+            22756.7
+          ],
+          [
+            "2026-05-01",
+            23013.9
+          ],
+          [
+            "2026-06-01",
+            23115.2
+          ],
+          [
+            "2026-07-01",
+            23218
+          ]
+        ],
+        "last": [
+          "2026-07-01",
+          23218
+        ]
       }
     }
   },
   "health": {
     "frankfurter": {
       "provider": "frankfurter",
-      "lastAttemptAt": "2026-09-01T21:48:24.485Z",
-      "lastSuccessAt": "2026-09-01T21:48:24.485Z",
+      "lastAttemptAt": "2026-09-01T22:47:59.559Z",
+      "lastSuccessAt": "2026-09-01T22:47:59.559Z",
+      "lastErrorAt": null,
+      "lastError": null,
+      "consecutiveFailures": 0,
+      "windowDate": "2026-09-01",
+      "requestsInWindow": 2
+    },
+    "gold-api": {
+      "provider": "gold-api",
+      "lastAttemptAt": "2026-09-01T22:56:33.259Z",
+      "lastSuccessAt": "2026-09-01T22:56:33.259Z",
       "lastErrorAt": null,
       "lastError": null,
       "consecutiveFailures": 0,
       "windowDate": "2026-09-01",
       "requestsInWindow": 8
+    },
+    "coingecko": {
+      "provider": "coingecko",
+      "lastAttemptAt": "2026-09-01T22:56:33.511Z",
+      "lastSuccessAt": "2026-09-01T22:56:33.511Z",
+      "lastErrorAt": null,
+      "lastError": null,
+      "consecutiveFailures": 0,
+      "windowDate": "2026-09-01",
+      "requestsInWindow": 2
+    },
+    "fred": {
+      "provider": "fred",
+      "lastAttemptAt": "2026-09-01T22:54:39.521Z",
+      "lastSuccessAt": "2026-09-01T22:54:39.521Z",
+      "lastErrorAt": null,
+      "lastError": null,
+      "consecutiveFailures": 0,
+      "windowDate": "2026-09-01",
+      "requestsInWindow": 18
+    },
+    "nasdaq": {
+      "provider": "nasdaq",
+      "lastAttemptAt": "2026-09-01T22:57:22.587Z",
+      "lastSuccessAt": "2026-09-01T22:57:22.587Z",
+      "lastErrorAt": null,
+      "lastError": null,
+      "consecutiveFailures": 0,
+      "windowDate": "2026-09-01",
+      "requestsInWindow": 38
     }
   },
   "attribution": [
@@ -1037,6 +2767,12 @@
       "name": "gold-api.com",
       "homepage": "https://gold-api.com",
       "text": "Metals spot prices: gold-api.com"
+    },
+    {
+      "id": "nasdaq",
+      "name": "Nasdaq",
+      "homepage": "https://www.nasdaq.com",
+      "text": "Equity quotes: Nasdaq"
     },
     {
       "id": "goldprice",

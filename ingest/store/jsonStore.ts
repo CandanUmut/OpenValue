@@ -227,6 +227,26 @@ export class JsonStore implements Store {
     await writeJson(this.file('macro.json'), macro);
   }
 
+  async replaceMacroPoints(points: MacroPoint[]): Promise<void> {
+    if (points.length === 0) return;
+    const macro = await this.readMacro();
+
+    const bySeries = new Map<string, [string, number][]>();
+    for (const p of points) {
+      const list = bySeries.get(p.seriesId) ?? [];
+      list.push([p.date, p.value]);
+      bySeries.set(p.seriesId, list);
+    }
+
+    // Only the series present in this batch are replaced; a series whose fetch
+    // failed keeps whatever it had rather than being emptied.
+    for (const [seriesId, list] of bySeries) {
+      macro.points[seriesId] = list.sort((a, b) => a[0].localeCompare(b[0]));
+    }
+
+    await writeJson(this.file('macro.json'), macro);
+  }
+
   private async readMacro(): Promise<{
     series: MacroSeries[];
     points: Record<string, [string, number][]>;

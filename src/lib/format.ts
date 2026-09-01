@@ -14,8 +14,11 @@
 export function formatPrice(value: number | null, currency = 'USD'): string {
   if (value === null || !Number.isFinite(value)) return '—';
   const abs = Math.abs(value);
+  // The cut at 100 rather than 1000: a share at $761.6867 or an ounce of gold at
+  // $4,329.0000 reads as false precision, while EUR at $1.1590 genuinely needs
+  // four places and JPY needs six.
   const decimals =
-    abs >= 1000 ? 2 :
+    abs >= 100 ? 2 :
     abs >= 1 ? 4 :
     abs >= 0.01 ? 5 :
     6;

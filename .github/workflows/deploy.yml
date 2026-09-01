@@ -20,6 +20,14 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Job-level, not step-level: the build and the verifier must agree on the
+    # base, or the verifier checks a /<repo>/ build against "/" and fails every
+    # assertion. Setting it on the build step alone did exactly that.
+    env:
+      # GitHub Pages serves a project site from /<repo>/. Deriving it from the
+      # repository name means a fork or a rename needs no edit here. Set this
+      # to "/" when serving from a custom domain or a <user>.github.io repo.
+      VITE_BASE: /${{ github.event.repository.name }}/
     steps:
       - uses: actions/checkout@v4
 
@@ -31,11 +39,6 @@ jobs:
       - run: npm ci
 
       - name: Build
-        env:
-          # GitHub Pages serves a project site from /<repo>/. Deriving it from the
-          # repository name means a fork or a rename needs no edit here. Set this
-          # to "/" when serving from a custom domain or a <user>.github.io repo.
-          VITE_BASE: /${{ github.event.repository.name }}/
         run: npm run build
 
       - name: Verify the build is deployable

@@ -1,5 +1,626 @@
 [
   {
+    "assetId": "crypto:aave",
+    "price": 126.87,
+    "changeAbs": 2.93,
+    "changePct24h": 2.16937,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:aster-2",
+    "price": 0.689904,
+    "changeAbs": -0.01041111714530607,
+    "changePct24h": -1.43497,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:avalanche-2",
+    "price": 7.19,
+    "changeAbs": -0.03919733818414706,
+    "changePct24h": -0.46975,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:binancecoin",
+    "price": 680.73,
+    "changeAbs": -10.11987800222073,
+    "changePct24h": -1.45092,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:bitcoin",
+    "price": 77284,
+    "changeAbs": -1251.167660690291,
+    "changePct24h": -1.6785,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:bitcoin-cash",
+    "price": 244.87,
+    "changeAbs": -1.966329297966979,
+    "changePct24h": -0.78889,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:bittensor",
+    "price": 220.11,
+    "changeAbs": -10.11295832625757,
+    "changePct24h": -4.30092,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "price": 1,
+    "changeAbs": 0,
+    "changePct24h": 0,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:canton-network",
+    "price": 0.113743,
+    "changeAbs": -0.00704512111096682,
+    "changePct24h": -6.71094,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:cardano",
+    "price": 0.195534,
+    "changeAbs": -0.002085540996876023,
+    "changePct24h": -1.61983,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:chainlink",
+    "price": 11.19,
+    "changeAbs": -0.12950314323007106,
+    "changePct24h": -1.29424,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:crypto-com-chain",
+    "price": 0.054733,
+    "changeAbs": -0.001972877903722747,
+    "changePct24h": -3.75114,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:dai",
+    "price": 0.999857,
+    "changeAbs": 0.00001981,
+    "changePct24h": -0.01217,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:dogecoin",
+    "price": 0.08154,
+    "changeAbs": -0.001259051977087172,
+    "changePct24h": -1.78151,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:ethena-usde",
+    "price": 0.999441,
+    "changeAbs": -0.000234331833926182,
+    "changePct24h": -0.02539,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:ethereum",
+    "price": 2413.37,
+    "changeAbs": -52.715208006552075,
+    "changePct24h": -2.27491,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:figure-heloc",
+    "price": 1.013,
+    "changeAbs": 0.01017143,
+    "changePct24h": -2.66974,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:global-dollar",
+    "price": 0.999898,
+    "changeAbs": -0.000144599134152434,
+    "changePct24h": -0.03396,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:hashnote-usyc",
+    "price": 1.14,
+    "changeAbs": 0.00010291,
+    "changePct24h": 0.00906,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:hedera-hashgraph",
+    "price": 0.073941,
+    "changeAbs": 0.00036448,
+    "changePct24h": 0.45625,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:hyperliquid",
+    "price": 82.46,
+    "changeAbs": -1.5793276561837217,
+    "changePct24h": -2.41468,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:leo-token",
+    "price": 9.37,
+    "changeAbs": -0.19220887793639108,
+    "changePct24h": -2.2022,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:litecoin",
+    "price": 49.58,
+    "changeAbs": 1.07,
+    "changePct24h": 2.06241,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:mantle",
+    "price": 0.534139,
+    "changeAbs": -0.01210945852509382,
+    "changePct24h": -3.60292,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:memecore",
+    "price": 1.059,
+    "changeAbs": -0.03588584006900941,
+    "changePct24h": -3.20936,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:monero",
+    "price": 496.03,
+    "changeAbs": -21.217888133262306,
+    "changePct24h": -5.08488,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:morpho",
+    "price": 2.59,
+    "changeAbs": 0.064699,
+    "changePct24h": 2.65571,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:near",
+    "price": 1.89,
+    "changeAbs": -0.02265169351839469,
+    "changePct24h": -0.68847,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:okb",
+    "price": 110.26,
+    "changeAbs": -1.8335124390697501,
+    "changePct24h": -1.91663,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:ondo-us-dollar-yield",
+    "price": 1.14,
+    "changeAbs": -0.00274120135907463,
+    "changePct24h": -0.19117,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:pax-gold",
+    "price": 4339.49,
+    "changeAbs": -108.45658156176432,
+    "changePct24h": -2.35377,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:paypal-usd",
+    "price": 0.999506,
+    "changeAbs": -0.000401655101176734,
+    "changePct24h": -0.04547,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:rain",
+    "price": 0.01668452,
+    "changeAbs": -0.000016706159283862,
+    "changePct24h": -0.28767,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:ripple",
+    "price": 1.35,
+    "changeAbs": -0.03256826725065931,
+    "changePct24h": -2.50499,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:ripple-usd",
+    "price": 0.999955,
+    "changeAbs": -0.000144683009806079,
+    "changePct24h": -0.01877,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:shiba-inu",
+    "price": 0.00000513,
+    "changeAbs": 6.6911e-8,
+    "changePct24h": 1.1329,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:solana",
+    "price": 99.69,
+    "changeAbs": -3.2873874210996803,
+    "changePct24h": -3.42276,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:stellar",
+    "price": 0.175148,
+    "changeAbs": -0.002046980853599445,
+    "changePct24h": -1.24823,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:sui",
+    "price": 0.719326,
+    "changeAbs": -0.006629685144240449,
+    "changePct24h": -0.95417,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:tether",
+    "price": 0.999609,
+    "changeAbs": -0.000158523088237716,
+    "changePct24h": -0.02023,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:tether-gold",
+    "price": 4332.19,
+    "changeAbs": -108.26152219814867,
+    "changePct24h": -2.3746,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:the-open-network",
+    "price": 1.32,
+    "changeAbs": -0.07416316755449515,
+    "changePct24h": -6.37171,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:tron",
+    "price": 0.322607,
+    "changeAbs": -0.009958389060734263,
+    "changePct24h": -3.01312,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:uniswap",
+    "price": 5.83,
+    "changeAbs": 0.609892,
+    "changePct24h": 11.51666,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:usd-coin",
+    "price": 0.999764,
+    "changeAbs": -0.000113588321857039,
+    "changePct24h": -0.01357,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:usd1-wlfi",
+    "price": 0.999327,
+    "changeAbs": -0.000171718514687003,
+    "changePct24h": -0.02235,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:usds",
+    "price": 0.99981,
+    "changeAbs": -0.000019568362489952,
+    "changePct24h": -0.01176,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:whitebit",
+    "price": 71.08,
+    "changeAbs": -1.3049532119083693,
+    "changePct24h": -1.91593,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:world-liberty-financial",
+    "price": 0.056927,
+    "changeAbs": -0.000442149147786196,
+    "changePct24h": -1.23721,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "crypto:zcash",
+    "price": 827.48,
+    "changeAbs": -20.522118809247104,
+    "changePct24h": -2.51416,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:53:20.000Z",
+    "source": "coingecko"
+  },
+  {
+    "assetId": "equity:aapl",
+    "price": 324.94,
+    "changeAbs": -0.19,
+    "changePct24h": -0.06,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:amzn",
+    "price": 255.1,
+    "changeAbs": 0.18,
+    "changePct24h": 0.07,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:brk-b",
+    "price": 502.45,
+    "changeAbs": -0.07,
+    "changePct24h": -0.01,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:dia",
+    "price": 527.7913,
+    "changeAbs": 0.0513,
+    "changePct24h": 0.01,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:eem",
+    "price": 66.82,
+    "changeAbs": 0.03,
+    "changePct24h": 0.04,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:efa",
+    "price": 106.52,
+    "changeAbs": 0.03,
+    "changePct24h": 0.03,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:gld",
+    "price": 397.0946,
+    "changeAbs": 0.2546,
+    "changePct24h": 0.06,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:googl",
+    "price": 337.262,
+    "changeAbs": 2.242,
+    "changePct24h": 0.67,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:hyg",
+    "price": 79.1,
+    "changeAbs": 0.01,
+    "changePct24h": 0.01,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:iwm",
+    "price": 290.52,
+    "changeAbs": -0.11,
+    "changePct24h": -0.04,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:55:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:meta",
+    "price": 577.7,
+    "changeAbs": -0.84,
+    "changePct24h": -0.15,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:msft",
+    "price": 501.15,
+    "changeAbs": 0.13,
+    "changePct24h": 0.03,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:nvda",
+    "price": 217.45,
+    "changeAbs": 0.01,
+    "changePct24h": 0,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:qqq",
+    "price": 707.89,
+    "changeAbs": 0.25,
+    "changePct24h": 0.04,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:55:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:spy",
+    "price": 761.8898,
+    "changeAbs": 0.1698,
+    "changePct24h": 0.02,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:tlt",
+    "price": 81.84,
+    "changeAbs": -0.03,
+    "changePct24h": -0.04,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:tsla",
+    "price": 355.2708,
+    "changeAbs": -0.8192,
+    "changePct24h": -0.23,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:57:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:uso",
+    "price": 141.1,
+    "changeAbs": 0.18,
+    "changePct24h": 0.13,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
+    "assetId": "equity:vt",
+    "price": 160.28,
+    "changeAbs": 0.945,
+    "changePct24h": 0.59,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:00.000Z",
+    "source": "nasdaq"
+  },
+  {
     "assetId": "fx:aud",
     "price": 0.7141326858530315,
     "changeAbs": -0.0020457858221099023,
@@ -106,5 +727,41 @@
     "currency": "USD",
     "asOf": "2026-09-01T14:00:00.000Z",
     "source": "frankfurter"
+  },
+  {
+    "assetId": "metal:xag",
+    "price": 64.220001,
+    "changeAbs": null,
+    "changePct24h": null,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:20.000Z",
+    "source": "gold-api"
+  },
+  {
+    "assetId": "metal:xau",
+    "price": 4330.399902,
+    "changeAbs": null,
+    "changePct24h": null,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:20.000Z",
+    "source": "gold-api"
+  },
+  {
+    "assetId": "metal:xpd",
+    "price": 1326,
+    "changeAbs": null,
+    "changePct24h": null,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:21.000Z",
+    "source": "gold-api"
+  },
+  {
+    "assetId": "metal:xpt",
+    "price": 1747,
+    "changeAbs": null,
+    "changePct24h": null,
+    "currency": "USD",
+    "asOf": "2026-09-01T22:56:23.000Z",
+    "source": "gold-api"
   }
 ]
