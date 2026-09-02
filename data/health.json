@@ -1,52 +1,52 @@
 {
   "frankfurter": {
     "provider": "frankfurter",
-    "lastAttemptAt": "2026-09-01T22:47:59.559Z",
-    "lastSuccessAt": "2026-09-01T22:47:59.559Z",
+    "lastAttemptAt": "2026-09-02T11:28:35.904Z",
+    "lastSuccessAt": "2026-09-02T11:28:35.904Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
-    "windowDate": "2026-09-01",
+    "windowDate": "2026-09-02",
     "requestsInWindow": 2
   },
   "gold-api": {
     "provider": "gold-api",
-    "lastAttemptAt": "2026-09-02T11:16:25.498Z",
-    "lastSuccessAt": "2026-09-02T11:16:25.498Z",
+    "lastAttemptAt": "2026-09-02T11:28:36.514Z",
+    "lastSuccessAt": "2026-09-02T11:28:36.514Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-02",
-    "requestsInWindow": 12
+    "requestsInWindow": 16
   },
   "coingecko": {
     "provider": "coingecko",
-    "lastAttemptAt": "2026-09-02T11:16:25.603Z",
-    "lastSuccessAt": "2026-09-02T11:16:25.603Z",
+    "lastAttemptAt": "2026-09-02T11:28:36.689Z",
+    "lastSuccessAt": "2026-09-02T11:28:36.689Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-02",
-    "requestsInWindow": 3
+    "requestsInWindow": 4
   },
   "fred": {
     "provider": "fred",
-    "lastAttemptAt": "2026-09-01T22:54:39.521Z",
-    "lastSuccessAt": "2026-09-01T22:54:39.521Z",
-    "lastErrorAt": null,
-    "lastError": null,
-    "consecutiveFailures": 0,
-    "windowDate": "2026-09-01",
-    "requestsInWindow": 18
-  },
-  "nasdaq": {
-    "provider": "nasdaq",
-    "lastAttemptAt": "2026-09-02T11:17:08.918Z",
-    "lastSuccessAt": "2026-09-02T11:17:08.918Z",
+    "lastAttemptAt": "2026-09-02T11:28:42.812Z",
+    "lastSuccessAt": "2026-09-02T11:28:42.812Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-02",
-    "requestsInWindow": 57
+    "requestsInWindow": 6
+  },
+  "nasdaq": {
+    "provider": "nasdaq",
+    "lastAttemptAt": "2026-09-02T11:29:26.153Z",
+    "lastSuccessAt": "2026-09-02T11:29:26.153Z",
+    "lastErrorAt": null,
+    "lastError": null,
+    "consecutiveFailures": 0,
+    "windowDate": "2026-09-02",
+    "requestsInWindow": 76
   }
 }
