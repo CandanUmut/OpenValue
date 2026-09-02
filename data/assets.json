@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 26,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:litecoin",
     "symbol": "LTC",
     "name": "Litecoin",
@@ -320,6 +308,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
+    "sortOrder": 26,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 27,
     "retiredAt": null
   },
@@ -336,18 +336,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hedera-hashgraph",
-    "symbol": "HBAR",
-    "name": "Hedera",
-    "category": "crypto",
-    "unit": "1 HBAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 29,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -356,6 +344,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hedera-hashgraph",
+    "symbol": "HBAR",
+    "name": "Hedera",
+    "category": "crypto",
+    "unit": "1 HBAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hedera-hashgraph",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -432,18 +432,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
+    "category": "crypto",
+    "unit": "1 CRO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -564,6 +564,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "category": "crypto",
+    "unit": "1 MNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "mantle",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:world-liberty-financial",
     "symbol": "WLFI",
     "name": "World Liberty Financial",
@@ -572,7 +584,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "world-liberty-financial",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "retiredAt": null
   },
   {
@@ -584,18 +596,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "morpho",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
-    "category": "crypto",
-    "unit": "1 MNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "mantle",
     "sortOrder": 50,
     "retiredAt": null
   },
