@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:the-open-network",
-    "symbol": "GRAM",
-    "name": "Gram (prev. Toncoin)",
-    "category": "crypto",
-    "unit": "1 GRAM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "the-open-network",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:the-open-network",
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
+    "category": "crypto",
+    "unit": "1 GRAM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "the-open-network",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ripple-usd",
     "symbol": "RLUSD",
     "name": "Ripple USD",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
-    "category": "crypto",
-    "unit": "1 PAXG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pax-gold",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aster-2",
     "symbol": "ASTER",
     "name": "Aster",
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aster-2",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "category": "crypto",
+    "unit": "1 PAXG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 47,
     "retiredAt": null
   },
