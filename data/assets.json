@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:sui",
     "symbol": "SUI",
     "name": "Sui",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 31,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 32,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
-    "category": "crypto",
-    "unit": "1 USYC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "category": "crypto",
+    "unit": "1 USYC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hashnote-usyc",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -528,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aster-2",
-    "symbol": "ASTER",
-    "name": "Aster",
-    "category": "crypto",
-    "unit": "1 ASTER",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aster-2",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -548,6 +536,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 45,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aster-2",
+    "symbol": "ASTER",
+    "name": "Aster",
+    "category": "crypto",
+    "unit": "1 ASTER",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aster-2",
     "sortOrder": 46,
     "retiredAt": null
   },
