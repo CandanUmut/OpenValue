@@ -408,18 +408,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
     "symbol": "BUIDL",
     "name": "BlackRock USD Institutional Digital Liquidity Fund",
@@ -428,6 +416,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
+    "category": "crypto",
+    "unit": "1 CRO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 39,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -552,18 +552,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
-    "category": "crypto",
-    "unit": "1 PAXG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pax-gold",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:mantle",
     "symbol": "MNT",
     "name": "Mantle",
@@ -572,6 +560,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "category": "crypto",
+    "unit": "1 PAXG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 47,
     "retiredAt": null
   },
