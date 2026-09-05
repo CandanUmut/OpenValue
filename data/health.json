@@ -11,23 +11,23 @@
   },
   "gold-api": {
     "provider": "gold-api",
-    "lastAttemptAt": "2026-09-05T16:03:41.026Z",
-    "lastSuccessAt": "2026-09-05T16:03:41.026Z",
+    "lastAttemptAt": "2026-09-05T18:16:59.499Z",
+    "lastSuccessAt": "2026-09-05T18:16:59.499Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-05",
-    "requestsInWindow": 24
+    "requestsInWindow": 28
   },
   "coingecko": {
     "provider": "coingecko",
-    "lastAttemptAt": "2026-09-05T16:03:41.229Z",
-    "lastSuccessAt": "2026-09-05T16:03:41.229Z",
+    "lastAttemptAt": "2026-09-05T18:16:59.723Z",
+    "lastSuccessAt": "2026-09-05T18:16:59.723Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-05",
-    "requestsInWindow": 6
+    "requestsInWindow": 7
   },
   "fred": {
     "provider": "fred",
@@ -41,12 +41,12 @@
   },
   "nasdaq": {
     "provider": "nasdaq",
-    "lastAttemptAt": "2026-09-05T16:04:24.602Z",
-    "lastSuccessAt": "2026-09-05T16:04:24.602Z",
+    "lastAttemptAt": "2026-09-05T18:17:43.112Z",
+    "lastSuccessAt": "2026-09-05T18:17:43.112Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-05",
-    "requestsInWindow": 114
+    "requestsInWindow": 133
   }
 }
