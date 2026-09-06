@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
-    "category": "crypto",
-    "unit": "1 LTC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "litecoin",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -320,6 +308,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "category": "crypto",
+    "unit": "1 LTC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "litecoin",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -480,18 +480,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -500,6 +488,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 41,
     "retiredAt": null
   },
