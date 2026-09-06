@@ -108,18 +108,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:zcash",
-    "symbol": "ZEC",
-    "name": "Zcash",
-    "category": "crypto",
-    "unit": "1 ZEC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "zcash",
-    "sortOrder": 9,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hyperliquid",
     "symbol": "HYPE",
     "name": "Hyperliquid",
@@ -128,6 +116,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hyperliquid",
+    "sortOrder": 9,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:zcash",
+    "symbol": "ZEC",
+    "name": "Zcash",
+    "category": "crypto",
+    "unit": "1 ZEC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "zcash",
     "sortOrder": 10,
     "retiredAt": null
   },
@@ -264,6 +264,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ethena-usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
+    "category": "crypto",
+    "unit": "1 USDE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena-usde",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -272,7 +284,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
-    "sortOrder": 22,
+    "sortOrder": 23,
     "retiredAt": null
   },
   {
@@ -284,18 +296,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 23,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ethena-usde",
-    "symbol": "USDE",
-    "name": "Ethena USDe",
-    "category": "crypto",
-    "unit": "1 USDE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena-usde",
     "sortOrder": 24,
     "retiredAt": null
   },
@@ -384,18 +384,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 32,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -404,6 +392,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 32,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 33,
     "retiredAt": null
   },
