@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T19:17:48.694Z",
+  "generatedAt": "2026-09-06T21:20:31.038Z",
   "schemaVersion": 1,
   "assets": [
     {
@@ -10,11 +10,11 @@
       "unit": "1 BTC",
       "source": "coingecko",
       "retired": false,
-      "price": 79858,
-      "changeAbs": -99.28656740009319,
-      "changePct24h": -0.11963,
+      "price": 80009,
+      "changeAbs": 221.86,
+      "changePct24h": 0.27806,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         77284,
@@ -22,7 +22,7 @@
         81780,
         79801,
         79781,
-        79858
+        80009
       ]
     },
     {
@@ -33,11 +33,11 @@
       "unit": "1 ETH",
       "source": "coingecko",
       "retired": false,
-      "price": 2491.44,
-      "changeAbs": 12.57,
-      "changePct24h": 0.51954,
+      "price": 2511.89,
+      "changeAbs": 34.28,
+      "changePct24h": 1.38354,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         2413.37,
@@ -45,7 +45,7 @@
         2515.05,
         2454.38,
         2480,
-        2491.44
+        2511.89
       ]
     },
     {
@@ -56,11 +56,11 @@
       "unit": "1 USDT",
       "source": "coingecko",
       "retired": false,
-      "price": 0.999925,
-      "changeAbs": -0.000109939051787578,
-      "changePct24h": -0.01105,
+      "price": 0.999994,
+      "changeAbs": -0.000047925413881322,
+      "changePct24h": -0.00479,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.999609,
@@ -68,7 +68,7 @@
         1,
         1,
         1,
-        0.999925
+        0.999994
       ]
     },
     {
@@ -79,11 +79,11 @@
       "unit": "1 BNB",
       "source": "coingecko",
       "retired": false,
-      "price": 750.16,
-      "changeAbs": -26.821914489935466,
-      "changePct24h": -3.44927,
+      "price": 752.64,
+      "changeAbs": -17.82031013488347,
+      "changePct24h": -2.31295,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         680.73,
@@ -91,7 +91,7 @@
         725.36,
         719.05,
         769.68,
-        750.16
+        752.64
       ]
     },
     {
@@ -102,11 +102,11 @@
       "unit": "1 XRP",
       "source": "coingecko",
       "retired": false,
-      "price": 1.41,
-      "changeAbs": -0.008117192940059859,
-      "changePct24h": -0.54983,
+      "price": 1.42,
+      "changeAbs": 0.00735098,
+      "changePct24h": 0.51883,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         1.35,
@@ -114,7 +114,7 @@
         1.47,
         1.4,
         1.42,
-        1.41
+        1.42
       ]
     },
     {
@@ -125,11 +125,11 @@
       "unit": "1 USDC",
       "source": "coingecko",
       "retired": false,
-      "price": 0.99993,
-      "changeAbs": -0.000061213176709707,
-      "changePct24h": -0.0064,
+      "price": 0.999986,
+      "changeAbs": -0.000015251617759726,
+      "changePct24h": -0.00153,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.999764,
@@ -137,7 +137,7 @@
         0.999929,
         1,
         0.999998,
-        0.99993
+        0.999986
       ]
     },
     {
@@ -148,11 +148,11 @@
       "unit": "1 SOL",
       "source": "coingecko",
       "retired": false,
-      "price": 105.79,
-      "changeAbs": 1.94,
-      "changePct24h": 1.90498,
+      "price": 106.15,
+      "changeAbs": 2.67,
+      "changePct24h": 2.5823,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         99.69,
@@ -160,7 +160,7 @@
         105.21,
         101.82,
         103.31,
-        105.79
+        106.15
       ]
     },
     {
@@ -171,11 +171,11 @@
       "unit": "1 TRX",
       "source": "coingecko",
       "retired": false,
-      "price": 0.335344,
-      "changeAbs": 0.00105456,
-      "changePct24h": 0.31039,
+      "price": 0.336124,
+      "changeAbs": 0.00145878,
+      "changePct24h": 0.43589,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.322607,
@@ -183,7 +183,7 @@
         0.33156,
         0.331459,
         0.333882,
-        0.335344
+        0.336124
       ]
     },
     {
@@ -195,8 +195,8 @@
       "source": "coingecko",
       "retired": false,
       "price": 1.055,
-      "changeAbs": 0.050254,
-      "changePct24h": 5.00174,
+      "changeAbs": 0.050791,
+      "changePct24h": 5.05795,
       "currency": "USD",
       "asOf": "2026-09-05T22:40:20.000Z",
       "stale": true,
@@ -217,11 +217,11 @@
       "unit": "1 ZEC",
       "source": "coingecko",
       "retired": false,
-      "price": 1218.92,
-      "changeAbs": 196.1,
-      "changePct24h": 19.00138,
+      "price": 1230.38,
+      "changeAbs": 217.08,
+      "changePct24h": 21.42267,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         827.48,
@@ -229,7 +229,7 @@
         959.83,
         1023.13,
         1019.53,
-        1218.92
+        1230.38
       ]
     },
     {
@@ -240,11 +240,11 @@
       "unit": "1 HYPE",
       "source": "coingecko",
       "retired": false,
-      "price": 87.46,
-      "changeAbs": 1.41,
-      "changePct24h": 1.67352,
+      "price": 88.18,
+      "changeAbs": 2.79,
+      "changePct24h": 3.27176,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         82.46,
@@ -252,7 +252,7 @@
         85.45,
         84.2,
         85.33,
-        87.46
+        88.18
       ]
     },
     {
@@ -263,11 +263,11 @@
       "unit": "1 DOGE",
       "source": "coingecko",
       "retired": false,
-      "price": 0.089416,
-      "changeAbs": -0.002031871740598282,
-      "changePct24h": -2.17164,
+      "price": 0.090407,
+      "changeAbs": -0.000549460673388263,
+      "changePct24h": -0.60409,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.08154,
@@ -275,7 +275,7 @@
         0.088911,
         0.084905,
         0.090016,
-        0.089416
+        0.090407
       ]
     },
     {
@@ -286,11 +286,11 @@
       "unit": "1 RAIN",
       "source": "coingecko",
       "retired": false,
-      "price": 0.01679246,
-      "changeAbs": -0.000267916304484021,
-      "changePct24h": -1.57879,
+      "price": 0.016793,
+      "changeAbs": -0.000225598208568788,
+      "changePct24h": -1.3256,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.01668452,
@@ -298,7 +298,7 @@
         0.0171432,
         0.0165794,
         0.01700031,
-        0.01679246
+        0.016793
       ]
     },
     {
@@ -309,11 +309,11 @@
       "unit": "1 XMR",
       "source": "coingecko",
       "retired": false,
-      "price": 530.3,
-      "changeAbs": -9.830773875422324,
-      "changePct24h": -1.80912,
+      "price": 532.06,
+      "changeAbs": -14.418870385296486,
+      "changePct24h": -2.63853,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         496.03,
@@ -321,30 +321,7 @@
         527.78,
         527.55,
         546.25,
-        530.3
-      ]
-    },
-    {
-      "id": "crypto:usds",
-      "symbol": "USDS",
-      "name": "USDS",
-      "category": "crypto",
-      "unit": "1 USDS",
-      "source": "coingecko",
-      "retired": false,
-      "price": 0.999989,
-      "changeAbs": 0.00027923,
-      "changePct24h": 0.02835,
-      "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
-      "stale": false,
-      "spark": [
-        0.99981,
-        0.999997,
-        1,
-        0.999845,
-        0.999719,
-        0.999989
+        532.06
       ]
     },
     {
@@ -355,11 +332,11 @@
       "unit": "1 LINK",
       "source": "coingecko",
       "retired": false,
-      "price": 12.36,
-      "changeAbs": 0.334767,
-      "changePct24h": 2.86275,
+      "price": 13.18,
+      "changeAbs": 1.14,
+      "changePct24h": 9.49919,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         11.19,
@@ -367,7 +344,30 @@
         11.92,
         11.68,
         12,
-        12.36
+        13.18
+      ]
+    },
+    {
+      "id": "crypto:usds",
+      "symbol": "USDS",
+      "name": "USDS",
+      "category": "crypto",
+      "unit": "1 USDS",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999958,
+      "changeAbs": 0.00034786,
+      "changePct24h": 0.0348,
+      "currency": "USD",
+      "asOf": "2026-09-06T21:16:30.000Z",
+      "stale": false,
+      "spark": [
+        0.99981,
+        0.999997,
+        1,
+        0.999845,
+        0.999719,
+        0.999958
       ]
     },
     {
@@ -378,11 +378,11 @@
       "unit": "1 WBT",
       "source": "coingecko",
       "retired": false,
-      "price": 73.56,
-      "changeAbs": 0.02872833,
-      "changePct24h": 0.04264,
+      "price": 73.8,
+      "changeAbs": 0.378929,
+      "changePct24h": 0.51609,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         71.08,
@@ -390,7 +390,7 @@
         74.52,
         73.25,
         73.44,
-        73.56
+        73.8
       ]
     },
     {
@@ -402,10 +402,10 @@
       "source": "coingecko",
       "retired": false,
       "price": 9.33,
-      "changeAbs": 0.082674,
-      "changePct24h": 0.894,
+      "changeAbs": 0.110395,
+      "changePct24h": 1.19722,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         9.37,
@@ -424,11 +424,11 @@
       "unit": "1 ADA",
       "source": "coingecko",
       "retired": false,
-      "price": 0.219281,
-      "changeAbs": -0.001910977997492874,
-      "changePct24h": -0.84242,
+      "price": 0.222181,
+      "changeAbs": 0.0030493,
+      "changePct24h": 1.39154,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.195534,
@@ -436,7 +436,7 @@
         0.224086,
         0.212968,
         0.219432,
-        0.219281
+        0.222181
       ]
     },
     {
@@ -447,11 +447,11 @@
       "unit": "1 XLM",
       "source": "coingecko",
       "retired": false,
-      "price": 0.18363,
-      "changeAbs": -0.001396824945809699,
-      "changePct24h": -0.74343,
+      "price": 0.186102,
+      "changeAbs": 0.00158871,
+      "changePct24h": 0.86103,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.175148,
@@ -459,7 +459,7 @@
         0.18726,
         0.179541,
         0.184636,
-        0.18363
+        0.186102
       ]
     },
     {
@@ -470,11 +470,11 @@
       "unit": "1 BCH",
       "source": "coingecko",
       "retired": false,
-      "price": 256.16,
-      "changeAbs": -0.8767779430233986,
-      "changePct24h": -0.31959,
+      "price": 259.2,
+      "changeAbs": 2.67,
+      "changePct24h": 1.04176,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         244.87,
@@ -482,7 +482,7 @@
         260.86,
         253.04,
         257.33,
-        256.16
+        259.2
       ]
     },
     {
@@ -493,11 +493,11 @@
       "unit": "1 DAI",
       "source": "coingecko",
       "retired": false,
-      "price": 0.999785,
-      "changeAbs": -0.000119073334718278,
-      "changePct24h": -0.01215,
+      "price": 0.999961,
+      "changeAbs": 0.00005261,
+      "changePct24h": 0.00526,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.999857,
@@ -505,7 +505,7 @@
         0.999721,
         0.999752,
         0.999917,
-        0.999785
+        0.999961
       ]
     },
     {
@@ -516,11 +516,11 @@
       "unit": "1 UNI",
       "source": "coingecko",
       "retired": false,
-      "price": 7.11,
-      "changeAbs": 0.072315,
-      "changePct24h": 1.18678,
+      "price": 7.15,
+      "changeAbs": 0.062997,
+      "changePct24h": 0.88951,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         5.83,
@@ -528,30 +528,7 @@
         6.38,
         6.18,
         7.09,
-        7.11
-      ]
-    },
-    {
-      "id": "crypto:ethena-usde",
-      "symbol": "USDE",
-      "name": "Ethena USDe",
-      "category": "crypto",
-      "unit": "1 USDE",
-      "source": "coingecko",
-      "retired": false,
-      "price": 0.999801,
-      "changeAbs": -0.000135618167834917,
-      "changePct24h": -0.01082,
-      "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
-      "stale": false,
-      "spark": [
-        0.999441,
-        0.999554,
-        1,
-        0.999968,
-        0.999983,
-        0.999801
+        7.15
       ]
     },
     {
@@ -562,11 +539,11 @@
       "unit": "1 CC",
       "source": "coingecko",
       "retired": false,
-      "price": 0.109636,
-      "changeAbs": -0.000307795040476275,
-      "changePct24h": -0.26405,
+      "price": 0.110925,
+      "changeAbs": 0.00199269,
+      "changePct24h": 1.82929,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.113743,
@@ -574,7 +551,30 @@
         0.112694,
         0.106181,
         0.108804,
-        0.109636
+        0.110925
+      ]
+    },
+    {
+      "id": "crypto:ethena-usde",
+      "symbol": "USDE",
+      "name": "Ethena USDe",
+      "category": "crypto",
+      "unit": "1 USDE",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.999895,
+      "changeAbs": -0.000183354975404559,
+      "changePct24h": -0.01833,
+      "currency": "USD",
+      "asOf": "2026-09-06T21:16:30.000Z",
+      "stale": false,
+      "spark": [
+        0.999441,
+        0.999554,
+        1,
+        0.999968,
+        0.999983,
+        0.999895
       ]
     },
     {
@@ -585,11 +585,11 @@
       "unit": "1 USD1",
       "source": "coingecko",
       "retired": false,
-      "price": 0.999688,
-      "changeAbs": 0.00005031,
-      "changePct24h": 0.00395,
+      "price": 0.999725,
+      "changeAbs": 0.00010154,
+      "changePct24h": 0.01016,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.999327,
@@ -597,7 +597,7 @@
         0.999639,
         0.999719,
         0.999564,
-        0.999688
+        0.999725
       ]
     },
     {
@@ -608,11 +608,11 @@
       "unit": "1 LTC",
       "source": "coingecko",
       "retired": false,
-      "price": 54.2,
-      "changeAbs": -0.44592182606137953,
-      "changePct24h": -0.79762,
+      "price": 54.64,
+      "changeAbs": 0.597303,
+      "changePct24h": 1.10534,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         49.58,
@@ -620,7 +620,7 @@
         51.74,
         50.85,
         54.98,
-        54.2
+        54.64
       ]
     },
     {
@@ -631,11 +631,11 @@
       "unit": "1 GRAM",
       "source": "coingecko",
       "retired": false,
-      "price": 1.42,
-      "changeAbs": -0.009796018658008387,
-      "changePct24h": -0.72556,
+      "price": 1.43,
+      "changeAbs": 0.00014461,
+      "changePct24h": 0.01011,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         1.32,
@@ -643,7 +643,7 @@
         1.38,
         1.39,
         1.43,
-        1.42
+        1.43
       ]
     },
     {
@@ -654,11 +654,11 @@
       "unit": "1 HBAR",
       "source": "coingecko",
       "retired": false,
-      "price": 0.080406,
-      "changeAbs": -0.000447996332774203,
-      "changePct24h": -0.54696,
+      "price": 0.081487,
+      "changeAbs": 0.00069989,
+      "changePct24h": 0.86634,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.073941,
@@ -666,7 +666,7 @@
         0.079551,
         0.078225,
         0.080248,
-        0.080406
+        0.081487
       ]
     },
     {
@@ -677,11 +677,11 @@
       "unit": "1 AVAX",
       "source": "coingecko",
       "retired": false,
-      "price": 7.64,
-      "changeAbs": 0.0345215,
-      "changePct24h": 0.48406,
+      "price": 7.8,
+      "changeAbs": 0.213221,
+      "changePct24h": 2.80928,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         7.19,
@@ -689,7 +689,30 @@
         7.55,
         7.38,
         7.59,
-        7.64
+        7.8
+      ]
+    },
+    {
+      "id": "crypto:sui",
+      "symbol": "SUI",
+      "name": "Sui",
+      "category": "crypto",
+      "unit": "1 SUI",
+      "source": "coingecko",
+      "retired": false,
+      "price": 0.813359,
+      "changeAbs": 0.01129614,
+      "changePct24h": 1.40839,
+      "currency": "USD",
+      "asOf": "2026-09-06T21:16:30.000Z",
+      "stale": false,
+      "spark": [
+        0.719326,
+        0.740794,
+        0.790375,
+        0.758286,
+        0.797873,
+        0.813359
       ]
     },
     {
@@ -701,10 +724,10 @@
       "source": "coingecko",
       "retired": false,
       "price": 1,
-      "changeAbs": -0.000041304984622181,
-      "changePct24h": -0.00554,
+      "changeAbs": -0.00006282839958982,
+      "changePct24h": -0.00628,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.999898,
@@ -716,29 +739,6 @@
       ]
     },
     {
-      "id": "crypto:sui",
-      "symbol": "SUI",
-      "name": "Sui",
-      "category": "crypto",
-      "unit": "1 SUI",
-      "source": "coingecko",
-      "retired": false,
-      "price": 0.794884,
-      "changeAbs": -0.010532739662372892,
-      "changePct24h": -1.28244,
-      "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
-      "stale": false,
-      "spark": [
-        0.719326,
-        0.740794,
-        0.790375,
-        0.758286,
-        0.797873,
-        0.794884
-      ]
-    },
-    {
       "id": "crypto:shiba-inu",
       "symbol": "SHIB",
       "name": "Shiba Inu",
@@ -746,11 +746,11 @@
       "unit": "1 SHIB",
       "source": "coingecko",
       "retired": false,
-      "price": 0.00000542,
-      "changeAbs": -7.9962029246e-8,
-      "changePct24h": -1.45443,
+      "price": 0.00000547,
+      "changeAbs": -1.1237437926e-8,
+      "changePct24h": -0.20498,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.00000513,
@@ -758,7 +758,7 @@
         0.00000545,
         0.00000524,
         0.00000548,
-        0.00000542
+        0.00000547
       ]
     },
     {
@@ -769,11 +769,11 @@
       "unit": "1 NEAR",
       "source": "coingecko",
       "retired": false,
-      "price": 2.41,
-      "changeAbs": 0.176646,
-      "changePct24h": 8.00573,
+      "price": 2.43,
+      "changeAbs": 0.267618,
+      "changePct24h": 12.35773,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         1.89,
@@ -781,7 +781,7 @@
         1.98,
         2.12,
         2.19,
-        2.41
+        2.43
       ]
     },
     {
@@ -792,11 +792,11 @@
       "unit": "1 PYUSD",
       "source": "coingecko",
       "retired": false,
-      "price": 0.999956,
-      "changeAbs": 0.00001532,
-      "changePct24h": 0.00178,
+      "price": 0.999999,
+      "changeAbs": 0.00009313,
+      "changePct24h": 0.00931,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.999506,
@@ -804,7 +804,7 @@
         1,
         1,
         0.999961,
-        0.999956
+        0.999999
       ]
     },
     {
@@ -819,7 +819,7 @@
       "changeAbs": 0,
       "changePct24h": 0,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         1,
@@ -838,11 +838,11 @@
       "unit": "1 CRO",
       "source": "coingecko",
       "retired": false,
-      "price": 0.057446,
-      "changeAbs": 0.00079336,
-      "changePct24h": 1.40451,
+      "price": 0.057723,
+      "changeAbs": 0.00140128,
+      "changePct24h": 2.48801,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.054733,
@@ -850,7 +850,7 @@
         0.058281,
         0.056125,
         0.056697,
-        0.057446
+        0.057723
       ]
     },
     {
@@ -861,11 +861,11 @@
       "unit": "1 XAUT",
       "source": "coingecko",
       "retired": false,
-      "price": 4417.21,
-      "changeAbs": -9.881596324848033,
-      "changePct24h": -0.22103,
+      "price": 4414.9,
+      "changeAbs": -11.663266017969363,
+      "changePct24h": -0.26348,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         4332.19,
@@ -873,7 +873,7 @@
         4468.28,
         4426.96,
         4426.6,
-        4417.21
+        4414.9
       ]
     },
     {
@@ -888,7 +888,7 @@
       "changeAbs": 0,
       "changePct24h": 0,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         1.14,
@@ -900,6 +900,29 @@
       ]
     },
     {
+      "id": "crypto:bittensor",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "category": "crypto",
+      "unit": "1 TAO",
+      "source": "coingecko",
+      "retired": false,
+      "price": 271.72,
+      "changeAbs": 37.52,
+      "changePct24h": 16.02272,
+      "currency": "USD",
+      "asOf": "2026-09-06T21:16:30.000Z",
+      "stale": false,
+      "spark": [
+        220.11,
+        217.16,
+        230.63,
+        224.94,
+        235.41,
+        271.72
+      ]
+    },
+    {
       "id": "crypto:memecore",
       "symbol": "M",
       "name": "MemeCore",
@@ -908,10 +931,10 @@
       "source": "coingecko",
       "retired": false,
       "price": 1.12,
-      "changeAbs": -0.00044706596092392,
-      "changePct24h": -0.00916,
+      "changeAbs": 0.00077002,
+      "changePct24h": 0.0686,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         1.059,
@@ -923,29 +946,6 @@
       ]
     },
     {
-      "id": "crypto:bittensor",
-      "symbol": "TAO",
-      "name": "Bittensor",
-      "category": "crypto",
-      "unit": "1 TAO",
-      "source": "coingecko",
-      "retired": false,
-      "price": 265.14,
-      "changeAbs": 30.49,
-      "changePct24h": 12.85508,
-      "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
-      "stale": false,
-      "spark": [
-        220.11,
-        217.16,
-        230.63,
-        224.94,
-        235.41,
-        265.14
-      ]
-    },
-    {
       "id": "crypto:ripple-usd",
       "symbol": "RLUSD",
       "name": "Ripple USD",
@@ -953,11 +953,11 @@
       "unit": "1 RLUSD",
       "source": "coingecko",
       "retired": false,
-      "price": 0.999972,
-      "changeAbs": 0.00007513,
-      "changePct24h": 0.00817,
+      "price": 1,
+      "changeAbs": 0.00012277,
+      "changePct24h": 0.01228,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.999955,
@@ -965,7 +965,7 @@
         1,
         1,
         0.999905,
-        0.999972
+        1
       ]
     },
     {
@@ -976,11 +976,11 @@
       "unit": "1 OKB",
       "source": "coingecko",
       "retired": false,
-      "price": 113.36,
-      "changeAbs": -0.240732671285258,
-      "changePct24h": -0.19306,
+      "price": 113.47,
+      "changeAbs": 0.56618,
+      "changePct24h": 0.50147,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         110.26,
@@ -988,7 +988,7 @@
         110.33,
         108.07,
         113.19,
-        113.36
+        113.47
       ]
     },
     {
@@ -1000,10 +1000,10 @@
       "source": "coingecko",
       "retired": false,
       "price": 1.14,
-      "changeAbs": -0.000243201258568249,
-      "changePct24h": 0.33163,
+      "changeAbs": -0.00262235347242501,
+      "changePct24h": -0.22907,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         1.14,
@@ -1022,11 +1022,11 @@
       "unit": "1 ASTER",
       "source": "coingecko",
       "retired": false,
-      "price": 0.769075,
-      "changeAbs": -0.024214462474239085,
-      "changePct24h": -3.06685,
+      "price": 0.782302,
+      "changeAbs": -0.00121581663275494,
+      "changePct24h": -0.15517,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.689904,
@@ -1034,7 +1034,7 @@
         0.725412,
         0.737299,
         0.782112,
-        0.769075
+        0.782302
       ]
     },
     {
@@ -1045,11 +1045,11 @@
       "unit": "1 AAVE",
       "source": "coingecko",
       "retired": false,
-      "price": 132.95,
-      "changeAbs": -1.4920663274880042,
-      "changePct24h": -1.07887,
+      "price": 134.59,
+      "changeAbs": 0.745271,
+      "changePct24h": 0.55683,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         126.87,
@@ -1057,7 +1057,7 @@
         134.93,
         130.09,
         134.75,
-        132.95
+        134.59
       ]
     },
     {
@@ -1068,11 +1068,11 @@
       "unit": "1 MNT",
       "source": "coingecko",
       "retired": false,
-      "price": 0.598641,
-      "changeAbs": 0.01669301,
-      "changePct24h": 2.8725,
+      "price": 0.60114,
+      "changeAbs": 0.01723315,
+      "changePct24h": 2.95135,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.534139,
@@ -1080,7 +1080,7 @@
         0.576497,
         0.56966,
         0.586336,
-        0.598641
+        0.60114
       ]
     },
     {
@@ -1091,11 +1091,11 @@
       "unit": "1 PAXG",
       "source": "coingecko",
       "retired": false,
-      "price": 4421.05,
-      "changeAbs": -13.442791402900184,
-      "changePct24h": -0.30429,
+      "price": 4420.03,
+      "changeAbs": -12.612084520081225,
+      "changePct24h": -0.28453,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         4339.49,
@@ -1103,7 +1103,7 @@
         4477.03,
         4432.88,
         4432.78,
-        4421.05
+        4420.03
       ]
     },
     {
@@ -1114,17 +1114,17 @@
       "unit": "1 ONDO",
       "source": "coingecko",
       "retired": false,
-      "price": 0.377741,
-      "changeAbs": 0.00765181,
-      "changePct24h": 2.09924,
+      "price": 0.38499,
+      "changeAbs": 0.01543194,
+      "changePct24h": 4.17578,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.367201,
         0.357893,
         0.369942,
-        0.377741
+        0.38499
       ]
     },
     {
@@ -1135,11 +1135,11 @@
       "unit": "1 WLFI",
       "source": "coingecko",
       "retired": false,
-      "price": 0.056201,
-      "changeAbs": -0.001326018173744982,
-      "changePct24h": -2.30387,
+      "price": 0.05663,
+      "changeAbs": -0.000629708229562057,
+      "changePct24h": -1.09974,
       "currency": "USD",
-      "asOf": "2026-09-06T19:14:30.000Z",
+      "asOf": "2026-09-06T21:16:30.000Z",
       "stale": false,
       "spark": [
         0.056927,
@@ -1147,7 +1147,7 @@
         0.058267,
         0.056451,
         0.057274,
-        0.056201
+        0.05663
       ]
     },
     {
@@ -2165,7 +2165,7 @@
       "changeAbs": 0,
       "changePct24h": 0,
       "currency": "USD",
-      "asOf": "2026-09-06T19:16:35.000Z",
+      "asOf": "2026-09-06T21:19:35.000Z",
       "stale": false,
       "spark": [
         4330.399902,
@@ -2188,7 +2188,7 @@
       "changeAbs": 0,
       "changePct24h": 0,
       "currency": "USD",
-      "asOf": "2026-09-06T19:16:34.000Z",
+      "asOf": "2026-09-06T21:19:35.000Z",
       "stale": false,
       "spark": [
         64.220001,
@@ -2211,7 +2211,7 @@
       "changeAbs": 0,
       "changePct24h": 0,
       "currency": "USD",
-      "asOf": "2026-09-06T19:16:37.000Z",
+      "asOf": "2026-09-06T21:19:39.000Z",
       "stale": false,
       "spark": [
         1747,
@@ -2234,7 +2234,7 @@
       "changeAbs": 0,
       "changePct24h": 0,
       "currency": "USD",
-      "asOf": "2026-09-06T19:16:36.000Z",
+      "asOf": "2026-09-06T21:19:37.000Z",
       "stale": false,
       "spark": [
         1326,
@@ -3081,23 +3081,23 @@
     },
     "gold-api": {
       "provider": "gold-api",
-      "lastAttemptAt": "2026-09-06T19:16:59.001Z",
-      "lastSuccessAt": "2026-09-06T19:16:59.001Z",
+      "lastAttemptAt": "2026-09-06T21:19:47.519Z",
+      "lastSuccessAt": "2026-09-06T21:19:47.519Z",
       "lastErrorAt": null,
       "lastError": null,
       "consecutiveFailures": 0,
       "windowDate": "2026-09-06",
-      "requestsInWindow": 32
+      "requestsInWindow": 36
     },
     "coingecko": {
       "provider": "coingecko",
-      "lastAttemptAt": "2026-09-06T19:16:59.118Z",
-      "lastSuccessAt": "2026-09-06T19:16:59.118Z",
+      "lastAttemptAt": "2026-09-06T21:19:47.687Z",
+      "lastSuccessAt": "2026-09-06T21:19:47.687Z",
       "lastErrorAt": null,
       "lastError": null,
       "consecutiveFailures": 0,
       "windowDate": "2026-09-06",
-      "requestsInWindow": 8
+      "requestsInWindow": 9
     },
     "fred": {
       "provider": "fred",
@@ -3111,13 +3111,13 @@
     },
     "nasdaq": {
       "provider": "nasdaq",
-      "lastAttemptAt": "2026-09-06T19:17:48.676Z",
-      "lastSuccessAt": "2026-09-06T19:17:48.676Z",
+      "lastAttemptAt": "2026-09-06T21:20:31.023Z",
+      "lastSuccessAt": "2026-09-06T21:20:31.023Z",
       "lastErrorAt": null,
       "lastError": null,
       "consecutiveFailures": 0,
       "windowDate": "2026-09-06",
-      "requestsInWindow": 152
+      "requestsInWindow": 171
     }
   },
   "attribution": [
