@@ -108,18 +108,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hyperliquid",
-    "symbol": "HYPE",
-    "name": "Hyperliquid",
-    "category": "crypto",
-    "unit": "1 HYPE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hyperliquid",
-    "sortOrder": 9,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:zcash",
     "symbol": "ZEC",
     "name": "Zcash",
@@ -128,6 +116,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "zcash",
+    "sortOrder": 9,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hyperliquid",
+    "symbol": "HYPE",
+    "name": "Hyperliquid",
+    "category": "crypto",
+    "unit": "1 HYPE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hyperliquid",
     "sortOrder": 10,
     "retiredAt": null
   },
@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena-usde",
-    "symbol": "USDE",
-    "name": "Ethena USDe",
-    "category": "crypto",
-    "unit": "1 USDE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena-usde",
-    "sortOrder": 23,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -296,6 +284,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
+    "sortOrder": 23,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena-usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
+    "category": "crypto",
+    "unit": "1 USDE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena-usde",
     "sortOrder": 24,
     "retiredAt": null
   },
@@ -576,6 +576,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:world-liberty-financial",
     "symbol": "WLFI",
     "name": "World Liberty Financial",
@@ -584,7 +596,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "world-liberty-financial",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "retiredAt": null
   },
   {
@@ -596,18 +608,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
     "sortOrder": 49,
     "retiredAt": null
   },
