@@ -156,6 +156,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:chainlink",
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "category": "crypto",
+    "unit": "1 LINK",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "chainlink",
+    "sortOrder": 13,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:monero",
     "symbol": "XMR",
     "name": "Monero",
@@ -164,7 +176,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
-    "sortOrder": 13,
+    "sortOrder": 14,
     "retiredAt": null
   },
   {
@@ -176,18 +188,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
-    "sortOrder": 14,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:chainlink",
-    "symbol": "LINK",
-    "name": "Chainlink",
-    "category": "crypto",
-    "unit": "1 LINK",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "chainlink",
     "sortOrder": 15,
     "retiredAt": null
   },
@@ -276,14 +276,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
     "category": "crypto",
-    "unit": "1 CC",
+    "unit": "1 LTC",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "canton-network",
+    "sourceSymbol": "litecoin",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -312,14 +312,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
     "category": "crypto",
-    "unit": "1 LTC",
+    "unit": "1 CC",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "litecoin",
+    "sourceSymbol": "canton-network",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "category": "crypto",
-    "unit": "1 USDG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 30,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:sui",
     "symbol": "SUI",
     "name": "Sui",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -528,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
-    "category": "crypto",
-    "unit": "1 MNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "mantle",
-    "sortOrder": 44,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aster-2",
     "symbol": "ASTER",
     "name": "Aster",
@@ -548,6 +536,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aster-2",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "category": "crypto",
+    "unit": "1 MNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "mantle",
     "sortOrder": 45,
     "retiredAt": null
   },
