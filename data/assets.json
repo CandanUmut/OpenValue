@@ -156,18 +156,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:monero",
-    "symbol": "XMR",
-    "name": "Monero",
-    "category": "crypto",
-    "unit": "1 XMR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "monero",
-    "sortOrder": 13,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -176,6 +164,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
+    "sortOrder": 13,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:monero",
+    "symbol": "XMR",
+    "name": "Monero",
+    "category": "crypto",
+    "unit": "1 XMR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "monero",
     "sortOrder": 14,
     "retiredAt": null
   },
@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
-    "category": "crypto",
-    "unit": "1 LTC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "litecoin",
-    "sortOrder": 23,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -296,6 +284,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 23,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "category": "crypto",
+    "unit": "1 LTC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "litecoin",
     "sortOrder": 24,
     "retiredAt": null
   },
