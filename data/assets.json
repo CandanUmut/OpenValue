@@ -168,18 +168,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:chainlink",
-    "symbol": "LINK",
-    "name": "Chainlink",
-    "category": "crypto",
-    "unit": "1 LINK",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "chainlink",
-    "sortOrder": 14,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -188,6 +176,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
+    "sortOrder": 14,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:chainlink",
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "category": "crypto",
+    "unit": "1 LINK",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "chainlink",
     "sortOrder": 15,
     "retiredAt": null
   },
@@ -264,14 +264,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
+    "id": "crypto:ethena-usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
     "category": "crypto",
-    "unit": "1 UNI",
+    "unit": "1 USDE",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "uniswap",
+    "sourceSymbol": "ethena-usde",
     "sortOrder": 22,
     "retiredAt": null
   },
@@ -288,27 +288,15 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena-usde",
-    "symbol": "USDE",
-    "name": "Ethena USDe",
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
     "category": "crypto",
-    "unit": "1 USDE",
+    "unit": "1 UNI",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ethena-usde",
+    "sourceSymbol": "uniswap",
     "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
-    "category": "crypto",
-    "unit": "1 LTC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "litecoin",
-    "sortOrder": 25,
     "retiredAt": null
   },
   {
@@ -320,6 +308,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "category": "crypto",
+    "unit": "1 LTC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "litecoin",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 30,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -528,6 +528,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "category": "crypto",
+    "unit": "1 MNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "mantle",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:aster-2",
     "symbol": "ASTER",
     "name": "Aster",
@@ -536,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aster-2",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -548,18 +560,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
-    "category": "crypto",
-    "unit": "1 MNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "mantle",
     "sortOrder": 46,
     "retiredAt": null
   },
