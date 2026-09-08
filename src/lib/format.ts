@@ -54,6 +54,15 @@ export function formatSignedChange(value: number | null, reference: number | nul
   return `${sign}${Math.abs(value).toFixed(decimals)}`;
 }
 
+/** Market caps and volumes run to twelve digits; compact is the only readable form. */
+export function formatCompact(value: number | null): string {
+  if (value === null || !Number.isFinite(value)) return '—';
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency', currency: 'USD',
+    notation: 'compact', maximumFractionDigits: 2,
+  }).format(value);
+}
+
 export type Direction = 'up' | 'down' | 'flat';
 
 export function direction(value: number | null): Direction {

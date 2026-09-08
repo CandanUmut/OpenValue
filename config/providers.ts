@@ -46,8 +46,14 @@ export type Provider = {
   cadenceSeconds: number;
   /**
    * How long a quote from this provider stays "fresh". The UI shows a staleness
-   * badge once `now - as_of` exceeds this. Deliberately ~2.5x cadence so a single
-   * missed run does not paint the whole dashboard as stale.
+   * badge once `now - as_of` exceeds this.
+   *
+   * MUST exceed cadenceSeconds, and cadenceSeconds must match what the workflow
+   * actually does. These once declared a 10-15 minute cadence while
+   * .github/workflows/ingest.yml ran hourly, so crypto was badged stale for 35
+   * minutes out of every 60 — a badge that is usually lit teaches the reader to
+   * ignore it, which is worse than not having one. ~2.5x cadence, so one missed
+   * run does not paint the dashboard red either.
    */
   stalenessSeconds: number;
   /** Whether the provider serves historical series we can backfill from. */
@@ -89,8 +95,9 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     apiKeyEnv: null,
     baseUrl: 'https://api.gold-api.com',
     budget: { perMinute: null, perDay: null, perMonth: null },
-    cadenceSeconds: 15 * MIN,
-    stalenessSeconds: 40 * MIN,
+    // The hourly lane in .github/workflows/ingest.yml. Keep the two in step.
+    cadenceSeconds: 60 * MIN,
+    stalenessSeconds: 150 * MIN,
     hasHistory: false,
     notes:
       'Keyless, CORS-enabled, no documented rate limit on live prices. VERIFIED: ' +
@@ -109,8 +116,9 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     apiKeyEnv: null,
     baseUrl: 'https://api.nasdaq.com/api',
     budget: { perMinute: 30, perDay: null, perMonth: null },
-    cadenceSeconds: 15 * MIN,
-    stalenessSeconds: 40 * MIN,
+    // The hourly lane in .github/workflows/ingest.yml. Keep the two in step.
+    cadenceSeconds: 60 * MIN,
+    stalenessSeconds: 150 * MIN,
     hasHistory: false,
     notes:
       'VERIFIED keyless for all 19 symbols including BRK.B, via Node fetch. This is ' +
@@ -151,8 +159,9 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     signupUrl: 'https://www.coingecko.com/en/api/pricing (Demo plan, free)',
     baseUrl: 'https://api.coingecko.com/api/v3',
     budget: { perMinute: 5, perDay: null, perMonth: 10_000 },
-    cadenceSeconds: 10 * MIN,
-    stalenessSeconds: 25 * MIN,
+    // The hourly lane in .github/workflows/ingest.yml. Keep the two in step.
+    cadenceSeconds: 60 * MIN,
+    stalenessSeconds: 150 * MIN,
     hasHistory: false,
     notes:
       'VERIFIED working with NO key: /coins/markets?per_page=250 returns the whole ' +
@@ -173,8 +182,8 @@ export const PROVIDERS: Record<ProviderId, Provider> = {
     signupUrl: 'https://finnhub.io/register (free, no card)',
     baseUrl: 'https://finnhub.io/api/v1',
     budget: { perMinute: 60, perDay: null, perMonth: null },
-    cadenceSeconds: 15 * MIN,
-    stalenessSeconds: 40 * MIN,
+    cadenceSeconds: 60 * MIN,
+    stalenessSeconds: 150 * MIN,
     hasHistory: false,
     notes:
       'One call per symbol (/quote) — 19 equity symbols per run sits inside the ' +

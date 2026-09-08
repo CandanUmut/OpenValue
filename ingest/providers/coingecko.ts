@@ -13,6 +13,8 @@ type MarketRow = {
   current_price: number | null;
   price_change_24h: number | null;
   price_change_percentage_24h: number | null;
+  market_cap: number | null;
+  total_volume: number | null;
   market_cap_rank: number | null;
   last_updated: string | null;
 };
@@ -81,6 +83,11 @@ export async function ingestCoinGecko(
       currency: 'USD',
       asOf: row.last_updated ? new Date(row.last_updated).toISOString() : new Date().toISOString(),
       source: SOURCE,
+      // Already in the same response — capturing them costs nothing and they are
+      // the two columns every crypto table leads with after price.
+      marketCap: row.market_cap ?? null,
+      volume24h: row.total_volume ?? null,
+      rank: row.market_cap_rank ?? null,
     });
 
     // The keyless tier rejects /market_chart, so there is no backfill to do.

@@ -13,6 +13,12 @@ export type AssetRow = {
   price: number | null;
   changeAbs: number | null;
   changePct24h: number | null;
+  /** Change over the last 7 and 30 published sessions; null when the series is too short. */
+  changePct7d: number | null;
+  changePct30d: number | null;
+  marketCap: number | null;
+  volume24h: number | null;
+  rank: number | null;
   currency: string;
   asOf: string | null;
   /** Precomputed by the ingester so the client needs no provider table. */
