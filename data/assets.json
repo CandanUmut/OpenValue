@@ -288,6 +288,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -296,7 +308,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 25,
+    "sortOrder": 26,
     "retiredAt": null
   },
   {
@@ -308,18 +320,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
-    "sortOrder": 26,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
     "sortOrder": 27,
     "retiredAt": null
   },
@@ -444,18 +444,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:tether-gold",
-    "symbol": "XAUT",
-    "name": "Tether Gold",
-    "category": "crypto",
-    "unit": "1 XAUT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "tether-gold",
-    "sortOrder": 38,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -464,6 +452,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:tether-gold",
+    "symbol": "XAUT",
+    "name": "Tether Gold",
+    "category": "crypto",
+    "unit": "1 XAUT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "tether-gold",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -540,6 +540,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:polkadot",
+    "symbol": "DOT",
+    "name": "Polkadot",
+    "category": "crypto",
+    "unit": "1 DOT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "polkadot",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:aster-2",
     "symbol": "ASTER",
     "name": "Aster",
@@ -548,7 +560,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aster-2",
-    "sortOrder": 46,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -560,18 +572,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:polkadot",
-    "symbol": "DOT",
-    "name": "Polkadot",
-    "category": "crypto",
-    "unit": "1 DOT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "polkadot",
     "sortOrder": 48,
     "retiredAt": null
   },

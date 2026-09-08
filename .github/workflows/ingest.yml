@@ -34,6 +34,10 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    outputs:
+      # Whether this run actually produced a new snapshot, so a quiet run does
+      # not spend a deploy.
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -73,6 +77,7 @@ jobs:
           node ingest/run.ts "$JOB" ${{ inputs.backfill && '--backfill' || '' }}
 
       - name: Commit snapshot
+        id: commit
         # Runs even when ingest reported a failure, so the health record and the
         # staleness the app shows are always current.
         if: always()
@@ -82,13 +87,18 @@ jobs:
           git add data
           if git diff --cached --quiet; then
             echo 'No change in this run.'
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "data: snapshot $(date -u +'%Y-%m-%dT%H:%MZ')"
           # The scheduled job can collide with a push to the branch; rebase and
           # retry rather than failing and skipping a whole cycle.
           for attempt in 1 2 3 4; do
-            if git push; then exit 0; fi
+            if git push; then
+              # Only now is the snapshot actually on main and worth deploying.
+              echo 'changed=true' >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
             sleep $((2 ** attempt))
             git pull --rebase --autostash || true
           done
@@ -117,3 +127,17 @@ jobs:
         run: |
           echo 'All providers failed this run — snapshot committed unchanged.' >&2
           exit 1
+
+  # Publish the snapshot we just committed.
+  #
+  # Calling deploy.yml is REQUIRED, not tidy: the commit above is pushed with the
+  # default GITHUB_TOKEN, and GitHub does not fire `on: push` workflows for those,
+  # so the deploy would never run on its own.
+  deploy:
+    needs: ingest
+    if: needs.ingest.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

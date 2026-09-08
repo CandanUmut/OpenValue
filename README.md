@@ -37,20 +37,40 @@ at all** — 85 priced assets and 6 macro series, from five keyless sources.
 
 ### The app
 
-- **Overview** — top movers, favourites, then one section per category. Every row
-  carries a sparkline, a signed change with an arrow, and a staleness badge.
-- **Asset detail** — 7D / 1M / 3M / 1Y / Max, with a hover readout. FX Max is the
-  full ECB series back to 1999: 7,083 daily closes.
+- **Overview** — a market summary strip, then one sortable table with category
+  tabs (Watchlist · All · Currencies · Metals · Crypto · Equities · Macro) and an
+  inline filter. Columns: price, 24h, 7d, market cap, 30d sparkline. Click a
+  column to sort — sorting 24h descending is the gainers list, ascending is the
+  losers, so those do not need tabs of their own.
+- **Asset detail** — 7D / 1M / 3M / 1Y / Max with a hover readout, plus 24h/7d/30d
+  change, market cap, volume, rank and the range over the visible window. FX Max
+  is the full ECB series back to 1999: over 7,000 daily closes.
 - **Convert** — any-to-any across everything priced, metals in troy ounces and
   grams, inverse rate and rate date shown.
 - **Search** — fuzzy on symbol and name, `/` to focus on desktop.
+- **Theme** — follows the system by default, with a toggle that cycles
+  system → light → dark and persists per device.
+
+### Design references
+
+The overview follows patterns from the tools that do this well rather than
+inventing its own: a fixed benchmark strip and category tabs from Google Finance,
+a sortable table with price / 24h / 7d / market cap / sparkline columns from
+CoinGecko, and the phone layout — asset and sparkline on the left, price stacked
+over its change on the right — from both.
+
+The one thing deliberately dropped was the "top movers" strip. Movers ranked by
+absolute change are always the smallest, most volatile things in the universe, so
+it was reliably six micro-cap tokens and told you nothing about the state of the
+world. That space is now a stable frame of reference, and sorting the 24h column
+does the movers job properly.
 
 ### Weight
 
 | | raw | gzipped |
 |---|---|---|
-| JS | 39.4 KB | 14.6 KB |
-| CSS | 11.3 KB | 3.1 KB |
+| JS | 43.4 KB | 16.1 KB |
+| CSS | 13.4 KB | 3.5 KB |
 | Font (Inter, latin subset, self-hosted) | 48.3 KB | — |
 | `latest.json` (85 assets + macro) | 63 KB | 10.1 KB |
 
@@ -60,8 +80,22 @@ whole application does.
 
 ## Deploying to GitHub Pages
 
-`.github/workflows/deploy.yml` builds and deploys on every push to `main`,
-including the data-only commits the ingest workflow makes. To turn it on:
+`ingest.yml` commits a snapshot and then **calls** `deploy.yml` directly.
+
+That indirection is load-bearing. GitHub deliberately does not trigger
+`on: push` workflows for pushes made with the default `GITHUB_TOKEN`, to stop
+workflows retriggering themselves. The ingest job pushes with that token, so
+`on: push` never fired for a data commit: the pipeline ran hourly and correctly
+for a week, 54 snapshots landed on `main`, and the deployed site stayed frozen on
+the last human merge — serving week-old numbers with fresh ones sitting in the
+repo behind it. Both workflows were green the whole time, which is what made it
+easy to miss.
+
+`workflow_call` fixes it without a personal access token: the deploy is invoked
+explicitly, so no push trigger is involved. The deploy job is gated on the commit
+step reporting that a snapshot actually landed, so a quiet run costs nothing.
+
+To turn Pages on:
 
 1. **Settings → Pages → Source: GitHub Actions.**
 2. Push to `main`. The site lands at `https://<user>.github.io/<repo>/`.
@@ -215,6 +249,12 @@ Recorded so nobody spends an afternoon rediscovering them:
 - **CoinGecko's keyless tier rejects `/coins/market_chart`** (429 on the first
   call), so crypto has no backfill either and accumulates the same way. The
   detail page says so rather than showing a bare "not enough history".
+- **A staleness badge that is usually lit is worse than no badge.** The providers
+  declared a 10-15 minute cadence while the workflow ran hourly, so crypto was
+  badged stale for 35 minutes out of every 60 and the badge stopped meaning
+  anything. `cadenceSeconds` now matches what the workflow actually does and
+  `stalenessSeconds` is ~2.5x that, so one missed run does not paint the
+  dashboard red.
 - **FRED writes a missing observation as an empty CSV cell**, not only as its
   documented `.` placeholder — the October 2025 US government shutdown left
   UNRATE and CPIAUCSL empty for that month. `Number('')` is `0`, not `NaN`, so a

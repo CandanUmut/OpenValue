@@ -23,6 +23,12 @@ export type Quote = {
   /** ISO-8601 UTC. When the upstream says the value was true — not when we fetched it. */
   asOf: string;
   source: ProviderId;
+  /** Market capitalisation in `currency`, where the provider reports one. */
+  marketCap?: number | null;
+  /** 24h traded volume in `currency`, where the provider reports one. */
+  volume24h?: number | null;
+  /** Provider's own rank, e.g. CoinGecko market-cap rank. */
+  rank?: number | null;
 };
 
 /** One close per asset per day. `date` is YYYY-MM-DD. */

@@ -3,9 +3,19 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    # A data-only commit from the ingest workflow must redeploy too — that is the
-    # entire point of a cache-first app whose data ships as static files.
   workflow_dispatch:
+  # Called by ingest.yml after it commits a snapshot.
+  #
+  # This is not a convenience — it is the only thing that makes the deploy fire
+  # at all for a data commit. GitHub deliberately does NOT trigger `on: push`
+  # workflows for pushes made with the default GITHUB_TOKEN, to stop workflows
+  # retriggering themselves. So the ingest job pushed 54 snapshots to main over a
+  # week and the site stayed frozen on the last human merge, serving week-old
+  # numbers while fresh ones sat in the repo behind it.
+  #
+  # workflow_call sidesteps it without a personal access token: ingest.yml
+  # explicitly calls this workflow, so no push trigger is involved.
+  workflow_call:
 
 concurrency:
   group: pages

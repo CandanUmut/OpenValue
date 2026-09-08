@@ -2,7 +2,8 @@ import { useEffect, useState } from 'preact/hooks';
 import { Chart } from '../components/Chart.tsx';
 import { RANGES, loadSeries, type Range, type Series } from '../lib/data.ts';
 import {
-  DIRECTION_GLYPH, direction, formatDate, formatDateTime, formatPct, formatPrice, formatSignedChange,
+  DIRECTION_GLYPH, direction, formatCompact, formatDate, formatDateTime, formatPct,
+  formatPrice, formatSignedChange,
 } from '../lib/format.ts';
 import { navigate } from '../lib/router.ts';
 import type { Snapshot } from '../lib/types.ts';
@@ -105,8 +106,16 @@ export function AssetDetail({ slug, snapshot, isFavorite, onToggleFavorite }: {
       )}
 
       <dl class="stats">
+        <Stat label="24h"><Tone value={asset.changePct24h} /></Stat>
+        <Stat label="7d"><Tone value={asset.changePct7d} /></Stat>
+        <Stat label="30d"><Tone value={asset.changePct30d} /></Stat>
+        {/* Only crypto reports these, and an em dash beats a missing row that
+            makes the grid ragged from one asset to the next. */}
+        <Stat label="Market cap">{formatCompact(asset.marketCap)}</Stat>
+        <Stat label="24h volume">{formatCompact(asset.volume24h)}</Stat>
+        <Stat label="Rank">{asset.rank !== null ? `#${asset.rank}` : '—'}</Stat>
+        <Stat label={`Range (${range})`}>{formatRange(series, asset.currency)}</Stat>
         <Stat label="Unit">{asset.unit}</Stat>
-        <Stat label="Quoted in">{asset.currency}</Stat>
         <Stat label="Rate date">{formatDateTime(asset.asOf)}</Stat>
         <Stat label="Source">{asset.source}</Stat>
         <Stat label="Series begins">{formatDate(series?.firstDate ?? null)}</Stat>
@@ -122,6 +131,23 @@ export function AssetDetail({ slug, snapshot, isFavorite, onToggleFavorite }: {
       </p>
     </div>
   );
+}
+
+function Tone({ value }: { value: number | null }) {
+  const tone = direction(value);
+  return (
+    <span data-tone={value === null ? 'flat' : tone}>
+      {value !== null && <span class="glyph" aria-hidden="true">{DIRECTION_GLYPH[tone]}</span>}
+      {formatPct(value)}
+    </span>
+  );
+}
+
+/** Low–high across the visible window, which is what the range label promises. */
+function formatRange(series: Series | null, currency: string): string {
+  const values = series?.points.map((p) => p[1]) ?? [];
+  if (values.length < 2) return '—';
+  return `${formatPrice(Math.min(...values), currency)} – ${formatPrice(Math.max(...values), currency)}`;
 }
 
 function Stat({ label, children }: { label: string; children: preact.ComponentChildren }) {

@@ -8,6 +8,8 @@ import { useSnapshot } from './lib/data.ts';
 import { useFavorites, parseWatchlistHash, watchlistHash } from './lib/favorites.ts';
 import { linkProps, navigate, useRoute } from './lib/router.ts';
 import { timeAgo } from './lib/format.ts';
+import { useTheme } from './lib/theme.ts';
+import { ThemeToggle } from './components/ThemeToggle.tsx';
 import type { Snapshot } from './lib/types.ts';
 
 export function App() {
@@ -15,6 +17,7 @@ export function App() {
   const { state, data, error, refresh } = useSnapshot();
   const favorites = useFavorites();
   const { canInstall, install } = useInstallPrompt();
+  const { theme, resolved, cycle } = useTheme();
   const [online, setOnline] = useState(navigator.onLine);
 
   useEffect(() => {
@@ -63,7 +66,10 @@ export function App() {
           {canInstall && (
             <button class="button button-quiet" type="button" onClick={install}>Install</button>
           )}
-          <span class="header-age">{timeAgo(data.generatedAt)}</span>
+          <span class="header-age" title={`Snapshot ${data.generatedAt}`}>
+            {timeAgo(data.generatedAt)}
+          </span>
+          <ThemeToggle theme={theme} resolved={resolved} onCycle={cycle} />
         </div>
       </header>
 

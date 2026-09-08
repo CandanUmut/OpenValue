@@ -33,6 +33,8 @@ import { PROVIDERS } from '../../config/providers.ts';
  * the canonical files on commit(), never edited directly.
  */
 
+// The sparkline shows 30 sessions, and the same window supplies the 7d and 30d
+// change columns — one read, three uses.
 const SPARK_POINTS = 30;
 
 /** Asset ids contain ':' which is illegal in filenames on Windows and awkward in URLs. */
@@ -59,6 +61,23 @@ async function writeJson(file: string, value: unknown, pretty = true): Promise<v
   const tmp = `${file}.tmp`;
   await fs.writeFile(tmp, JSON.stringify(value, null, pretty ? 2 : 0) + '\n', 'utf8');
   await fs.rename(tmp, file);
+}
+
+/**
+ * Percentage change from the close `days` sessions ago to the current price.
+ *
+ * Sessions, not calendar days: the series only holds days the market published,
+ * so counting rows is what "7d" means for an instrument that does not trade at
+ * weekends. Returns null rather than a wrong number when the series is too short
+ * — which is the normal state for a series that started accumulating last week.
+ */
+function changeOver(
+  history: { close: number }[], current: number | null, days: number,
+): number | null {
+  if (current === null || history.length <= days) return null;
+  const past = history[history.length - 1 - days]?.close;
+  if (past === undefined || past === 0) return null;
+  return ((current - past) / past) * 100;
 }
 
 /** Compact on-disk history row: [date, close, changePct]. */
@@ -311,7 +330,8 @@ export class JsonStore implements Store {
     const rows = await Promise.all(
       assets.map(async (asset) => {
         const q = quoteById.get(asset.id);
-        const spark = (await this.getDaily(asset.id, SPARK_POINTS)).map((p) => p.close);
+        const history = await this.getDaily(asset.id, SPARK_POINTS + 2);
+        const spark = history.slice(-SPARK_POINTS).map((p) => p.close);
         const provider = PROVIDERS[asset.source];
         return {
           id: asset.id,
@@ -326,6 +346,14 @@ export class JsonStore implements Store {
           changePct24h: q?.changePct24h ?? null,
           currency: q?.currency ?? asset.quoteCurrency,
           asOf: q?.asOf ?? null,
+          marketCap: q?.marketCap ?? null,
+          volume24h: q?.volume24h ?? null,
+          rank: q?.rank ?? null,
+          // Computed here rather than in the browser: the client only receives
+          // 30 sparkline points, and deriving a 7d change from a truncated
+          // series would be wrong in exactly the cases that matter.
+          changePct7d: changeOver(history, q?.price ?? null, 7),
+          changePct30d: changeOver(history, q?.price ?? null, 30),
           // Precomputed so the client does not need the provider table to decide
           // whether to draw a staleness badge.
           stale: q ? Date.parse(now) - Date.parse(q.asOf) > provider.stalenessSeconds * 1000 : true,
