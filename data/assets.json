@@ -576,6 +576,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:polkadot",
+    "symbol": "DOT",
+    "name": "Polkadot",
+    "category": "crypto",
+    "unit": "1 DOT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "polkadot",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -584,7 +596,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "retiredAt": null
   },
   {
@@ -608,18 +620,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:polkadot",
-    "symbol": "DOT",
-    "name": "Polkadot",
-    "category": "crypto",
-    "unit": "1 DOT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "polkadot",
     "sortOrder": 49,
     "retiredAt": null
   },
