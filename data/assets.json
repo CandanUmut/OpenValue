@@ -288,18 +288,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
-    "category": "crypto",
-    "unit": "1 USD1",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -308,6 +296,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 24,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
+    "category": "crypto",
+    "unit": "1 USD1",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 25,
     "retiredAt": null
   },
@@ -456,18 +456,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
-    "category": "crypto",
-    "unit": "1 USYC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 38,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -476,6 +464,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "category": "crypto",
+    "unit": "1 USYC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hashnote-usyc",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -492,18 +492,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 41,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -512,6 +500,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 41,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 42,
     "retiredAt": null
   },
@@ -620,6 +620,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "polkadot",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:worldcoin-wld",
+    "symbol": "WLD",
+    "name": "Worldcoin",
+    "category": "crypto",
+    "unit": "1 WLD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "worldcoin-wld",
     "sortOrder": 49,
     "retiredAt": null
   },
