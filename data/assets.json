@@ -564,14 +564,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
     "category": "crypto",
-    "unit": "1 PUMP",
+    "unit": "1 PAXG",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "pump-fun",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 48,
     "retiredAt": null
   },
@@ -612,14 +612,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
     "category": "crypto",
-    "unit": "1 PAXG",
+    "unit": "1 PUMP",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "pax-gold",
+    "sourceSymbol": "pump-fun",
     "sortOrder": 50,
     "retiredAt": null
   },
