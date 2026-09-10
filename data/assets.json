@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:the-open-network",
     "symbol": "GRAM",
     "name": "Gram (prev. Toncoin)",
@@ -332,19 +320,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
-    "sortOrder": 28,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
     "category": "crypto",
-    "unit": "1 USDG",
+    "unit": "1 UNI",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 29,
+    "sourceSymbol": "uniswap",
+    "sortOrder": 28,
     "retiredAt": null
   },
   {
@@ -356,19 +344,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 30,
+    "sortOrder": 29,
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
     "category": "crypto",
-    "unit": "1 AVAX",
+    "unit": "1 USDG",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 31,
+    "sourceSymbol": "global-dollar",
+    "sortOrder": 30,
     "retiredAt": null
   },
   {
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 31,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 32,
     "retiredAt": null
   },
@@ -528,6 +528,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:polkadot",
+    "symbol": "DOT",
+    "name": "Polkadot",
+    "category": "crypto",
+    "unit": "1 DOT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "polkadot",
+    "sortOrder": 45,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:aster-2",
     "symbol": "ASTER",
     "name": "Aster",
@@ -536,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aster-2",
-    "sortOrder": 45,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -548,7 +560,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 46,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -560,18 +572,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:polkadot",
-    "symbol": "DOT",
-    "name": "Polkadot",
-    "category": "crypto",
-    "unit": "1 DOT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "polkadot",
     "sortOrder": 48,
     "retiredAt": null
   },
