@@ -528,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
-    "category": "crypto",
-    "unit": "1 MNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "mantle",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aster-2",
     "symbol": "ASTER",
     "name": "Aster",
@@ -548,7 +536,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aster-2",
-    "sortOrder": 46,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -560,19 +548,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 47,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
     "category": "crypto",
-    "unit": "1 PAXG",
+    "unit": "1 MNT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "pax-gold",
-    "sortOrder": 48,
+    "sourceSymbol": "mantle",
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -584,6 +572,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "polkadot",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "category": "crypto",
+    "unit": "1 PAXG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 49,
     "retiredAt": null
   },
