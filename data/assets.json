@@ -156,18 +156,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:monero",
-    "symbol": "XMR",
-    "name": "Monero",
-    "category": "crypto",
-    "unit": "1 XMR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "monero",
-    "sortOrder": 14,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -176,6 +164,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
+    "sortOrder": 14,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:monero",
+    "symbol": "XMR",
+    "name": "Monero",
+    "category": "crypto",
+    "unit": "1 XMR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "monero",
     "sortOrder": 15,
     "retiredAt": null
   },
@@ -240,18 +240,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitcoin-cash",
-    "symbol": "BCH",
-    "name": "Bitcoin Cash",
-    "category": "crypto",
-    "unit": "1 BCH",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitcoin-cash",
-    "sortOrder": 21,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena-usde",
     "symbol": "USDE",
     "name": "Ethena USDe",
@@ -260,7 +248,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
-    "sortOrder": 22,
+    "sortOrder": 21,
     "retiredAt": null
   },
   {
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitcoin-cash",
+    "symbol": "BCH",
+    "name": "Bitcoin Cash",
+    "category": "crypto",
+    "unit": "1 BCH",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitcoin-cash",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hedera-hashgraph",
-    "symbol": "HBAR",
-    "name": "Hedera",
-    "category": "crypto",
-    "unit": "1 HBAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 31,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hedera-hashgraph",
+    "symbol": "HBAR",
+    "name": "Hedera",
+    "category": "crypto",
+    "unit": "1 HBAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hedera-hashgraph",
     "sortOrder": 32,
     "retiredAt": null
   },
@@ -408,14 +408,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
+    "id": "crypto:paypal-usd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
     "category": "crypto",
-    "unit": "1 CRO",
+    "unit": "1 PYUSD",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
+    "sourceSymbol": "paypal-usd",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -432,27 +432,15 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:paypal-usd",
-    "symbol": "PYUSD",
-    "name": "PayPal USD",
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
     "category": "crypto",
-    "unit": "1 PYUSD",
+    "unit": "1 CRO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "paypal-usd",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -464,6 +452,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -528,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
-    "category": "crypto",
-    "unit": "1 AAVE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aave",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:mantle",
     "symbol": "MNT",
     "name": "Mantle",
@@ -548,19 +536,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
-    "sortOrder": 46,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
-    "id": "crypto:aster-2",
-    "symbol": "ASTER",
-    "name": "Aster",
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
     "category": "crypto",
-    "unit": "1 ASTER",
+    "unit": "1 AAVE",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aster-2",
-    "sortOrder": 47,
+    "sourceSymbol": "aave",
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -572,6 +560,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pax-gold",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aster-2",
+    "symbol": "ASTER",
+    "name": "Aster",
+    "category": "crypto",
+    "unit": "1 ASTER",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aster-2",
     "sortOrder": 48,
     "retiredAt": null
   },
