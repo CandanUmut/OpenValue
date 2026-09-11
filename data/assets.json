@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitcoin-cash",
     "symbol": "BCH",
     "name": "Bitcoin Cash",
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitcoin-cash",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:the-open-network",
     "symbol": "GRAM",
     "name": "Gram (prev. Toncoin)",
@@ -332,18 +320,30 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 28,
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
     "category": "crypto",
-    "unit": "1 NEAR",
+    "unit": "1 USDG",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "near",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -360,14 +360,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
     "category": "crypto",
-    "unit": "1 USDG",
+    "unit": "1 NEAR",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "global-dollar",
+    "sourceSymbol": "near",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -444,18 +444,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:tether-gold",
-    "symbol": "XAUT",
-    "name": "Tether Gold",
-    "category": "crypto",
-    "unit": "1 XAUT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "tether-gold",
-    "sortOrder": 38,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -464,6 +452,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:tether-gold",
+    "symbol": "XAUT",
+    "name": "Tether Gold",
+    "category": "crypto",
+    "unit": "1 XAUT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "tether-gold",
     "sortOrder": 39,
     "retiredAt": null
   },

@@ -1,52 +1,52 @@
 {
   "frankfurter": {
     "provider": "frankfurter",
-    "lastAttemptAt": "2026-09-11T11:31:59.556Z",
-    "lastSuccessAt": "2026-09-11T11:31:59.556Z",
+    "lastAttemptAt": "2026-09-11T19:49:20.183Z",
+    "lastSuccessAt": "2026-09-11T19:49:20.183Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-11",
-    "requestsInWindow": 2
+    "requestsInWindow": 4
   },
   "gold-api": {
     "provider": "gold-api",
-    "lastAttemptAt": "2026-09-11T18:31:23.059Z",
-    "lastSuccessAt": "2026-09-11T18:31:23.059Z",
+    "lastAttemptAt": "2026-09-11T19:49:44.004Z",
+    "lastSuccessAt": "2026-09-11T19:49:44.004Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-11",
-    "requestsInWindow": 24
+    "requestsInWindow": 38
   },
   "coingecko": {
     "provider": "coingecko",
-    "lastAttemptAt": "2026-09-11T18:31:23.186Z",
-    "lastSuccessAt": "2026-09-11T18:31:23.186Z",
+    "lastAttemptAt": "2026-09-11T19:49:45.620Z",
+    "lastSuccessAt": "2026-09-11T19:49:45.620Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-11",
-    "requestsInWindow": 6
+    "requestsInWindow": 7
   },
   "fred": {
     "provider": "fred",
-    "lastAttemptAt": "2026-09-11T11:32:07.127Z",
-    "lastSuccessAt": "2026-09-11T11:32:07.127Z",
+    "lastAttemptAt": "2026-09-11T19:49:51.738Z",
+    "lastSuccessAt": "2026-09-11T19:49:51.738Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-11",
-    "requestsInWindow": 6
+    "requestsInWindow": 12
   },
   "nasdaq": {
     "provider": "nasdaq",
-    "lastAttemptAt": "2026-09-11T18:32:06.560Z",
-    "lastSuccessAt": "2026-09-11T18:32:06.560Z",
+    "lastAttemptAt": "2026-09-11T19:50:35.047Z",
+    "lastSuccessAt": "2026-09-11T19:50:35.047Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-11",
-    "requestsInWindow": 114
+    "requestsInWindow": 133
   }
 }
