@@ -1,52 +1,52 @@
 {
   "frankfurter": {
     "provider": "frankfurter",
-    "lastAttemptAt": "2026-09-12T19:26:46.429Z",
-    "lastSuccessAt": "2026-09-12T19:26:46.429Z",
+    "lastAttemptAt": "2026-09-13T12:02:01.080Z",
+    "lastSuccessAt": "2026-09-13T12:02:01.080Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
-    "windowDate": "2026-09-12",
-    "requestsInWindow": 4
+    "windowDate": "2026-09-13",
+    "requestsInWindow": 2
   },
   "gold-api": {
     "provider": "gold-api",
-    "lastAttemptAt": "2026-09-13T10:16:18.784Z",
-    "lastSuccessAt": "2026-09-13T10:16:18.784Z",
+    "lastAttemptAt": "2026-09-13T12:02:01.279Z",
+    "lastSuccessAt": "2026-09-13T12:02:01.279Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-13",
-    "requestsInWindow": 12
+    "requestsInWindow": 16
   },
   "coingecko": {
     "provider": "coingecko",
-    "lastAttemptAt": "2026-09-13T10:16:19.071Z",
-    "lastSuccessAt": "2026-09-13T10:16:19.071Z",
+    "lastAttemptAt": "2026-09-13T12:02:01.479Z",
+    "lastSuccessAt": "2026-09-13T12:02:01.479Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-13",
-    "requestsInWindow": 3
+    "requestsInWindow": 4
   },
   "fred": {
     "provider": "fred",
-    "lastAttemptAt": "2026-09-12T19:26:53.600Z",
-    "lastSuccessAt": "2026-09-12T19:26:53.600Z",
-    "lastErrorAt": null,
-    "lastError": null,
-    "consecutiveFailures": 0,
-    "windowDate": "2026-09-12",
-    "requestsInWindow": 12
-  },
-  "nasdaq": {
-    "provider": "nasdaq",
-    "lastAttemptAt": "2026-09-13T10:17:02.363Z",
-    "lastSuccessAt": "2026-09-13T10:17:02.363Z",
+    "lastAttemptAt": "2026-09-13T12:02:07.557Z",
+    "lastSuccessAt": "2026-09-13T12:02:07.557Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-09-13",
-    "requestsInWindow": 57
+    "requestsInWindow": 6
+  },
+  "nasdaq": {
+    "provider": "nasdaq",
+    "lastAttemptAt": "2026-09-13T12:02:50.852Z",
+    "lastSuccessAt": "2026-09-13T12:02:50.852Z",
+    "lastErrorAt": null,
+    "lastError": null,
+    "consecutiveFailures": 0,
+    "windowDate": "2026-09-13",
+    "requestsInWindow": 76
   }
 }
