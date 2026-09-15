@@ -144,6 +144,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
+    "sortOrder": 13,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -152,7 +164,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
-    "sortOrder": 13,
+    "sortOrder": 14,
     "retiredAt": null
   },
   {
@@ -164,7 +176,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
-    "sortOrder": 14,
+    "sortOrder": 15,
     "retiredAt": null
   },
   {
@@ -176,18 +188,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "whitebit",
-    "sortOrder": 15,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
     "sortOrder": 16,
     "retiredAt": null
   },
@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:the-open-network",
     "symbol": "GRAM",
     "name": "Gram (prev. Toncoin)",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -492,18 +492,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 42,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ripple-usd",
     "symbol": "RLUSD",
     "name": "Ripple USD",
@@ -512,6 +500,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
+    "sortOrder": 42,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
+    "category": "crypto",
+    "unit": "1 OKB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "okb",
     "sortOrder": 43,
     "retiredAt": null
   },
