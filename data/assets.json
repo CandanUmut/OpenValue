@@ -144,18 +144,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 13,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -164,7 +152,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
-    "sortOrder": 14,
+    "sortOrder": 13,
     "retiredAt": null
   },
   {
@@ -176,6 +164,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
+    "sortOrder": 14,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 15,
     "retiredAt": null
   },
@@ -348,18 +348,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 30,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -368,6 +356,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -456,18 +456,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
-    "category": "crypto",
-    "unit": "1 TAO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bittensor",
-    "sortOrder": 39,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -476,6 +464,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "category": "crypto",
+    "unit": "1 TAO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bittensor",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -540,14 +540,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aster-2",
-    "symbol": "ASTER",
-    "name": "Aster",
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
     "category": "crypto",
-    "unit": "1 ASTER",
+    "unit": "1 BTW",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aster-2",
+    "sourceSymbol": "bitway",
     "sortOrder": 46,
     "retiredAt": null
   },
@@ -564,6 +564,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:aster-2",
+    "symbol": "ASTER",
+    "name": "Aster",
+    "category": "crypto",
+    "unit": "1 ASTER",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aster-2",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:pax-gold",
     "symbol": "PAXG",
     "name": "PAX Gold",
@@ -572,18 +584,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pax-gold",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
     "sortOrder": 49,
     "retiredAt": null
   },
@@ -620,7 +620,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "world-liberty-financial",
-    "sortOrder": 49,
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
