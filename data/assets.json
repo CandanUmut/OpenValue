@@ -156,18 +156,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 14,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:monero",
     "symbol": "XMR",
     "name": "Monero",
@@ -176,7 +164,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
-    "sortOrder": 15,
+    "sortOrder": 14,
     "retiredAt": null
   },
   {
@@ -188,19 +176,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "whitebit",
-    "sortOrder": 16,
+    "sortOrder": 15,
     "retiredAt": null
   },
   {
-    "id": "crypto:leo-token",
-    "symbol": "LEO",
-    "name": "LEO Token",
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
     "category": "crypto",
-    "unit": "1 LEO",
+    "unit": "1 RAIN",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "leo-token",
-    "sortOrder": 17,
+    "sourceSymbol": "rain",
+    "sortOrder": 16,
     "retiredAt": null
   },
   {
@@ -212,6 +200,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "chainlink",
+    "sortOrder": 17,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:leo-token",
+    "symbol": "LEO",
+    "name": "LEO Token",
+    "category": "crypto",
+    "unit": "1 LEO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "leo-token",
     "sortOrder": 18,
     "retiredAt": null
   },
@@ -264,18 +264,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
-    "category": "crypto",
-    "unit": "1 USD1",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 23,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitcoin-cash",
     "symbol": "BCH",
     "name": "Bitcoin Cash",
@@ -284,19 +272,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitcoin-cash",
-    "sortOrder": 24,
+    "sortOrder": 23,
     "retiredAt": null
   },
   {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
     "category": "crypto",
-    "unit": "1 LTC",
+    "unit": "1 USD1",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "litecoin",
-    "sortOrder": 25,
+    "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 24,
     "retiredAt": null
   },
   {
@@ -308,19 +296,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 26,
+    "sortOrder": 25,
     "retiredAt": null
   },
   {
-    "id": "crypto:the-open-network",
-    "symbol": "GRAM",
-    "name": "Gram (prev. Toncoin)",
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
     "category": "crypto",
-    "unit": "1 GRAM",
+    "unit": "1 LTC",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "the-open-network",
-    "sortOrder": 27,
+    "sourceSymbol": "litecoin",
+    "sortOrder": 26,
     "retiredAt": null
   },
   {
@@ -332,19 +320,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
-    "sortOrder": 28,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
+    "id": "crypto:the-open-network",
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
     "category": "crypto",
-    "unit": "1 USDG",
+    "unit": "1 GRAM",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 29,
+    "sourceSymbol": "the-open-network",
+    "sortOrder": 28,
     "retiredAt": null
   },
   {
@@ -356,6 +344,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -384,14 +384,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:paypal-usd",
-    "symbol": "PYUSD",
-    "name": "PayPal USD",
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
     "category": "crypto",
-    "unit": "1 PYUSD",
+    "unit": "1 SUI",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "paypal-usd",
+    "sourceSymbol": "sui",
     "sortOrder": 33,
     "retiredAt": null
   },
@@ -408,14 +408,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
+    "id": "crypto:paypal-usd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
     "category": "crypto",
-    "unit": "1 SUI",
+    "unit": "1 PYUSD",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "sui",
+    "sourceSymbol": "paypal-usd",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -432,18 +432,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:tether-gold",
-    "symbol": "XAUT",
-    "name": "Tether Gold",
-    "category": "crypto",
-    "unit": "1 XAUT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "tether-gold",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
     "symbol": "BUIDL",
     "name": "BlackRock USD Institutional Digital Liquidity Fund",
@@ -452,19 +440,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 38,
+    "sortOrder": 37,
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
+    "id": "crypto:tether-gold",
+    "symbol": "XAUT",
+    "name": "Tether Gold",
     "category": "crypto",
-    "unit": "1 USYC",
+    "unit": "1 XAUT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 39,
+    "sourceSymbol": "tether-gold",
+    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -476,6 +464,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "category": "crypto",
+    "unit": "1 USYC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hashnote-usyc",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
-    "category": "crypto",
-    "unit": "1 PAXG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pax-gold",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aster-2",
     "symbol": "ASTER",
     "name": "Aster",
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aster-2",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "category": "crypto",
+    "unit": "1 PAXG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 47,
     "retiredAt": null
   },
@@ -600,18 +600,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
-    "category": "crypto",
-    "unit": "1 MNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "mantle",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -620,6 +608,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "category": "crypto",
+    "unit": "1 MNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "mantle",
     "sortOrder": 50,
     "retiredAt": null
   },
