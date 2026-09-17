@@ -432,6 +432,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -440,7 +452,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -452,18 +464,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 38,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -576,18 +576,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:world-liberty-financial",
-    "symbol": "WLFI",
-    "name": "World Liberty Financial",
-    "category": "crypto",
-    "unit": "1 WLFI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "world-liberty-financial",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:mantle",
     "symbol": "MNT",
     "name": "Mantle",
@@ -621,6 +609,18 @@
     "source": "coingecko",
     "sourceSymbol": "polkadot",
     "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:world-liberty-financial",
+    "symbol": "WLFI",
+    "name": "World Liberty Financial",
+    "category": "crypto",
+    "unit": "1 WLFI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "world-liberty-financial",
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
