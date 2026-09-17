@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
-    "category": "crypto",
-    "unit": "1 NEAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "near",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "category": "crypto",
+    "unit": "1 NEAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "near",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -432,18 +432,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 38,
     "retiredAt": null
   },
