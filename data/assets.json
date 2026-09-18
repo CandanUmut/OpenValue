@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
-    "category": "crypto",
-    "unit": "1 USD1",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 26,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -320,6 +308,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
+    "sortOrder": 26,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
+    "category": "crypto",
+    "unit": "1 USD1",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 27,
     "retiredAt": null
   },
@@ -408,18 +408,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 35,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -428,19 +416,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
-    "sortOrder": 36,
+    "sortOrder": 35,
     "retiredAt": null
   },
   {
-    "id": "crypto:paypal-usd",
-    "symbol": "PYUSD",
-    "name": "PayPal USD",
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
     "category": "crypto",
-    "unit": "1 PYUSD",
+    "unit": "1 CRO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "paypal-usd",
-    "sortOrder": 37,
+    "sourceSymbol": "crypto-com-chain",
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:paypal-usd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "category": "crypto",
+    "unit": "1 PYUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "paypal-usd",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -480,18 +480,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "BUIDL",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "category": "crypto",
-    "unit": "1 BUIDL",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 41,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -500,6 +488,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 41,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "category": "crypto",
+    "unit": "1 BUIDL",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 42,
     "retiredAt": null
   },
@@ -564,14 +564,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
+    "id": "crypto:polkadot",
+    "symbol": "DOT",
+    "name": "Polkadot",
     "category": "crypto",
-    "unit": "1 MNT",
+    "unit": "1 DOT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "mantle",
+    "sourceSymbol": "polkadot",
     "sortOrder": 47,
     "retiredAt": null
   },
@@ -588,6 +588,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "category": "crypto",
+    "unit": "1 MNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "mantle",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:worldcoin-wld",
     "symbol": "WLD",
     "name": "Worldcoin",
@@ -596,18 +608,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "worldcoin-wld",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:polkadot",
-    "symbol": "DOT",
-    "name": "Polkadot",
-    "category": "crypto",
-    "unit": "1 DOT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "polkadot",
     "sortOrder": 49,
     "retiredAt": null
   },
