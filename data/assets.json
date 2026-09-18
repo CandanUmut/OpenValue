@@ -156,18 +156,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usds",
-    "symbol": "USDS",
-    "name": "USDS",
-    "category": "crypto",
-    "unit": "1 USDS",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usds",
-    "sortOrder": 14,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:whitebit",
     "symbol": "WBT",
     "name": "WhiteBIT Coin",
@@ -176,6 +164,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "whitebit",
+    "sortOrder": 14,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usds",
+    "symbol": "USDS",
+    "name": "USDS",
+    "category": "crypto",
+    "unit": "1 USDS",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usds",
     "sortOrder": 15,
     "retiredAt": null
   },
@@ -204,18 +204,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:leo-token",
-    "symbol": "LEO",
-    "name": "LEO Token",
-    "category": "crypto",
-    "unit": "1 LEO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "leo-token",
-    "sortOrder": 18,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:cardano",
     "symbol": "ADA",
     "name": "Cardano",
@@ -224,6 +212,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "cardano",
+    "sortOrder": 18,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:leo-token",
+    "symbol": "LEO",
+    "name": "LEO Token",
+    "category": "crypto",
+    "unit": "1 LEO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "leo-token",
     "sortOrder": 19,
     "retiredAt": null
   },
@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -296,6 +284,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 24,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 25,
     "retiredAt": null
   },
@@ -372,18 +372,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "category": "crypto",
-    "unit": "1 USDG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 32,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:sui",
     "symbol": "SUI",
     "name": "Sui",
@@ -392,6 +380,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 32,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 33,
     "retiredAt": null
   },
@@ -408,18 +408,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 35,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -428,19 +416,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
-    "sortOrder": 36,
+    "sortOrder": 35,
     "retiredAt": null
   },
   {
-    "id": "crypto:paypal-usd",
-    "symbol": "PYUSD",
-    "name": "PayPal USD",
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
     "category": "crypto",
-    "unit": "1 PYUSD",
+    "unit": "1 CRO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "paypal-usd",
-    "sortOrder": 37,
+    "sourceSymbol": "crypto-com-chain",
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:paypal-usd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "category": "crypto",
+    "unit": "1 PYUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "paypal-usd",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -480,18 +480,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "BUIDL",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "category": "crypto",
-    "unit": "1 BUIDL",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 41,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -500,6 +488,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 41,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "category": "crypto",
+    "unit": "1 BUIDL",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 42,
     "retiredAt": null
   },
