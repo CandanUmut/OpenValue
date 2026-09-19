@@ -156,18 +156,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:whitebit",
-    "symbol": "WBT",
-    "name": "WhiteBIT Coin",
-    "category": "crypto",
-    "unit": "1 WBT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "whitebit",
-    "sortOrder": 14,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:rain",
     "symbol": "RAIN",
     "name": "Rain",
@@ -176,6 +164,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
+    "sortOrder": 14,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:whitebit",
+    "symbol": "WBT",
+    "name": "WhiteBIT Coin",
+    "category": "crypto",
+    "unit": "1 WBT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "whitebit",
     "sortOrder": 15,
     "retiredAt": null
   },
@@ -384,14 +384,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
     "category": "crypto",
-    "unit": "1 USDG",
+    "unit": "1 M",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "global-dollar",
+    "sourceSymbol": "memecore",
     "sortOrder": 33,
     "retiredAt": null
   },
@@ -408,6 +408,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
+    "sortOrder": 35,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -416,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
-    "sortOrder": 35,
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -428,18 +440,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
+    "category": "crypto",
+    "unit": "1 OKB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "okb",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -540,6 +540,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:mantle",
     "symbol": "MNT",
     "name": "Mantle",
@@ -548,7 +560,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
-    "sortOrder": 46,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -560,18 +572,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
     "sortOrder": 47,
     "retiredAt": null
   },
