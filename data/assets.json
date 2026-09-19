@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -332,7 +320,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 28,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -344,6 +332,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
+    "sortOrder": 28,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -396,18 +396,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -416,6 +404,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -540,14 +540,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
+    "id": "crypto:aster-2",
+    "symbol": "ASTER",
+    "name": "Aster",
     "category": "crypto",
-    "unit": "1 ENA",
+    "unit": "1 ASTER",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ethena",
+    "sourceSymbol": "aster-2",
     "sortOrder": 46,
     "retiredAt": null
   },
@@ -564,18 +564,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aster-2",
-    "symbol": "ASTER",
-    "name": "Aster",
-    "category": "crypto",
-    "unit": "1 ASTER",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aster-2",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:mantle",
     "symbol": "MNT",
     "name": "Mantle",
@@ -584,7 +572,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
-    "sortOrder": 48,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -596,6 +584,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
     "sortOrder": 49,
     "retiredAt": null
   },
