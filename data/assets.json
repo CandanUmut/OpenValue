@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hedera-hashgraph",
     "symbol": "HBAR",
     "name": "Hedera",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 31,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 32,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:crypto-com-chain",
     "symbol": "CRO",
     "name": "Cronos",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aster-2",
-    "symbol": "ASTER",
-    "name": "Aster",
-    "category": "crypto",
-    "unit": "1 ASTER",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aster-2",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:mantle",
     "symbol": "MNT",
     "name": "Mantle",
@@ -560,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
-    "sortOrder": 47,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -584,6 +572,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aster-2",
+    "symbol": "ASTER",
+    "name": "Aster",
+    "category": "crypto",
+    "unit": "1 ASTER",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aster-2",
     "sortOrder": 48,
     "retiredAt": null
   },
@@ -612,6 +612,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:pump-fun",
     "symbol": "PUMP",
     "name": "Pump.fun",
@@ -620,7 +632,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
-    "sortOrder": 49,
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
