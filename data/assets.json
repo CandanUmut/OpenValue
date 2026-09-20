@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -296,6 +284,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 24,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 25,
     "retiredAt": null
   },
@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
-    "category": "crypto",
-    "unit": "1 USD1",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:avalanche-2",
     "symbol": "AVAX",
     "name": "Avalanche",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
+    "category": "crypto",
+    "unit": "1 USD1",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hedera-hashgraph",
     "symbol": "HBAR",
     "name": "Hedera",
@@ -380,7 +368,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 32,
+    "sortOrder": 31,
     "retiredAt": null
   },
   {
@@ -392,6 +380,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 32,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 33,
     "retiredAt": null
   },
@@ -540,27 +540,15 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aster-2",
-    "symbol": "ASTER",
-    "name": "Aster",
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
     "category": "crypto",
-    "unit": "1 ASTER",
+    "unit": "1 ENA",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aster-2",
+    "sourceSymbol": "ethena",
     "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
-    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -576,26 +564,26 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
     "category": "crypto",
-    "unit": "1 MNT",
+    "unit": "1 BTW",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "mantle",
+    "sourceSymbol": "bitway",
     "sortOrder": 48,
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
+    "id": "crypto:aster-2",
+    "symbol": "ASTER",
+    "name": "Aster",
     "category": "crypto",
-    "unit": "1 ENA",
+    "unit": "1 ASTER",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ethena",
+    "sourceSymbol": "aster-2",
     "sortOrder": 49,
     "retiredAt": null
   },
@@ -621,6 +609,18 @@
     "source": "coingecko",
     "sourceSymbol": "polkadot",
     "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "category": "crypto",
+    "unit": "1 MNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "mantle",
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
