@@ -156,6 +156,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
+    "sortOrder": 14,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:whitebit",
     "symbol": "WBT",
     "name": "WhiteBIT Coin",
@@ -164,7 +176,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "whitebit",
-    "sortOrder": 14,
+    "sortOrder": 15,
     "retiredAt": null
   },
   {
@@ -176,18 +188,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
-    "sortOrder": 15,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
     "sortOrder": 16,
     "retiredAt": null
   },
@@ -264,18 +264,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 23,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitcoin-cash",
     "symbol": "BCH",
     "name": "Bitcoin Cash",
@@ -284,6 +272,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitcoin-cash",
+    "sortOrder": 23,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 24,
     "retiredAt": null
   },
@@ -372,18 +372,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 32,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:sui",
     "symbol": "SUI",
     "name": "Sui",
@@ -392,6 +380,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 32,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 33,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
+    "category": "crypto",
+    "unit": "1 CRO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -516,6 +516,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:ondo-us-dollar-yield",
     "symbol": "USDY",
     "name": "Ondo US Dollar Yield",
@@ -524,7 +536,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -536,18 +548,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
     "sortOrder": 46,
     "retiredAt": null
   },
