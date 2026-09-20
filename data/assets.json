@@ -300,6 +300,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
+    "sortOrder": 26,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:litecoin",
     "symbol": "LTC",
     "name": "Litecoin",
@@ -308,7 +320,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
-    "sortOrder": 26,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -320,18 +332,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -540,14 +540,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aster-2",
-    "symbol": "ASTER",
-    "name": "Aster",
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
     "category": "crypto",
-    "unit": "1 ASTER",
+    "unit": "1 ENA",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aster-2",
+    "sourceSymbol": "ethena",
     "sortOrder": 46,
     "retiredAt": null
   },
@@ -576,6 +576,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:aster-2",
+    "symbol": "ASTER",
+    "name": "Aster",
+    "category": "crypto",
+    "unit": "1 ASTER",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aster-2",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -584,18 +596,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
     "sortOrder": 49,
     "retiredAt": null
   },
