@@ -240,18 +240,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
-    "category": "crypto",
-    "unit": "1 NEAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "near",
-    "sortOrder": 21,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -260,6 +248,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 21,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "category": "crypto",
+    "unit": "1 NEAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "near",
     "sortOrder": 22,
     "retiredAt": null
   },
@@ -288,18 +288,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena-usde",
-    "symbol": "USDE",
-    "name": "Ethena USDe",
-    "category": "crypto",
-    "unit": "1 USDE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena-usde",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:litecoin",
     "symbol": "LTC",
     "name": "Litecoin",
@@ -308,19 +296,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
-    "sortOrder": 26,
+    "sortOrder": 25,
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
+    "id": "crypto:ethena-usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
     "category": "crypto",
-    "unit": "1 CC",
+    "unit": "1 USDE",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 27,
+    "sourceSymbol": "ethena-usde",
+    "sortOrder": 26,
     "retiredAt": null
   },
   {
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:the-open-network",
-    "symbol": "GRAM",
-    "name": "Gram (prev. Toncoin)",
-    "category": "crypto",
-    "unit": "1 GRAM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "the-open-network",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hedera-hashgraph",
     "symbol": "HBAR",
     "name": "Hedera",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 31,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:the-open-network",
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
+    "category": "crypto",
+    "unit": "1 GRAM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "the-open-network",
     "sortOrder": 32,
     "retiredAt": null
   },
@@ -408,6 +408,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "category": "crypto",
+    "unit": "1 TAO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bittensor",
+    "sortOrder": 35,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -416,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
-    "sortOrder": 35,
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -428,18 +440,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
-    "category": "crypto",
-    "unit": "1 TAO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bittensor",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -516,6 +516,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -524,7 +536,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -536,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 45,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -548,18 +560,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
     "sortOrder": 47,
     "retiredAt": null
   },
