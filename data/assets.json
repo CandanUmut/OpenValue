@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitcoin-cash",
     "symbol": "BCH",
     "name": "Bitcoin Cash",
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitcoin-cash",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -408,18 +408,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 35,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -428,6 +416,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 35,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
+    "category": "crypto",
+    "unit": "1 CRO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 36,
     "retiredAt": null
   },
@@ -516,18 +516,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-us-dollar-yield",
-    "symbol": "USDY",
-    "name": "Ondo US Dollar Yield",
-    "category": "crypto",
-    "unit": "1 USDY",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 44,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -536,6 +524,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-us-dollar-yield",
+    "symbol": "USDY",
+    "name": "Ondo US Dollar Yield",
+    "category": "crypto",
+    "unit": "1 USDY",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-us-dollar-yield",
     "sortOrder": 45,
     "retiredAt": null
   },
@@ -564,18 +564,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:mantle",
     "symbol": "MNT",
     "name": "Mantle",
@@ -584,19 +572,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:worldcoin-wld",
-    "symbol": "WLD",
-    "name": "Worldcoin",
-    "category": "crypto",
-    "unit": "1 WLD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "worldcoin-wld",
-    "sortOrder": 49,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -608,6 +584,30 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:worldcoin-wld",
+    "symbol": "WLD",
+    "name": "Worldcoin",
+    "category": "crypto",
+    "unit": "1 WLD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "worldcoin-wld",
     "sortOrder": 49,
     "retiredAt": null
   },
