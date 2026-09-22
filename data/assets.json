@@ -240,18 +240,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
-    "category": "crypto",
-    "unit": "1 NEAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "near",
-    "sortOrder": 21,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitcoin-cash",
     "symbol": "BCH",
     "name": "Bitcoin Cash",
@@ -260,6 +248,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitcoin-cash",
+    "sortOrder": 21,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "category": "crypto",
+    "unit": "1 NEAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "near",
     "sortOrder": 22,
     "retiredAt": null
   },
@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dai",
     "symbol": "DAI",
     "name": "Dai",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -348,18 +348,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 30,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hedera-hashgraph",
     "symbol": "HBAR",
     "name": "Hedera",
@@ -368,6 +356,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -408,18 +408,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "category": "crypto",
-    "unit": "1 USDG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 35,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:crypto-com-chain",
     "symbol": "CRO",
     "name": "Cronos",
@@ -428,6 +416,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
+    "sortOrder": 35,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 36,
     "retiredAt": null
   },
@@ -504,18 +504,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "BUIDL",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "category": "crypto",
-    "unit": "1 BUIDL",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 43,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -524,6 +512,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "category": "crypto",
+    "unit": "1 BUIDL",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 44,
     "retiredAt": null
   },
@@ -576,18 +576,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
-    "category": "crypto",
-    "unit": "1 PUMP",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pump-fun",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena",
     "symbol": "ENA",
     "name": "Ethena",
@@ -596,7 +584,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
-    "sortOrder": 49,
+    "sortOrder": 48,
     "retiredAt": null
   },
   {
@@ -620,6 +608,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
+    "category": "crypto",
+    "unit": "1 PUMP",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pump-fun",
     "sortOrder": 50,
     "retiredAt": null
   },
