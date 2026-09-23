@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -528,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
-    "category": "crypto",
-    "unit": "1 AAVE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aave",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-us-dollar-yield",
     "symbol": "USDY",
     "name": "Ondo US Dollar Yield",
@@ -548,6 +536,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
+    "sortOrder": 45,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "category": "crypto",
+    "unit": "1 AAVE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aave",
     "sortOrder": 46,
     "retiredAt": null
   },
