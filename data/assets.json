@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
-    "category": "crypto",
-    "unit": "1 NEAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "near",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "category": "crypto",
+    "unit": "1 NEAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "near",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -396,18 +396,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
-    "category": "crypto",
-    "unit": "1 TAO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bittensor",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -416,6 +404,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "category": "crypto",
+    "unit": "1 TAO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bittensor",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -432,14 +432,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:paypal-usd",
-    "symbol": "PYUSD",
-    "name": "PayPal USD",
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
     "category": "crypto",
-    "unit": "1 PYUSD",
+    "unit": "1 BTW",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "paypal-usd",
+    "sourceSymbol": "bitway",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -456,14 +456,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
+    "id": "crypto:paypal-usd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
     "category": "crypto",
-    "unit": "1 BTW",
+    "unit": "1 PYUSD",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bitway",
+    "sourceSymbol": "paypal-usd",
     "sortOrder": 39,
     "retiredAt": null
   },
