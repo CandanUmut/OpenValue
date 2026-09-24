@@ -168,18 +168,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usds",
-    "symbol": "USDS",
-    "name": "USDS",
-    "category": "crypto",
-    "unit": "1 USDS",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usds",
-    "sortOrder": 15,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:chainlink",
     "symbol": "LINK",
     "name": "Chainlink",
@@ -188,6 +176,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "chainlink",
+    "sortOrder": 15,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usds",
+    "symbol": "USDS",
+    "name": "USDS",
+    "category": "crypto",
+    "unit": "1 USDS",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usds",
     "sortOrder": 16,
     "retiredAt": null
   },
@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 26,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:avalanche-2",
     "symbol": "AVAX",
     "name": "Avalanche",
@@ -320,19 +308,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
-    "sortOrder": 27,
+    "sortOrder": 26,
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
     "category": "crypto",
-    "unit": "1 USD1",
+    "unit": "1 DAI",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 28,
+    "sourceSymbol": "dai",
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -344,19 +332,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
-    "sortOrder": 29,
+    "sortOrder": 28,
     "retiredAt": null
   },
   {
-    "id": "crypto:hedera-hashgraph",
-    "symbol": "HBAR",
-    "name": "Hedera",
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
     "category": "crypto",
-    "unit": "1 HBAR",
+    "unit": "1 USD1",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 30,
+    "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 29,
     "retiredAt": null
   },
   {
@@ -368,6 +356,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hedera-hashgraph",
+    "symbol": "HBAR",
+    "name": "Hedera",
+    "category": "crypto",
+    "unit": "1 HBAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hedera-hashgraph",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -396,18 +396,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "category": "crypto",
-    "unit": "1 USDG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -416,6 +404,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -432,18 +432,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -452,7 +440,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
-    "sortOrder": 38,
+    "sortOrder": 37,
     "retiredAt": null
   },
   {
@@ -464,6 +452,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -492,18 +492,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
-    "category": "crypto",
-    "unit": "1 USYC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 42,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -512,6 +500,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
+    "sortOrder": 42,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "category": "crypto",
+    "unit": "1 USYC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hashnote-usyc",
     "sortOrder": 43,
     "retiredAt": null
   },
