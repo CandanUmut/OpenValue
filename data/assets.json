@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
-    "category": "crypto",
-    "unit": "1 NEAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "near",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "category": "crypto",
+    "unit": "1 NEAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "near",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -432,18 +432,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -564,18 +564,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -584,6 +572,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
     "sortOrder": 49,
     "retiredAt": null
   },
