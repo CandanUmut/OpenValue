@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:sui",
     "symbol": "SUI",
     "name": "Sui",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -396,18 +396,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -416,6 +404,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 35,
     "retiredAt": null
   },
