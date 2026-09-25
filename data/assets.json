@@ -144,18 +144,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:chainlink",
-    "symbol": "LINK",
-    "name": "Chainlink",
-    "category": "crypto",
-    "unit": "1 LINK",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "chainlink",
-    "sortOrder": 13,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:monero",
     "symbol": "XMR",
     "name": "Monero",
@@ -164,6 +152,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
+    "sortOrder": 13,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:chainlink",
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "category": "crypto",
+    "unit": "1 LINK",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "chainlink",
     "sortOrder": 14,
     "retiredAt": null
   },
@@ -288,18 +288,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena-usde",
-    "symbol": "USDE",
-    "name": "Ethena USDe",
-    "category": "crypto",
-    "unit": "1 USDE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena-usde",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -308,6 +296,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena-usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
+    "category": "crypto",
+    "unit": "1 USDE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena-usde",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -408,6 +408,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
+    "sortOrder": 35,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:crypto-com-chain",
     "symbol": "CRO",
     "name": "Cronos",
@@ -416,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 35,
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -428,18 +440,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -488,19 +476,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
-    "sortOrder": 41,
+    "sortOrder": 40,
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
     "category": "crypto",
-    "unit": "1 OKB",
+    "unit": "1 ONDO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 42,
+    "sourceSymbol": "ondo-finance",
+    "sortOrder": 41,
     "retiredAt": null
   },
   {
@@ -512,19 +500,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
-    "sortOrder": 43,
+    "sortOrder": 42,
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
     "category": "crypto",
-    "unit": "1 USYC",
+    "unit": "1 OKB",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 44,
+    "sourceSymbol": "okb",
+    "sortOrder": 43,
     "retiredAt": null
   },
   {
@@ -536,6 +524,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "category": "crypto",
+    "unit": "1 USYC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hashnote-usyc",
     "sortOrder": 45,
     "retiredAt": null
   },
