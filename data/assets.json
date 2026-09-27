@@ -336,18 +336,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 29,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:the-open-network",
     "symbol": "GRAM",
     "name": "Gram (prev. Toncoin)",
@@ -356,6 +344,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -444,18 +444,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:paypal-usd",
-    "symbol": "PYUSD",
-    "name": "PayPal USD",
-    "category": "crypto",
-    "unit": "1 PYUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "paypal-usd",
-    "sortOrder": 38,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena",
     "symbol": "ENA",
     "name": "Ethena",
@@ -464,6 +452,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:paypal-usd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "category": "crypto",
+    "unit": "1 PYUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "paypal-usd",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -492,6 +492,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
+    "sortOrder": 42,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -500,7 +512,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
-    "sortOrder": 42,
+    "sortOrder": 43,
     "retiredAt": null
   },
   {
@@ -512,7 +524,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
-    "sortOrder": 43,
+    "sortOrder": 44,
     "retiredAt": null
   },
   {
@@ -524,7 +536,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -536,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 45,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -548,19 +560,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 46,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
     "category": "crypto",
-    "unit": "1 QNT",
+    "unit": "1 PUMP",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 47,
+    "sourceSymbol": "pump-fun",
+    "sortOrder": 48,
     "retiredAt": null
   },
   {
@@ -572,7 +584,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "retiredAt": null
   },
   {
@@ -596,7 +608,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 49,
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
@@ -680,18 +692,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "morpho",
-    "sortOrder": 50,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
-    "category": "crypto",
-    "unit": "1 PUMP",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pump-fun",
     "sortOrder": 50,
     "retiredAt": null
   },
