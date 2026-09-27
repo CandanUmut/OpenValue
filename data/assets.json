@@ -240,18 +240,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
-    "category": "crypto",
-    "unit": "1 NEAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "near",
-    "sortOrder": 21,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitcoin-cash",
     "symbol": "BCH",
     "name": "Bitcoin Cash",
@@ -260,6 +248,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitcoin-cash",
+    "sortOrder": 21,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "category": "crypto",
+    "unit": "1 NEAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "near",
     "sortOrder": 22,
     "retiredAt": null
   },
@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena-usde",
     "symbol": "USDE",
     "name": "Ethena USDe",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -444,14 +444,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
     "category": "crypto",
-    "unit": "1 M",
+    "unit": "1 ENA",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "memecore",
+    "sourceSymbol": "ethena",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -468,14 +468,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
     "category": "crypto",
-    "unit": "1 ENA",
+    "unit": "1 M",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ethena",
+    "sourceSymbol": "memecore",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -528,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
-    "category": "crypto",
-    "unit": "1 QNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -548,7 +536,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 46,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 47,
     "retiredAt": null
   },
@@ -573,18 +573,6 @@
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ondo-us-dollar-yield",
-    "symbol": "USDY",
-    "name": "Ondo US Dollar Yield",
-    "category": "crypto",
-    "unit": "1 USDY",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 49,
     "retiredAt": null
   },
   {
@@ -608,6 +596,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-us-dollar-yield",
+    "symbol": "USDY",
+    "name": "Ondo US Dollar Yield",
+    "category": "crypto",
+    "unit": "1 USDY",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-us-dollar-yield",
     "sortOrder": 50,
     "retiredAt": null
   },
