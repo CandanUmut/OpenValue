@@ -240,18 +240,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitcoin-cash",
-    "symbol": "BCH",
-    "name": "Bitcoin Cash",
-    "category": "crypto",
-    "unit": "1 BCH",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitcoin-cash",
-    "sortOrder": 21,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -260,6 +248,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 21,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitcoin-cash",
+    "symbol": "BCH",
+    "name": "Bitcoin Cash",
+    "category": "crypto",
+    "unit": "1 BCH",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitcoin-cash",
     "sortOrder": 22,
     "retiredAt": null
   },
@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
-    "category": "crypto",
-    "unit": "1 LTC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "litecoin",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hedera-hashgraph",
     "symbol": "HBAR",
     "name": "Hedera",
@@ -296,6 +284,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 24,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "category": "crypto",
+    "unit": "1 LTC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "litecoin",
     "sortOrder": 25,
     "retiredAt": null
   },
@@ -384,14 +384,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
     "category": "crypto",
-    "unit": "1 QNT",
+    "unit": "1 TAO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "quant-network",
+    "sourceSymbol": "bittensor",
     "sortOrder": 33,
     "retiredAt": null
   },
@@ -408,14 +408,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
     "category": "crypto",
-    "unit": "1 TAO",
+    "unit": "1 QNT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bittensor",
+    "sourceSymbol": "quant-network",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -552,18 +552,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
-    "category": "crypto",
-    "unit": "1 PUMP",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pump-fun",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-us-dollar-yield",
     "symbol": "USDY",
     "name": "Ondo US Dollar Yield",
@@ -572,7 +560,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 48,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -584,7 +572,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 49,
+    "sortOrder": 48,
     "retiredAt": null
   },
   {
@@ -608,6 +596,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
+    "category": "crypto",
+    "unit": "1 PUMP",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pump-fun",
     "sortOrder": 50,
     "retiredAt": null
   },
