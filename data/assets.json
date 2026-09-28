@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:litecoin",
     "symbol": "LTC",
     "name": "Litecoin",
@@ -296,19 +284,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
-    "sortOrder": 25,
+    "sortOrder": 24,
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
     "category": "crypto",
-    "unit": "1 SUI",
+    "unit": "1 CC",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 26,
+    "sourceSymbol": "canton-network",
+    "sortOrder": 25,
     "retiredAt": null
   },
   {
@@ -320,7 +308,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
-    "sortOrder": 27,
+    "sortOrder": 26,
     "retiredAt": null
   },
   {
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -396,6 +396,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -404,7 +416,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
-    "sortOrder": 34,
+    "sortOrder": 35,
     "retiredAt": null
   },
   {
@@ -416,31 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
-    "sortOrder": 35,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
-    "sortOrder": 37,
     "retiredAt": null
   },
   {
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
+    "category": "crypto",
+    "unit": "1 CRO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -516,18 +516,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 44,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ripple-usd",
     "symbol": "RLUSD",
     "name": "Ripple USD",
@@ -536,6 +524,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
+    "category": "crypto",
+    "unit": "1 OKB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "okb",
     "sortOrder": 45,
     "retiredAt": null
   },
@@ -552,18 +552,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
-    "category": "crypto",
-    "unit": "1 AAVE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aave",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:pump-fun",
     "symbol": "PUMP",
     "name": "Pump.fun",
@@ -572,6 +560,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "category": "crypto",
+    "unit": "1 AAVE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aave",
     "sortOrder": 48,
     "retiredAt": null
   },
