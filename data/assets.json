@@ -96,18 +96,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:zcash",
-    "symbol": "ZEC",
-    "name": "Zcash",
-    "category": "crypto",
-    "unit": "1 ZEC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "zcash",
-    "sortOrder": 9,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:figure-heloc",
     "symbol": "FIGR_HELOC",
     "name": "Figure Heloc",
@@ -116,6 +104,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "figure-heloc",
+    "sortOrder": 9,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:zcash",
+    "symbol": "ZEC",
+    "name": "Zcash",
+    "category": "crypto",
+    "unit": "1 ZEC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "zcash",
     "sortOrder": 10,
     "retiredAt": null
   },
@@ -288,14 +288,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
+    "id": "crypto:ethena-usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
     "category": "crypto",
-    "unit": "1 CC",
+    "unit": "1 USDE",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "canton-network",
+    "sourceSymbol": "ethena-usde",
     "sortOrder": 25,
     "retiredAt": null
   },
@@ -312,14 +312,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena-usde",
-    "symbol": "USDE",
-    "name": "Ethena USDe",
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
     "category": "crypto",
-    "unit": "1 USDE",
+    "unit": "1 CC",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ethena-usde",
+    "sourceSymbol": "canton-network",
     "sortOrder": 27,
     "retiredAt": null
   },
@@ -336,18 +336,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hedera-hashgraph",
-    "symbol": "HBAR",
-    "name": "Hedera",
-    "category": "crypto",
-    "unit": "1 HBAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 29,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dai",
     "symbol": "DAI",
     "name": "Dai",
@@ -356,6 +344,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hedera-hashgraph",
+    "symbol": "HBAR",
+    "name": "Hedera",
+    "category": "crypto",
+    "unit": "1 HBAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hedera-hashgraph",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:crypto-com-chain",
     "symbol": "CRO",
     "name": "Cronos",
@@ -440,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 37,
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -480,18 +480,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
-    "sortOrder": 41,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:pump-fun",
     "symbol": "PUMP",
     "name": "Pump.fun",
@@ -500,19 +488,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
-    "sortOrder": 42,
+    "sortOrder": 41,
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
     "category": "crypto",
-    "unit": "1 AAVE",
+    "unit": "1 ENA",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aave",
-    "sortOrder": 43,
+    "sourceSymbol": "ethena",
+    "sortOrder": 42,
     "retiredAt": null
   },
   {
@@ -524,6 +512,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "category": "crypto",
+    "unit": "1 AAVE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aave",
     "sortOrder": 44,
     "retiredAt": null
   },
@@ -588,18 +588,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:mantle",
-    "symbol": "MNT",
-    "name": "Mantle",
-    "category": "crypto",
-    "unit": "1 MNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "mantle",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-us-dollar-yield",
     "symbol": "USDY",
     "name": "Ondo US Dollar Yield",
@@ -608,6 +596,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:mantle",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "category": "crypto",
+    "unit": "1 MNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "mantle",
     "sortOrder": 50,
     "retiredAt": null
   },
