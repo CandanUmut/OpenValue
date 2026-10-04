@@ -396,14 +396,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
     "category": "crypto",
-    "unit": "1 BTW",
+    "unit": "1 SHIB",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bitway",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 34,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:crypto-com-chain",
     "symbol": "CRO",
     "name": "Cronos",
@@ -440,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 37,
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
     "sortOrder": 47,
     "retiredAt": null
   },
