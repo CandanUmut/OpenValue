@@ -180,18 +180,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:cardano",
-    "symbol": "ADA",
-    "name": "Cardano",
-    "category": "crypto",
-    "unit": "1 ADA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "cardano",
-    "sortOrder": 16,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -200,19 +188,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
-    "sortOrder": 17,
+    "sortOrder": 16,
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
+    "id": "crypto:cardano",
+    "symbol": "ADA",
+    "name": "Cardano",
     "category": "crypto",
-    "unit": "1 RAIN",
+    "unit": "1 ADA",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 18,
+    "sourceSymbol": "cardano",
+    "sortOrder": 17,
     "retiredAt": null
   },
   {
@@ -224,6 +212,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "leo-token",
+    "sortOrder": 18,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 19,
     "retiredAt": null
   },
@@ -408,14 +408,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
     "category": "crypto",
-    "unit": "1 CRO",
+    "unit": "1 BTW",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
+    "sourceSymbol": "bitway",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -432,14 +432,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:tether-gold",
-    "symbol": "XAUT",
-    "name": "Tether Gold",
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
     "category": "crypto",
-    "unit": "1 XAUT",
+    "unit": "1 CRO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "tether-gold",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -456,6 +456,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:tether-gold",
+    "symbol": "XAUT",
+    "name": "Tether Gold",
+    "category": "crypto",
+    "unit": "1 XAUT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "tether-gold",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -464,18 +476,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
-    "sortOrder": 39,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
     "sortOrder": 40,
     "retiredAt": null
   },
