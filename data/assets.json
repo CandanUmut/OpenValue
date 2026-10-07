@@ -432,18 +432,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
+    "category": "crypto",
+    "unit": "1 CRO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -540,14 +540,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
     "category": "crypto",
-    "unit": "1 ONDO",
+    "unit": "1 M",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
+    "sourceSymbol": "memecore",
     "sortOrder": 46,
     "retiredAt": null
   },
@@ -564,14 +564,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
     "category": "crypto",
-    "unit": "1 M",
+    "unit": "1 ONDO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "memecore",
+    "sourceSymbol": "ondo-finance",
     "sortOrder": 48,
     "retiredAt": null
   },
