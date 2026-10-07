@@ -156,18 +156,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:chainlink",
-    "symbol": "LINK",
-    "name": "Chainlink",
-    "category": "crypto",
-    "unit": "1 LINK",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "chainlink",
-    "sortOrder": 14,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -176,6 +164,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
+    "sortOrder": 14,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:chainlink",
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "category": "crypto",
+    "unit": "1 LINK",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "chainlink",
     "sortOrder": 15,
     "retiredAt": null
   },
@@ -396,18 +396,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
-    "category": "crypto",
-    "unit": "1 TAO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bittensor",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -416,6 +404,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "category": "crypto",
+    "unit": "1 TAO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bittensor",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -444,14 +444,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
     "category": "crypto",
-    "unit": "1 CRO",
+    "unit": "1 USDG",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -468,14 +468,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
     "category": "crypto",
-    "unit": "1 USDG",
+    "unit": "1 CRO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "global-dollar",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -564,18 +564,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-us-dollar-yield",
     "symbol": "USDY",
     "name": "Ondo US Dollar Yield",
@@ -584,7 +572,31 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "category": "crypto",
+    "unit": "1 BUIDL",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
@@ -608,18 +620,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "mantle",
-    "sortOrder": 50,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "BUIDL",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "category": "crypto",
-    "unit": "1 BUIDL",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 50,
     "retiredAt": null
   },
