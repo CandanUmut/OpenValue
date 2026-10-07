@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:avalanche-2",
     "symbol": "AVAX",
     "name": "Avalanche",
@@ -296,7 +284,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
-    "sortOrder": 25,
+    "sortOrder": 24,
     "retiredAt": null
   },
   {
@@ -308,6 +296,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -432,18 +432,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -452,19 +440,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
-    "sortOrder": 38,
+    "sortOrder": 37,
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
     "category": "crypto",
-    "unit": "1 ENA",
+    "unit": "1 SHIB",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ethena",
-    "sortOrder": 39,
+    "sourceSymbol": "shiba-inu",
+    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -476,6 +464,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -576,18 +576,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "BUIDL",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "category": "crypto",
-    "unit": "1 BUIDL",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -596,6 +584,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "category": "crypto",
+    "unit": "1 BUIDL",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 50,
     "retiredAt": null
   },
