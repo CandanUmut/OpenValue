@@ -144,18 +144,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:monero",
-    "symbol": "XMR",
-    "name": "Monero",
-    "category": "crypto",
-    "unit": "1 XMR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "monero",
-    "sortOrder": 13,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usds",
     "symbol": "USDS",
     "name": "USDS",
@@ -164,6 +152,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usds",
+    "sortOrder": 13,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:monero",
+    "symbol": "XMR",
+    "name": "Monero",
+    "category": "crypto",
+    "unit": "1 XMR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "monero",
     "sortOrder": 14,
     "retiredAt": null
   },
@@ -264,18 +264,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
-    "category": "crypto",
-    "unit": "1 LTC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "litecoin",
-    "sortOrder": 23,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena-usde",
     "symbol": "USDE",
     "name": "Ethena USDe",
@@ -284,6 +272,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
+    "sortOrder": 23,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "category": "crypto",
+    "unit": "1 LTC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "litecoin",
     "sortOrder": 24,
     "retiredAt": null
   },
@@ -300,6 +300,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
+    "sortOrder": 26,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -308,7 +320,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 26,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -320,31 +332,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
     "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 29,
     "retiredAt": null
   },
   {
@@ -356,6 +344,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -492,18 +492,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
-    "category": "crypto",
-    "unit": "1 PUMP",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pump-fun",
-    "sortOrder": 42,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -512,7 +500,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
-    "sortOrder": 43,
+    "sortOrder": 42,
     "retiredAt": null
   },
   {
@@ -524,6 +512,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
+    "category": "crypto",
+    "unit": "1 PUMP",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pump-fun",
     "sortOrder": 44,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -560,19 +548,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 47,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
     "category": "crypto",
-    "unit": "1 ONDO",
+    "unit": "1 M",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
-    "sortOrder": 48,
+    "sourceSymbol": "memecore",
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -584,6 +572,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
     "sortOrder": 49,
     "retiredAt": null
   },
