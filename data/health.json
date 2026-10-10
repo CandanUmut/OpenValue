@@ -1,52 +1,52 @@
 {
   "frankfurter": {
     "provider": "frankfurter",
-    "lastAttemptAt": "2026-10-10T12:42:47.887Z",
-    "lastSuccessAt": "2026-10-10T12:42:47.887Z",
+    "lastAttemptAt": "2026-10-10T20:35:31.842Z",
+    "lastSuccessAt": "2026-10-10T20:35:31.842Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-10-10",
-    "requestsInWindow": 2
+    "requestsInWindow": 4
   },
   "gold-api": {
     "provider": "gold-api",
-    "lastAttemptAt": "2026-10-10T18:33:47.755Z",
-    "lastSuccessAt": "2026-10-10T18:33:47.755Z",
+    "lastAttemptAt": "2026-10-10T20:35:33.208Z",
+    "lastSuccessAt": "2026-10-10T20:35:33.208Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-10-10",
-    "requestsInWindow": 20
+    "requestsInWindow": 24
   },
   "coingecko": {
     "provider": "coingecko",
-    "lastAttemptAt": "2026-10-10T18:33:47.945Z",
-    "lastSuccessAt": "2026-10-10T18:33:47.945Z",
+    "lastAttemptAt": "2026-10-10T20:35:33.344Z",
+    "lastSuccessAt": "2026-10-10T20:35:33.344Z",
     "lastErrorAt": "2026-09-30T00:25:44.276Z",
     "lastError": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
     "consecutiveFailures": 0,
     "windowDate": "2026-10-10",
-    "requestsInWindow": 5
+    "requestsInWindow": 6
   },
   "fred": {
     "provider": "fred",
-    "lastAttemptAt": "2026-10-10T12:42:54.515Z",
-    "lastSuccessAt": "2026-10-10T12:42:54.515Z",
+    "lastAttemptAt": "2026-10-10T20:35:39.441Z",
+    "lastSuccessAt": "2026-10-10T20:35:39.441Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-10-10",
-    "requestsInWindow": 6
+    "requestsInWindow": 12
   },
   "nasdaq": {
     "provider": "nasdaq",
-    "lastAttemptAt": "2026-10-10T18:34:31.396Z",
-    "lastSuccessAt": "2026-10-10T18:34:31.396Z",
+    "lastAttemptAt": "2026-10-10T20:36:22.856Z",
+    "lastSuccessAt": "2026-10-10T20:36:22.856Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-10-10",
-    "requestsInWindow": 95
+    "requestsInWindow": 114
   }
 }
