@@ -228,18 +228,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:stellar",
-    "symbol": "XLM",
-    "name": "Stellar",
-    "category": "crypto",
-    "unit": "1 XLM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "stellar",
-    "sortOrder": 20,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -248,6 +236,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 20,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:stellar",
+    "symbol": "XLM",
+    "name": "Stellar",
+    "category": "crypto",
+    "unit": "1 XLM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "stellar",
     "sortOrder": 21,
     "retiredAt": null
   },
