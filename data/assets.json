@@ -204,18 +204,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 18,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:leo-token",
     "symbol": "LEO",
     "name": "LEO Token",
@@ -224,6 +212,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "leo-token",
+    "sortOrder": 18,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 19,
     "retiredAt": null
   },
@@ -288,18 +288,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -308,6 +296,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 26,
     "retiredAt": null
   },
