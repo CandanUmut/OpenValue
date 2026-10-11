@@ -288,18 +288,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:avalanche-2",
     "symbol": "AVAX",
     "name": "Avalanche",
@@ -308,6 +296,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -492,18 +492,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 42,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -512,6 +500,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 42,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
+    "category": "crypto",
+    "unit": "1 OKB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "okb",
     "sortOrder": 43,
     "retiredAt": null
   },
