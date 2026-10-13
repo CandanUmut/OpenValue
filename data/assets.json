@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 26,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena-usde",
     "symbol": "USDE",
     "name": "Ethena USDe",
@@ -320,6 +308,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
+    "sortOrder": 26,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 27,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
-    "category": "crypto",
-    "unit": "1 QNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 37,
     "retiredAt": null
   },
