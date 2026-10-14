@@ -228,18 +228,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:stellar",
-    "symbol": "XLM",
-    "name": "Stellar",
-    "category": "crypto",
-    "unit": "1 XLM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "stellar",
-    "sortOrder": 20,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -248,19 +236,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
-    "sortOrder": 21,
+    "sortOrder": 20,
     "retiredAt": null
   },
   {
-    "id": "crypto:bitcoin-cash",
-    "symbol": "BCH",
-    "name": "Bitcoin Cash",
+    "id": "crypto:stellar",
+    "symbol": "XLM",
+    "name": "Stellar",
     "category": "crypto",
-    "unit": "1 BCH",
+    "unit": "1 XLM",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bitcoin-cash",
-    "sortOrder": 22,
+    "sourceSymbol": "stellar",
+    "sortOrder": 21,
     "retiredAt": null
   },
   {
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitcoin-cash",
+    "symbol": "BCH",
+    "name": "Bitcoin Cash",
+    "category": "crypto",
+    "unit": "1 BCH",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitcoin-cash",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-us-dollar-yield",
-    "symbol": "USDY",
-    "name": "Ondo US Dollar Yield",
-    "category": "crypto",
-    "unit": "1 USDY",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:pump-fun",
     "symbol": "PUMP",
     "name": "Pump.fun",
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-us-dollar-yield",
+    "symbol": "USDY",
+    "name": "Ondo US Dollar Yield",
+    "category": "crypto",
+    "unit": "1 USDY",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-us-dollar-yield",
     "sortOrder": 47,
     "retiredAt": null
   },
