@@ -144,18 +144,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usds",
-    "symbol": "USDS",
-    "name": "USDS",
-    "category": "crypto",
-    "unit": "1 USDS",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usds",
-    "sortOrder": 13,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:monero",
     "symbol": "XMR",
     "name": "Monero",
@@ -164,6 +152,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
+    "sortOrder": 13,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usds",
+    "symbol": "USDS",
+    "name": "USDS",
+    "category": "crypto",
+    "unit": "1 USDS",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usds",
     "sortOrder": 14,
     "retiredAt": null
   },
@@ -216,6 +216,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
+    "sortOrder": 19,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:rain",
     "symbol": "RAIN",
     "name": "Rain",
@@ -224,18 +236,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
-    "sortOrder": 19,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
-    "category": "crypto",
-    "unit": "1 NEAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "near",
     "sortOrder": 20,
     "retiredAt": null
   },
@@ -252,14 +252,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
     "category": "crypto",
-    "unit": "1 BTW",
+    "unit": "1 NEAR",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bitway",
+    "sourceSymbol": "near",
     "sortOrder": 22,
     "retiredAt": null
   },
@@ -324,18 +324,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dai",
     "symbol": "DAI",
     "name": "Dai",
@@ -344,6 +332,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 28,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "category": "crypto",
-    "unit": "1 USDG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:quant-network",
     "symbol": "QNT",
     "name": "Quant",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
-    "category": "crypto",
-    "unit": "1 PUMP",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pump-fun",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-us-dollar-yield",
     "symbol": "USDY",
     "name": "Ondo US Dollar Yield",
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
+    "category": "crypto",
+    "unit": "1 PUMP",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pump-fun",
     "sortOrder": 47,
     "retiredAt": null
   },
