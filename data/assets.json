@@ -192,18 +192,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:cardano",
-    "symbol": "ADA",
-    "name": "Cardano",
-    "category": "crypto",
-    "unit": "1 ADA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "cardano",
-    "sortOrder": 17,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:leo-token",
     "symbol": "LEO",
     "name": "LEO Token",
@@ -212,6 +200,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "leo-token",
+    "sortOrder": 17,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:cardano",
+    "symbol": "ADA",
+    "name": "Cardano",
+    "category": "crypto",
+    "unit": "1 ADA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "cardano",
     "sortOrder": 18,
     "retiredAt": null
   },
@@ -432,14 +432,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
     "category": "crypto",
-    "unit": "1 QNT",
+    "unit": "1 BTW",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "quant-network",
+    "sourceSymbol": "bitway",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -456,14 +456,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
     "category": "crypto",
-    "unit": "1 BTW",
+    "unit": "1 QNT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bitway",
+    "sourceSymbol": "quant-network",
     "sortOrder": 39,
     "retiredAt": null
   },
