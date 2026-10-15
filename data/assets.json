@@ -144,18 +144,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usds",
-    "symbol": "USDS",
-    "name": "USDS",
-    "category": "crypto",
-    "unit": "1 USDS",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usds",
-    "sortOrder": 13,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:monero",
     "symbol": "XMR",
     "name": "Monero",
@@ -164,6 +152,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
+    "sortOrder": 13,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usds",
+    "symbol": "USDS",
+    "name": "USDS",
+    "category": "crypto",
+    "unit": "1 USDS",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usds",
     "sortOrder": 14,
     "retiredAt": null
   },
@@ -228,18 +228,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:stellar",
-    "symbol": "XLM",
-    "name": "Stellar",
-    "category": "crypto",
-    "unit": "1 XLM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "stellar",
-    "sortOrder": 20,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:rain",
     "symbol": "RAIN",
     "name": "Rain",
@@ -248,6 +236,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
+    "sortOrder": 20,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:stellar",
+    "symbol": "XLM",
+    "name": "Stellar",
+    "category": "crypto",
+    "unit": "1 XLM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "stellar",
     "sortOrder": 21,
     "retiredAt": null
   },
@@ -324,18 +324,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:sui",
     "symbol": "SUI",
     "name": "Sui",
@@ -344,6 +332,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 28,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
-    "category": "crypto",
-    "unit": "1 QNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:shiba-inu",
     "symbol": "SHIB",
     "name": "Shiba Inu",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -504,18 +504,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 43,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -524,6 +512,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 44,
     "retiredAt": null
   },
