@@ -11,23 +11,23 @@
   },
   "gold-api": {
     "provider": "gold-api",
-    "lastAttemptAt": "2026-10-16T16:37:04.325Z",
-    "lastSuccessAt": "2026-10-16T16:37:04.325Z",
+    "lastAttemptAt": "2026-10-16T19:56:36.767Z",
+    "lastSuccessAt": "2026-10-16T19:56:36.767Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-10-16",
-    "requestsInWindow": 20
+    "requestsInWindow": 24
   },
   "coingecko": {
     "provider": "coingecko",
-    "lastAttemptAt": "2026-10-16T16:37:04.563Z",
-    "lastSuccessAt": "2026-10-16T16:37:04.563Z",
+    "lastAttemptAt": "2026-10-16T19:56:36.931Z",
+    "lastSuccessAt": "2026-10-16T19:56:36.931Z",
     "lastErrorAt": "2026-09-30T00:25:44.276Z",
     "lastError": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
     "consecutiveFailures": 0,
     "windowDate": "2026-10-16",
-    "requestsInWindow": 5
+    "requestsInWindow": 6
   },
   "fred": {
     "provider": "fred",
@@ -41,12 +41,12 @@
   },
   "nasdaq": {
     "provider": "nasdaq",
-    "lastAttemptAt": "2026-10-16T16:37:48.143Z",
-    "lastSuccessAt": "2026-10-16T16:37:48.143Z",
+    "lastAttemptAt": "2026-10-16T19:57:20.420Z",
+    "lastSuccessAt": "2026-10-16T19:57:20.420Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-10-16",
-    "requestsInWindow": 95
+    "requestsInWindow": 114
   }
 }
