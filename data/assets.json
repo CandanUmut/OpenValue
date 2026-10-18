@@ -288,18 +288,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dai",
     "symbol": "DAI",
     "name": "Dai",
@@ -308,6 +296,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -324,14 +324,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
     "category": "crypto",
-    "unit": "1 SUI",
+    "unit": "1 USD1",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "sui",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -348,14 +348,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
     "category": "crypto",
-    "unit": "1 USD1",
+    "unit": "1 SUI",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
+    "sourceSymbol": "sui",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -444,14 +444,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
+    "id": "crypto:paypal-usd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
     "category": "crypto",
-    "unit": "1 QNT",
+    "unit": "1 PYUSD",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "quant-network",
+    "sourceSymbol": "paypal-usd",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -468,14 +468,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:paypal-usd",
-    "symbol": "PYUSD",
-    "name": "PayPal USD",
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
     "category": "crypto",
-    "unit": "1 PYUSD",
+    "unit": "1 QNT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "paypal-usd",
+    "sourceSymbol": "quant-network",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -504,18 +504,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 43,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -524,19 +512,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 44,
+    "sortOrder": 43,
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
     "category": "crypto",
-    "unit": "1 AAVE",
+    "unit": "1 OKB",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aave",
-    "sortOrder": 45,
+    "sourceSymbol": "okb",
+    "sortOrder": 44,
     "retiredAt": null
   },
   {
@@ -548,6 +536,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
+    "sortOrder": 45,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "category": "crypto",
+    "unit": "1 AAVE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aave",
     "sortOrder": 46,
     "retiredAt": null
   },
