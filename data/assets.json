@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:litecoin",
-    "symbol": "LTC",
-    "name": "Litecoin",
-    "category": "crypto",
-    "unit": "1 LTC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "litecoin",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dai",
     "symbol": "DAI",
     "name": "Dai",
@@ -296,6 +284,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 24,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:litecoin",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "category": "crypto",
+    "unit": "1 LTC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "litecoin",
     "sortOrder": 25,
     "retiredAt": null
   },
@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hedera-hashgraph",
-    "symbol": "HBAR",
-    "name": "Hedera",
-    "category": "crypto",
-    "unit": "1 HBAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:the-open-network",
     "symbol": "GRAM",
     "name": "Gram (prev. Toncoin)",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
+    "sortOrder": 31,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hedera-hashgraph",
+    "symbol": "HBAR",
+    "name": "Hedera",
+    "category": "crypto",
+    "unit": "1 HBAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hedera-hashgraph",
     "sortOrder": 32,
     "retiredAt": null
   },
