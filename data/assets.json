@@ -228,18 +228,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 20,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:stellar",
     "symbol": "XLM",
     "name": "Stellar",
@@ -248,6 +236,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "stellar",
+    "sortOrder": 20,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 21,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:shiba-inu",
     "symbol": "SHIB",
     "name": "Shiba Inu",
@@ -440,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
-    "sortOrder": 37,
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -452,7 +440,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 38,
+    "sortOrder": 37,
     "retiredAt": null
   },
   {
@@ -464,7 +452,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
-    "sortOrder": 39,
+    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -476,6 +464,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -492,18 +492,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 42,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -512,6 +500,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 42,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 43,
     "retiredAt": null
   },
@@ -588,6 +588,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:worldcoin-wld",
+    "symbol": "WLD",
+    "name": "Worldcoin",
+    "category": "crypto",
+    "unit": "1 WLD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "worldcoin-wld",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:pump-fun",
     "symbol": "PUMP",
     "name": "Pump.fun",
@@ -596,7 +608,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
-    "sortOrder": 49,
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
@@ -620,18 +632,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
-    "sortOrder": 50,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:worldcoin-wld",
-    "symbol": "WLD",
-    "name": "Worldcoin",
-    "category": "crypto",
-    "unit": "1 WLD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "worldcoin-wld",
     "sortOrder": 50,
     "retiredAt": null
   },
