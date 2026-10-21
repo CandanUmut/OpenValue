@@ -396,14 +396,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
     "category": "crypto",
-    "unit": "1 TAO",
+    "unit": "1 BTW",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bittensor",
+    "sourceSymbol": "bitway",
     "sortOrder": 34,
     "retiredAt": null
   },
@@ -420,6 +420,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "category": "crypto",
+    "unit": "1 TAO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bittensor",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:shiba-inu",
     "symbol": "SHIB",
     "name": "Shiba Inu",
@@ -428,7 +440,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
-    "sortOrder": 36,
+    "sortOrder": 37,
     "retiredAt": null
   },
   {
@@ -440,7 +452,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -452,7 +464,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
-    "sortOrder": 38,
+    "sortOrder": 39,
     "retiredAt": null
   },
   {
@@ -464,18 +476,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
-    "sortOrder": 39,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -504,18 +504,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 43,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -524,6 +512,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 44,
     "retiredAt": null
   },
@@ -564,6 +564,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
+    "category": "crypto",
+    "unit": "1 PUMP",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pump-fun",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -572,18 +584,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "BUIDL",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
-    "category": "crypto",
-    "unit": "1 BUIDL",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 49,
     "retiredAt": null
   },
@@ -600,14 +600,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
+    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
     "category": "crypto",
-    "unit": "1 PUMP",
+    "unit": "1 BUIDL",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "pump-fun",
+    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 50,
     "retiredAt": null
   },
