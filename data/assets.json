@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:litecoin",
     "symbol": "LTC",
     "name": "Litecoin",
@@ -296,6 +284,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
+    "sortOrder": 24,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 25,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -576,18 +576,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:falcon-finance",
     "symbol": "USDF",
     "name": "Falcon USD",
@@ -608,6 +596,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "worldcoin-wld",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
     "sortOrder": 50,
     "retiredAt": null
   },
