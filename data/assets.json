@@ -216,18 +216,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:stellar",
-    "symbol": "XLM",
-    "name": "Stellar",
-    "category": "crypto",
-    "unit": "1 XLM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "stellar",
-    "sortOrder": 19,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:rain",
     "symbol": "RAIN",
     "name": "Rain",
@@ -236,6 +224,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
+    "sortOrder": 19,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:stellar",
+    "symbol": "XLM",
+    "name": "Stellar",
+    "category": "crypto",
+    "unit": "1 XLM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "stellar",
     "sortOrder": 20,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
     "symbol": "BUIDL",
     "name": "BlackRock USD Institutional Digital Liquidity Fund",
@@ -560,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 47,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -572,6 +560,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 48,
     "retiredAt": null
   },
