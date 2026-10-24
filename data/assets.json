@@ -324,18 +324,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -344,6 +332,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 28,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -456,6 +456,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:quant-network",
     "symbol": "QNT",
     "name": "Quant",
@@ -464,7 +476,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
-    "sortOrder": 39,
+    "sortOrder": 40,
     "retiredAt": null
   },
   {
@@ -476,18 +488,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -504,6 +504,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -512,7 +524,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 43,
+    "sortOrder": 44,
     "retiredAt": null
   },
   {
@@ -524,7 +536,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -536,31 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
     "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
-    "category": "crypto",
-    "unit": "1 AAVE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aave",
-    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -572,6 +560,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "category": "crypto",
+    "unit": "1 AAVE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aave",
     "sortOrder": 48,
     "retiredAt": null
   },
