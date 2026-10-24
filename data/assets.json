@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
-    "category": "crypto",
-    "unit": "1 QNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena",
     "symbol": "ENA",
     "name": "Ethena",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -588,18 +588,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pump-fun",
-    "symbol": "PUMP",
-    "name": "Pump.fun",
-    "category": "crypto",
-    "unit": "1 PUMP",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pump-fun",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -608,6 +596,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pump-fun",
+    "symbol": "PUMP",
+    "name": "Pump.fun",
+    "category": "crypto",
+    "unit": "1 PUMP",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pump-fun",
     "sortOrder": 50,
     "retiredAt": null
   },
