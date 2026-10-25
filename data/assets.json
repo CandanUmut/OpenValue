@@ -216,14 +216,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
     "category": "crypto",
-    "unit": "1 RAIN",
+    "unit": "1 NEAR",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "rain",
+    "sourceSymbol": "near",
     "sortOrder": 19,
     "retiredAt": null
   },
@@ -240,14 +240,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
     "category": "crypto",
-    "unit": "1 NEAR",
+    "unit": "1 RAIN",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "near",
+    "sourceSymbol": "rain",
     "sortOrder": 21,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -440,18 +428,30 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 37,
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
     "category": "crypto",
-    "unit": "1 CRO",
+    "unit": "1 QNT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
+    "sourceSymbol": "quant-network",
     "sortOrder": 38,
     "retiredAt": null
   },
@@ -468,27 +468,15 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
     "category": "crypto",
-    "unit": "1 QNT",
+    "unit": "1 CRO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "quant-network",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 41,
     "retiredAt": null
   },
   {
@@ -500,6 +488,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bitway",
+    "sortOrder": 41,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 42,
     "retiredAt": null
   },
@@ -552,18 +552,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -572,6 +560,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
     "sortOrder": 48,
     "retiredAt": null
   },
