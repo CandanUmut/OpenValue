@@ -180,18 +180,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:leo-token",
-    "symbol": "LEO",
-    "name": "LEO Token",
-    "category": "crypto",
-    "unit": "1 LEO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "leo-token",
-    "sortOrder": 16,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:chainlink",
     "symbol": "LINK",
     "name": "Chainlink",
@@ -200,6 +188,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "chainlink",
+    "sortOrder": 16,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:leo-token",
+    "symbol": "LEO",
+    "name": "LEO Token",
+    "category": "crypto",
+    "unit": "1 LEO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "leo-token",
     "sortOrder": 17,
     "retiredAt": null
   },
