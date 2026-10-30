@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
-    "category": "crypto",
-    "unit": "1 USD1",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
+    "category": "crypto",
+    "unit": "1 USD1",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena",
     "symbol": "ENA",
     "name": "Ethena",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -564,6 +564,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -572,7 +584,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "retiredAt": null
   },
   {
@@ -596,18 +608,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "falcon-finance",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
     "sortOrder": 49,
     "retiredAt": null
   },
