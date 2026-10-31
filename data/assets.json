@@ -264,18 +264,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 23,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena-usde",
     "symbol": "USDE",
     "name": "Ethena USDe",
@@ -284,6 +272,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
+    "sortOrder": 23,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 24,
     "retiredAt": null
   },
@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 28,
     "retiredAt": null
   },
