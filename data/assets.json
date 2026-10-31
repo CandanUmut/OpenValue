@@ -108,18 +108,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hyperliquid",
-    "symbol": "HYPE",
-    "name": "Hyperliquid",
-    "category": "crypto",
-    "unit": "1 HYPE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hyperliquid",
-    "sortOrder": 10,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:zcash",
     "symbol": "ZEC",
     "name": "Zcash",
@@ -128,6 +116,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "zcash",
+    "sortOrder": 10,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hyperliquid",
+    "symbol": "HYPE",
+    "name": "Hyperliquid",
+    "category": "crypto",
+    "unit": "1 HYPE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hyperliquid",
     "sortOrder": 11,
     "retiredAt": null
   },
@@ -168,18 +168,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:whitebit",
-    "symbol": "WBT",
-    "name": "WhiteBIT Coin",
-    "category": "crypto",
-    "unit": "1 WBT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "whitebit",
-    "sortOrder": 15,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:chainlink",
     "symbol": "LINK",
     "name": "Chainlink",
@@ -188,6 +176,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "chainlink",
+    "sortOrder": 15,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:whitebit",
+    "symbol": "WBT",
+    "name": "WhiteBIT Coin",
+    "category": "crypto",
+    "unit": "1 WBT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "whitebit",
     "sortOrder": 16,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:quant-network",
     "symbol": "QNT",
     "name": "Quant",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -552,14 +552,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
-    "symbol": "BUIDL",
-    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
     "category": "crypto",
-    "unit": "1 BUIDL",
+    "unit": "1 AAVE",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
+    "sourceSymbol": "aave",
     "sortOrder": 47,
     "retiredAt": null
   },
@@ -576,14 +576,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
+    "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
     "category": "crypto",
-    "unit": "1 AAVE",
+    "unit": "1 BUIDL",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aave",
+    "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
     "sortOrder": 49,
     "retiredAt": null
   },
