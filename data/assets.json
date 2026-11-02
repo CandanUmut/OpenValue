@@ -108,18 +108,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hyperliquid",
-    "symbol": "HYPE",
-    "name": "Hyperliquid",
-    "category": "crypto",
-    "unit": "1 HYPE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hyperliquid",
-    "sortOrder": 10,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:zcash",
     "symbol": "ZEC",
     "name": "Zcash",
@@ -128,6 +116,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "zcash",
+    "sortOrder": 10,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hyperliquid",
+    "symbol": "HYPE",
+    "name": "Hyperliquid",
+    "category": "crypto",
+    "unit": "1 HYPE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hyperliquid",
     "sortOrder": 11,
     "retiredAt": null
   },
@@ -180,18 +180,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:leo-token",
-    "symbol": "LEO",
-    "name": "LEO Token",
-    "category": "crypto",
-    "unit": "1 LEO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "leo-token",
-    "sortOrder": 16,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:chainlink",
     "symbol": "LINK",
     "name": "Chainlink",
@@ -200,6 +188,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "chainlink",
+    "sortOrder": 16,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:leo-token",
+    "symbol": "LEO",
+    "name": "LEO Token",
+    "category": "crypto",
+    "unit": "1 LEO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "leo-token",
     "sortOrder": 17,
     "retiredAt": null
   },
@@ -276,18 +276,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 24,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -296,7 +284,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 25,
+    "sortOrder": 24,
     "retiredAt": null
   },
   {
@@ -308,6 +296,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena",
     "symbol": "ENA",
     "name": "Ethena",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -564,6 +564,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:memecore",
+    "symbol": "M",
+    "name": "MemeCore",
+    "category": "crypto",
+    "unit": "1 M",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "memecore",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:ondo-finance",
     "symbol": "ONDO",
     "name": "Ondo",
@@ -572,7 +584,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-finance",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "retiredAt": null
   },
   {
@@ -596,18 +608,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "falcon-finance",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:memecore",
-    "symbol": "M",
-    "name": "MemeCore",
-    "category": "crypto",
-    "unit": "1 M",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "memecore",
     "sortOrder": 49,
     "retiredAt": null
   },
