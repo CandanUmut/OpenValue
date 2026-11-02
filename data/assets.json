@@ -108,18 +108,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:zcash",
-    "symbol": "ZEC",
-    "name": "Zcash",
-    "category": "crypto",
-    "unit": "1 ZEC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "zcash",
-    "sortOrder": 10,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hyperliquid",
     "symbol": "HYPE",
     "name": "Hyperliquid",
@@ -128,6 +116,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hyperliquid",
+    "sortOrder": 10,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:zcash",
+    "symbol": "ZEC",
+    "name": "Zcash",
+    "category": "crypto",
+    "unit": "1 ZEC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "zcash",
     "sortOrder": 11,
     "retiredAt": null
   },
@@ -276,6 +276,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
+    "sortOrder": 24,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -284,7 +296,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 24,
+    "sortOrder": 25,
     "retiredAt": null
   },
   {
@@ -296,18 +308,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -396,18 +396,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
-    "category": "crypto",
-    "unit": "1 QNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -416,6 +404,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -540,6 +540,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:pepe",
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "category": "crypto",
+    "unit": "1 PEPE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pepe",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -548,7 +560,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 46,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -560,18 +572,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:pepe",
-    "symbol": "PEPE",
-    "name": "Pepe",
-    "category": "crypto",
-    "unit": "1 PEPE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pepe",
     "sortOrder": 48,
     "retiredAt": null
   },
@@ -716,7 +716,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
-    "sortOrder": 51,
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
