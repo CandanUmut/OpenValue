@@ -132,18 +132,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dogecoin",
-    "symbol": "DOGE",
-    "name": "Dogecoin",
-    "category": "crypto",
-    "unit": "1 DOGE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dogecoin",
-    "sortOrder": 12,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:monero",
     "symbol": "XMR",
     "name": "Monero",
@@ -152,6 +140,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "monero",
+    "sortOrder": 12,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dogecoin",
+    "symbol": "DOGE",
+    "name": "Dogecoin",
+    "category": "crypto",
+    "unit": "1 DOGE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dogecoin",
     "sortOrder": 13,
     "retiredAt": null
   },
@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dai",
     "symbol": "DAI",
     "name": "Dai",
@@ -272,7 +260,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
-    "sortOrder": 23,
+    "sortOrder": 22,
     "retiredAt": null
   },
   {
@@ -284,6 +272,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
+    "sortOrder": 23,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 24,
     "retiredAt": null
   },
@@ -576,18 +576,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
-    "category": "crypto",
-    "unit": "1 ONDO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -620,6 +608,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
     "sortOrder": 50,
     "retiredAt": null
   },
