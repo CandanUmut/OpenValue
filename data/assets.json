@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena-usde",
     "symbol": "USDE",
     "name": "Ethena USDe",
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -504,18 +504,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena",
-    "symbol": "ENA",
-    "name": "Ethena",
-    "category": "crypto",
-    "unit": "1 ENA",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena",
-    "sortOrder": 43,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -524,6 +512,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "category": "crypto",
+    "unit": "1 ENA",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena",
     "sortOrder": 44,
     "retiredAt": null
   },
@@ -564,6 +564,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
+    "symbol": "EURSAFO",
+    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
+    "category": "crypto",
+    "unit": "1 EURSAFO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
     "symbol": "BUIDL",
     "name": "BlackRock USD Institutional Digital Liquidity Fund",
@@ -572,7 +584,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
-    "sortOrder": 47,
+    "sortOrder": 48,
     "retiredAt": null
   },
   {
@@ -584,18 +596,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
-    "symbol": "EURSAFO",
-    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
-    "category": "crypto",
-    "unit": "1 EURSAFO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
     "sortOrder": 48,
     "retiredAt": null
   },
