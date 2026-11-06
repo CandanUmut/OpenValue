@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:paypal-usd",
     "symbol": "PYUSD",
     "name": "PayPal USD",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -516,18 +516,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pepe",
-    "symbol": "PEPE",
-    "name": "Pepe",
-    "category": "crypto",
-    "unit": "1 PEPE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pepe",
-    "sortOrder": 44,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -536,6 +524,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pepe",
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "category": "crypto",
+    "unit": "1 PEPE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pepe",
     "sortOrder": 45,
     "retiredAt": null
   },
