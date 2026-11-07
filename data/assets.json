@@ -600,18 +600,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:falcon-finance",
     "symbol": "USDF",
     "name": "Falcon USD",
@@ -620,6 +608,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "falcon-finance",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
     "sortOrder": 50,
     "retiredAt": null
   },
