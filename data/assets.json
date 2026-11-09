@@ -48,18 +48,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd-coin",
-    "symbol": "USDC",
-    "name": "USDC",
-    "category": "crypto",
-    "unit": "1 USDC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd-coin",
-    "sortOrder": 5,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ripple",
     "symbol": "XRP",
     "name": "XRP",
@@ -68,6 +56,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple",
+    "sortOrder": 5,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd-coin",
+    "symbol": "USDC",
+    "name": "USDC",
+    "category": "crypto",
+    "unit": "1 USDC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd-coin",
     "sortOrder": 6,
     "retiredAt": null
   },
@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 26,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:avalanche-2",
     "symbol": "AVAX",
     "name": "Avalanche",
@@ -320,19 +308,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
-    "sortOrder": 27,
+    "sortOrder": 26,
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
     "category": "crypto",
-    "unit": "1 USD1",
+    "unit": "1 CC",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 28,
+    "sourceSymbol": "canton-network",
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -344,6 +332,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 28,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
+    "category": "crypto",
+    "unit": "1 USD1",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:global-dollar",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "category": "crypto",
-    "unit": "1 USDG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "global-dollar",
-    "sortOrder": 36,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ripple-usd",
     "symbol": "RLUSD",
     "name": "Ripple USD",
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:global-dollar",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "category": "crypto",
+    "unit": "1 USDG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "global-dollar",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -516,18 +516,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 44,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena",
     "symbol": "ENA",
     "name": "Ethena",
@@ -536,7 +524,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
-    "sortOrder": 45,
+    "sortOrder": 44,
     "retiredAt": null
   },
   {
@@ -548,19 +536,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 46,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-finance",
-    "symbol": "ONDO",
-    "name": "Ondo",
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
     "category": "crypto",
-    "unit": "1 ONDO",
+    "unit": "1 OKB",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "ondo-finance",
-    "sortOrder": 47,
+    "sourceSymbol": "okb",
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -576,6 +564,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:ondo-finance",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "category": "crypto",
+    "unit": "1 ONDO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-finance",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:pax-gold",
     "symbol": "PAXG",
     "name": "PAX Gold",
@@ -584,18 +584,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pax-gold",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:falcon-finance",
-    "symbol": "USDF",
-    "name": "Falcon USD",
-    "category": "crypto",
-    "unit": "1 USDF",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "falcon-finance",
     "sortOrder": 49,
     "retiredAt": null
   },
@@ -609,6 +597,18 @@
     "source": "coingecko",
     "sourceSymbol": "bitway",
     "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:falcon-finance",
+    "symbol": "USDF",
+    "name": "Falcon USD",
+    "category": "crypto",
+    "unit": "1 USDF",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "falcon-finance",
+    "sortOrder": 50,
     "retiredAt": null
   },
   {
