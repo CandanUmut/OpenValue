@@ -132,18 +132,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:monero",
-    "symbol": "XMR",
-    "name": "Monero",
-    "category": "crypto",
-    "unit": "1 XMR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "monero",
-    "sortOrder": 12,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dogecoin",
     "symbol": "DOGE",
     "name": "Dogecoin",
@@ -152,6 +140,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dogecoin",
+    "sortOrder": 12,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:monero",
+    "symbol": "XMR",
+    "name": "Monero",
+    "category": "crypto",
+    "unit": "1 XMR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "monero",
     "sortOrder": 13,
     "retiredAt": null
   },
@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -312,18 +312,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:the-open-network",
-    "symbol": "GRAM",
-    "name": "Gram (prev. Toncoin)",
-    "category": "crypto",
-    "unit": "1 GRAM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "the-open-network",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -332,6 +320,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:the-open-network",
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
+    "category": "crypto",
+    "unit": "1 GRAM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "the-open-network",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pepe",
-    "symbol": "PEPE",
-    "name": "Pepe",
-    "category": "crypto",
-    "unit": "1 PEPE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pepe",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pepe",
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "category": "crypto",
+    "unit": "1 PEPE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pepe",
     "sortOrder": 47,
     "retiredAt": null
   },
