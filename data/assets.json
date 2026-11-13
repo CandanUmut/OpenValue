@@ -252,18 +252,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 22,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:near",
     "symbol": "NEAR",
     "name": "NEAR Protocol",
@@ -272,6 +260,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 22,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "category": "crypto",
+    "unit": "1 DAI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "dai",
     "sortOrder": 23,
     "retiredAt": null
   },
@@ -296,7 +296,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "litecoin",
-    "sortOrder": 25,
+    "sortOrder": 24,
     "retiredAt": null
   },
   {
@@ -308,7 +308,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
-    "sortOrder": 26,
+    "sortOrder": 25,
     "retiredAt": null
   },
   {
@@ -320,7 +320,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 27,
+    "sortOrder": 26,
     "retiredAt": null
   },
   {
@@ -332,7 +332,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
-    "sortOrder": 28,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -344,7 +344,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
-    "sortOrder": 29,
+    "sortOrder": 28,
     "retiredAt": null
   },
   {
@@ -356,7 +356,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
-    "sortOrder": 30,
+    "sortOrder": 29,
     "retiredAt": null
   },
   {
@@ -368,7 +368,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 31,
+    "sortOrder": 30,
     "retiredAt": null
   },
   {
@@ -380,7 +380,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
-    "sortOrder": 32,
+    "sortOrder": 31,
     "retiredAt": null
   },
   {
@@ -392,7 +392,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 33,
+    "sortOrder": 32,
     "retiredAt": null
   },
   {
@@ -404,7 +404,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
-    "sortOrder": 34,
+    "sortOrder": 33,
     "retiredAt": null
   },
   {
@@ -416,7 +416,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
-    "sortOrder": 35,
+    "sortOrder": 34,
     "retiredAt": null
   },
   {
@@ -428,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
-    "sortOrder": 36,
+    "sortOrder": 35,
     "retiredAt": null
   },
   {
@@ -440,7 +440,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
-    "sortOrder": 37,
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -452,7 +452,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
-    "sortOrder": 38,
+    "sortOrder": 37,
     "retiredAt": null
   },
   {
@@ -464,7 +464,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
-    "sortOrder": 39,
+    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -476,7 +476,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 40,
+    "sortOrder": 39,
     "retiredAt": null
   },
   {
@@ -488,7 +488,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 41,
+    "sortOrder": 40,
     "retiredAt": null
   },
   {
@@ -500,6 +500,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
+    "sortOrder": 41,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
+    "category": "crypto",
+    "unit": "1 OKB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "okb",
     "sortOrder": 42,
     "retiredAt": null
   },
@@ -516,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 44,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
     "symbol": "EURSAFO",
     "name": "Spiko Amundi Overnight Swap Fund (EUR)",
@@ -536,7 +536,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
-    "sortOrder": 45,
+    "sortOrder": 44,
     "retiredAt": null
   },
   {
@@ -548,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pepe",
-    "sortOrder": 46,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -560,7 +560,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
-    "sortOrder": 47,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -572,7 +572,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena",
-    "sortOrder": 48,
+    "sortOrder": 47,
     "retiredAt": null
   },
   {
@@ -596,7 +596,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "falcon-finance",
-    "sortOrder": 49,
+    "sortOrder": 48,
     "retiredAt": null
   },
   {
@@ -608,7 +608,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
-    "sortOrder": 50,
+    "sortOrder": 49,
     "retiredAt": null
   },
   {
