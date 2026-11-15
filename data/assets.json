@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -320,19 +308,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 26,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:canton-network",
-    "symbol": "CC",
-    "name": "Canton",
-    "category": "crypto",
-    "unit": "1 CC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "canton-network",
-    "sortOrder": 27,
+    "sortOrder": 25,
     "retiredAt": null
   },
   {
@@ -344,6 +320,30 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 26,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:canton-network",
+    "symbol": "CC",
+    "name": "Canton",
+    "category": "crypto",
+    "unit": "1 CC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "canton-network",
     "sortOrder": 28,
     "retiredAt": null
   },
