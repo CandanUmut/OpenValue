@@ -216,18 +216,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ethena-usde",
-    "symbol": "USDE",
-    "name": "Ethena USDe",
-    "category": "crypto",
-    "unit": "1 USDE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ethena-usde",
-    "sortOrder": 19,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:stellar",
     "symbol": "XLM",
     "name": "Stellar",
@@ -236,6 +224,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "stellar",
+    "sortOrder": 19,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ethena-usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
+    "category": "crypto",
+    "unit": "1 USDE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ethena-usde",
     "sortOrder": 20,
     "retiredAt": null
   },
@@ -360,18 +360,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:the-open-network",
-    "symbol": "GRAM",
-    "name": "Gram (prev. Toncoin)",
-    "category": "crypto",
-    "unit": "1 GRAM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "the-open-network",
-    "sortOrder": 30,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:sui",
     "symbol": "SUI",
     "name": "Sui",
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "sui",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:the-open-network",
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
+    "category": "crypto",
+    "unit": "1 GRAM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "the-open-network",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -408,18 +408,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:paypal-usd",
     "symbol": "PYUSD",
     "name": "PayPal USD",
@@ -428,7 +416,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
-    "sortOrder": 35,
+    "sortOrder": 34,
     "retiredAt": null
   },
   {
@@ -440,6 +428,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 35,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 36,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
-    "category": "crypto",
-    "unit": "1 QNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 39,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -576,6 +576,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "category": "crypto",
+    "unit": "1 AAVE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aave",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:bitway",
     "symbol": "BTW",
     "name": "Bitway",
@@ -588,18 +600,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
-    "category": "crypto",
-    "unit": "1 AAVE",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "aave",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:falcon-finance",
     "symbol": "USDF",
     "name": "Falcon USD",
@@ -608,7 +608,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "falcon-finance",
-    "sortOrder": 49,
+    "sortOrder": 48,
     "retiredAt": null
   },
   {
@@ -624,18 +624,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:united-stables",
-    "symbol": "U",
-    "name": "United Stables",
-    "category": "crypto",
-    "unit": "1 U",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "united-stables",
-    "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:blackrock-usd-institutional-digital-liquidity-fund",
     "symbol": "BUIDL",
     "name": "BlackRock USD Institutional Digital Liquidity Fund",
@@ -644,6 +632,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "blackrock-usd-institutional-digital-liquidity-fund",
+    "sortOrder": 49,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:united-stables",
+    "symbol": "U",
+    "name": "United Stables",
+    "category": "crypto",
+    "unit": "1 U",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "united-stables",
     "sortOrder": 50,
     "retiredAt": null
   },
