@@ -132,18 +132,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:monero",
-    "symbol": "XMR",
-    "name": "Monero",
-    "category": "crypto",
-    "unit": "1 XMR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "monero",
-    "sortOrder": 12,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dogecoin",
     "symbol": "DOGE",
     "name": "Dogecoin",
@@ -152,6 +140,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dogecoin",
+    "sortOrder": 12,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:monero",
+    "symbol": "XMR",
+    "name": "Monero",
+    "category": "crypto",
+    "unit": "1 XMR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "monero",
     "sortOrder": 13,
     "retiredAt": null
   },
@@ -240,18 +240,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:dai",
-    "symbol": "DAI",
-    "name": "Dai",
-    "category": "crypto",
-    "unit": "1 DAI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "dai",
-    "sortOrder": 21,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:rain",
     "symbol": "RAIN",
     "name": "Rain",
@@ -260,19 +248,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
-    "sortOrder": 22,
+    "sortOrder": 21,
     "retiredAt": null
   },
   {
-    "id": "crypto:bitcoin-cash",
-    "symbol": "BCH",
-    "name": "Bitcoin Cash",
+    "id": "crypto:dai",
+    "symbol": "DAI",
+    "name": "Dai",
     "category": "crypto",
-    "unit": "1 BCH",
+    "unit": "1 DAI",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bitcoin-cash",
-    "sortOrder": 23,
+    "sourceSymbol": "dai",
+    "sortOrder": 22,
     "retiredAt": null
   },
   {
@@ -284,6 +272,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "near",
+    "sortOrder": 23,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bitcoin-cash",
+    "symbol": "BCH",
+    "name": "Bitcoin Cash",
+    "category": "crypto",
+    "unit": "1 BCH",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitcoin-cash",
     "sortOrder": 24,
     "retiredAt": null
   },
@@ -360,14 +360,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:the-open-network",
-    "symbol": "GRAM",
-    "name": "Gram (prev. Toncoin)",
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
     "category": "crypto",
-    "unit": "1 GRAM",
+    "unit": "1 SUI",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "the-open-network",
+    "sourceSymbol": "sui",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -384,14 +384,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
+    "id": "crypto:the-open-network",
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
     "category": "crypto",
-    "unit": "1 SUI",
+    "unit": "1 GRAM",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "sui",
+    "sourceSymbol": "the-open-network",
     "sortOrder": 32,
     "retiredAt": null
   },
@@ -456,18 +456,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
-    "category": "crypto",
-    "unit": "1 SHIB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
-    "sortOrder": 38,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:crypto-com-chain",
     "symbol": "CRO",
     "name": "Cronos",
@@ -476,6 +464,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "category": "crypto",
+    "unit": "1 SHIB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -516,18 +516,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
-    "symbol": "EURSAFO",
-    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
-    "category": "crypto",
-    "unit": "1 EURSAFO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
-    "sortOrder": 43,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -536,6 +524,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 43,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
+    "symbol": "EURSAFO",
+    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
+    "category": "crypto",
+    "unit": "1 EURSAFO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
     "sortOrder": 44,
     "retiredAt": null
   },
@@ -552,18 +552,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
-    "category": "crypto",
-    "unit": "1 PAXG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pax-gold",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:aave",
     "symbol": "AAVE",
     "name": "Aave",
@@ -572,6 +560,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "aave",
+    "sortOrder": 46,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "category": "crypto",
+    "unit": "1 PAXG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 47,
     "retiredAt": null
   },
@@ -588,18 +588,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:falcon-finance",
-    "symbol": "USDF",
-    "name": "Falcon USD",
-    "category": "crypto",
-    "unit": "1 USDF",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "falcon-finance",
-    "sortOrder": 48,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:pepe",
     "symbol": "PEPE",
     "name": "Pepe",
@@ -608,6 +596,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pepe",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:falcon-finance",
+    "symbol": "USDF",
+    "name": "Falcon USD",
+    "category": "crypto",
+    "unit": "1 USDF",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "falcon-finance",
     "sortOrder": 49,
     "retiredAt": null
   },
