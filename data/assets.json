@@ -216,18 +216,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:stellar",
-    "symbol": "XLM",
-    "name": "Stellar",
-    "category": "crypto",
-    "unit": "1 XLM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "stellar",
-    "sortOrder": 19,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:ethena-usde",
     "symbol": "USDE",
     "name": "Ethena USDe",
@@ -236,19 +224,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ethena-usde",
-    "sortOrder": 20,
+    "sortOrder": 19,
     "retiredAt": null
   },
   {
-    "id": "crypto:near",
-    "symbol": "NEAR",
-    "name": "NEAR Protocol",
+    "id": "crypto:stellar",
+    "symbol": "XLM",
+    "name": "Stellar",
     "category": "crypto",
-    "unit": "1 NEAR",
+    "unit": "1 XLM",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "near",
-    "sortOrder": 21,
+    "sourceSymbol": "stellar",
+    "sortOrder": 20,
     "retiredAt": null
   },
   {
@@ -260,6 +248,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 21,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:near",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "category": "crypto",
+    "unit": "1 NEAR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "near",
     "sortOrder": 22,
     "retiredAt": null
   },
@@ -312,6 +312,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
+    "sortOrder": 26,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:avalanche-2",
     "symbol": "AVAX",
     "name": "Avalanche",
@@ -320,7 +332,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "avalanche-2",
-    "sortOrder": 26,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -332,31 +344,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
     "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 29,
     "retiredAt": null
   },
   {
@@ -368,6 +356,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -564,14 +564,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:aave",
-    "symbol": "AAVE",
-    "name": "Aave",
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
     "category": "crypto",
-    "unit": "1 AAVE",
+    "unit": "1 PAXG",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "aave",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 47,
     "retiredAt": null
   },
@@ -600,14 +600,26 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
+    "id": "crypto:united-stables",
+    "symbol": "U",
+    "name": "United Stables",
     "category": "crypto",
-    "unit": "1 PAXG",
+    "unit": "1 U",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "pax-gold",
+    "sourceSymbol": "united-stables",
+    "sortOrder": 48,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:aave",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "category": "crypto",
+    "unit": "1 AAVE",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "aave",
     "sortOrder": 49,
     "retiredAt": null
   },
@@ -621,18 +633,6 @@
     "source": "coingecko",
     "sourceSymbol": "ethena",
     "sortOrder": 49,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:united-stables",
-    "symbol": "U",
-    "name": "United Stables",
-    "category": "crypto",
-    "unit": "1 U",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "united-stables",
-    "sortOrder": 50,
     "retiredAt": null
   },
   {
