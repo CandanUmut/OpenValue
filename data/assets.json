@@ -132,18 +132,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:monero",
-    "symbol": "XMR",
-    "name": "Monero",
-    "category": "crypto",
-    "unit": "1 XMR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "monero",
-    "sortOrder": 12,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dogecoin",
     "symbol": "DOGE",
     "name": "Dogecoin",
@@ -152,6 +140,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dogecoin",
+    "sortOrder": 12,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:monero",
+    "symbol": "XMR",
+    "name": "Monero",
+    "category": "crypto",
+    "unit": "1 XMR",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "monero",
     "sortOrder": 13,
     "retiredAt": null
   },
@@ -372,18 +372,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -392,7 +380,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 32,
+    "sortOrder": 31,
     "retiredAt": null
   },
   {
@@ -404,6 +392,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
+    "sortOrder": 32,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 33,
     "retiredAt": null
   },
