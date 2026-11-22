@@ -336,18 +336,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -356,6 +344,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
+    "sortOrder": 28,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -468,18 +468,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
-    "sortOrder": 39,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:shiba-inu",
     "symbol": "SHIB",
     "name": "Shiba Inu",
@@ -488,6 +476,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
+    "category": "crypto",
+    "unit": "1 CRO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 40,
     "retiredAt": null
   },
