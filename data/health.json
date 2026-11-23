@@ -1,52 +1,52 @@
 {
   "frankfurter": {
     "provider": "frankfurter",
-    "lastAttemptAt": "2026-11-22T22:32:55.870Z",
-    "lastSuccessAt": "2026-11-22T22:32:55.870Z",
+    "lastAttemptAt": "2026-11-23T18:27:42.299Z",
+    "lastSuccessAt": "2026-11-23T18:27:42.299Z",
     "lastErrorAt": null,
     "lastError": null,
-    "consecutiveFailures": 0,
-    "windowDate": "2026-11-22",
-    "requestsInWindow": 4
-  },
-  "gold-api": {
-    "provider": "gold-api",
-    "lastAttemptAt": "2026-11-23T08:59:44.811Z",
-    "lastSuccessAt": "2026-11-23T08:59:44.811Z",
-    "lastErrorAt": null,
-    "lastError": null,
-    "consecutiveFailures": 0,
-    "windowDate": "2026-11-23",
-    "requestsInWindow": 8
-  },
-  "coingecko": {
-    "provider": "coingecko",
-    "lastAttemptAt": "2026-11-23T08:59:45.446Z",
-    "lastSuccessAt": "2026-11-23T08:59:45.446Z",
-    "lastErrorAt": "2026-09-30T00:25:44.276Z",
-    "lastError": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
     "consecutiveFailures": 0,
     "windowDate": "2026-11-23",
     "requestsInWindow": 2
   },
-  "fred": {
-    "provider": "fred",
-    "lastAttemptAt": "2026-11-22T22:33:02.506Z",
-    "lastSuccessAt": "2026-11-22T22:33:02.506Z",
-    "lastErrorAt": "2026-10-21T20:41:52.456Z",
-    "lastError": "every FRED series failed — FEDFUNDS: no usable observations; CPIAUCSL: no usable observations; UNRATE: no usable observations; DGS10: no usable observations; DGS2: no usable observations; M2SL: no usable observations",
-    "consecutiveFailures": 0,
-    "windowDate": "2026-11-22",
-    "requestsInWindow": 12
-  },
-  "nasdaq": {
-    "provider": "nasdaq",
-    "lastAttemptAt": "2026-11-23T09:00:36.231Z",
-    "lastSuccessAt": "2026-11-23T09:00:36.231Z",
+  "gold-api": {
+    "provider": "gold-api",
+    "lastAttemptAt": "2026-11-23T18:27:43.062Z",
+    "lastSuccessAt": "2026-11-23T18:27:43.062Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
     "windowDate": "2026-11-23",
-    "requestsInWindow": 38
+    "requestsInWindow": 12
+  },
+  "coingecko": {
+    "provider": "coingecko",
+    "lastAttemptAt": "2026-11-23T18:27:43.190Z",
+    "lastSuccessAt": "2026-11-23T18:27:43.190Z",
+    "lastErrorAt": "2026-09-30T00:25:44.276Z",
+    "lastError": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
+    "consecutiveFailures": 0,
+    "windowDate": "2026-11-23",
+    "requestsInWindow": 3
+  },
+  "fred": {
+    "provider": "fred",
+    "lastAttemptAt": "2026-11-23T18:27:49.276Z",
+    "lastSuccessAt": "2026-11-23T18:27:49.276Z",
+    "lastErrorAt": "2026-10-21T20:41:52.456Z",
+    "lastError": "every FRED series failed — FEDFUNDS: no usable observations; CPIAUCSL: no usable observations; UNRATE: no usable observations; DGS10: no usable observations; DGS2: no usable observations; M2SL: no usable observations",
+    "consecutiveFailures": 0,
+    "windowDate": "2026-11-23",
+    "requestsInWindow": 6
+  },
+  "nasdaq": {
+    "provider": "nasdaq",
+    "lastAttemptAt": "2026-11-23T18:28:37.534Z",
+    "lastSuccessAt": "2026-11-23T18:28:37.534Z",
+    "lastErrorAt": null,
+    "lastError": null,
+    "consecutiveFailures": 0,
+    "windowDate": "2026-11-23",
+    "requestsInWindow": 57
   }
 }
