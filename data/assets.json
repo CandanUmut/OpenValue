@@ -300,18 +300,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:avalanche-2",
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "category": "crypto",
-    "unit": "1 AVAX",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "avalanche-2",
-    "sortOrder": 25,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:canton-network",
     "symbol": "CC",
     "name": "Canton",
@@ -320,6 +308,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "canton-network",
+    "sortOrder": 25,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:avalanche-2",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "category": "crypto",
+    "unit": "1 AVAX",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "avalanche-2",
     "sortOrder": 26,
     "retiredAt": null
   },
@@ -336,30 +336,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ripple-usd",
-    "symbol": "RLUSD",
-    "name": "Ripple USD",
-    "category": "crypto",
-    "unit": "1 RLUSD",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ripple-usd",
-    "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
-    "category": "crypto",
-    "unit": "1 USD1",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 29,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:uniswap",
     "symbol": "UNI",
     "name": "Uniswap",
@@ -368,7 +344,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
-    "sortOrder": 30,
+    "sortOrder": 28,
     "retiredAt": null
   },
   {
@@ -380,6 +356,30 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ripple-usd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "category": "crypto",
+    "unit": "1 RLUSD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ripple-usd",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
+    "category": "crypto",
+    "unit": "1 USD1",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
-    "category": "crypto",
-    "unit": "1 RAIN",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "rain",
-    "sortOrder": 35,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:paypal-usd",
     "symbol": "PYUSD",
     "name": "PayPal USD",
@@ -440,7 +428,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
-    "sortOrder": 36,
+    "sortOrder": 35,
     "retiredAt": null
   },
   {
@@ -452,6 +440,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 36,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -468,14 +468,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:shiba-inu",
-    "symbol": "SHIB",
-    "name": "Shiba Inu",
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
     "category": "crypto",
-    "unit": "1 SHIB",
+    "unit": "1 QNT",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "shiba-inu",
+    "sourceSymbol": "quant-network",
     "sortOrder": 39,
     "retiredAt": null
   },
@@ -492,14 +492,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
+    "id": "crypto:shiba-inu",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
     "category": "crypto",
-    "unit": "1 QNT",
+    "unit": "1 SHIB",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "quant-network",
+    "sourceSymbol": "shiba-inu",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -528,18 +528,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:okb",
-    "symbol": "OKB",
-    "name": "OKB",
-    "category": "crypto",
-    "unit": "1 OKB",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "okb",
-    "sortOrder": 44,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:memecore",
     "symbol": "M",
     "name": "MemeCore",
@@ -548,6 +536,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "memecore",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:okb",
+    "symbol": "OKB",
+    "name": "OKB",
+    "category": "crypto",
+    "unit": "1 OKB",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "okb",
     "sortOrder": 45,
     "retiredAt": null
   },
