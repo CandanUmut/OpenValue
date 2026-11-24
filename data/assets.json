@@ -348,18 +348,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:the-open-network",
-    "symbol": "GRAM",
-    "name": "Gram (prev. Toncoin)",
-    "category": "crypto",
-    "unit": "1 GRAM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "the-open-network",
-    "sortOrder": 29,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -368,7 +356,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 30,
+    "sortOrder": 29,
     "retiredAt": null
   },
   {
@@ -380,6 +368,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
+    "sortOrder": 30,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:the-open-network",
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
+    "category": "crypto",
+    "unit": "1 GRAM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "the-open-network",
     "sortOrder": 31,
     "retiredAt": null
   },
@@ -420,18 +420,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hedera-hashgraph",
-    "symbol": "HBAR",
-    "name": "Hedera",
-    "category": "crypto",
-    "unit": "1 HBAR",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hedera-hashgraph",
-    "sortOrder": 35,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:paypal-usd",
     "symbol": "PYUSD",
     "name": "PayPal USD",
@@ -440,19 +428,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "paypal-usd",
-    "sortOrder": 36,
+    "sortOrder": 35,
     "retiredAt": null
   },
   {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
+    "id": "crypto:hedera-hashgraph",
+    "symbol": "HBAR",
+    "name": "Hedera",
     "category": "crypto",
-    "unit": "1 QNT",
+    "unit": "1 HBAR",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 37,
+    "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 36,
     "retiredAt": null
   },
   {
@@ -464,7 +452,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
-    "sortOrder": 38,
+    "sortOrder": 37,
     "retiredAt": null
   },
   {
@@ -476,7 +464,31 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "category": "crypto",
+    "unit": "1 USYC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 40,
     "retiredAt": null
   },
   {
@@ -488,18 +500,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:crypto-com-chain",
-    "symbol": "CRO",
-    "name": "Cronos",
-    "category": "crypto",
-    "unit": "1 CRO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -516,14 +516,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
+    "id": "crypto:crypto-com-chain",
+    "symbol": "CRO",
+    "name": "Cronos",
     "category": "crypto",
-    "unit": "1 USYC",
+    "unit": "1 CRO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
+    "sourceSymbol": "crypto-com-chain",
     "sortOrder": 43,
     "retiredAt": null
   },
@@ -564,18 +564,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:pax-gold",
-    "symbol": "PAXG",
-    "name": "PAX Gold",
-    "category": "crypto",
-    "unit": "1 PAXG",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "pax-gold",
-    "sortOrder": 47,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:united-stables",
     "symbol": "U",
     "name": "United Stables",
@@ -584,6 +572,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "united-stables",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:pax-gold",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "category": "crypto",
+    "unit": "1 PAXG",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "pax-gold",
     "sortOrder": 48,
     "retiredAt": null
   },
@@ -740,6 +740,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pump-fun",
+    "sortOrder": 50,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usdd",
+    "symbol": "USDD",
+    "name": "USDD",
+    "category": "crypto",
+    "unit": "1 USDD",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usdd",
     "sortOrder": 50,
     "retiredAt": null
   },
