@@ -168,18 +168,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:chainlink",
-    "symbol": "LINK",
-    "name": "Chainlink",
-    "category": "crypto",
-    "unit": "1 LINK",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "chainlink",
-    "sortOrder": 15,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:whitebit",
     "symbol": "WBT",
     "name": "WhiteBIT Coin",
@@ -188,6 +176,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "whitebit",
+    "sortOrder": 15,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:chainlink",
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "category": "crypto",
+    "unit": "1 LINK",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "chainlink",
     "sortOrder": 16,
     "retiredAt": null
   },
@@ -324,18 +324,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:tether-gold",
-    "symbol": "XAUT",
-    "name": "Tether Gold",
-    "category": "crypto",
-    "unit": "1 XAUT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "tether-gold",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -344,6 +332,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
+    "sortOrder": 27,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:tether-gold",
+    "symbol": "XAUT",
+    "name": "Tether Gold",
+    "category": "crypto",
+    "unit": "1 XAUT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "tether-gold",
     "sortOrder": 28,
     "retiredAt": null
   },
@@ -384,18 +384,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 32,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:global-dollar",
     "symbol": "USDG",
     "name": "Global Dollar",
@@ -404,6 +392,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "global-dollar",
+    "sortOrder": 32,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 33,
     "retiredAt": null
   },
@@ -456,6 +456,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
+    "symbol": "EURSAFO",
+    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
+    "category": "crypto",
+    "unit": "1 EURSAFO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
+    "sortOrder": 38,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:quant-network",
     "symbol": "QNT",
     "name": "Quant",
@@ -464,7 +476,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
-    "sortOrder": 38,
+    "sortOrder": 39,
     "retiredAt": null
   },
   {
@@ -476,18 +488,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
-    "sortOrder": 39,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
-    "symbol": "EURSAFO",
-    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
-    "category": "crypto",
-    "unit": "1 EURSAFO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
     "sortOrder": 40,
     "retiredAt": null
   },
