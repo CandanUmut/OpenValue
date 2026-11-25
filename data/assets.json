@@ -324,18 +324,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:usd1-wlfi",
-    "symbol": "USD1",
-    "name": "USD1",
-    "category": "crypto",
-    "unit": "1 USD1",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 27,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tether-gold",
     "symbol": "XAUT",
     "name": "Tether Gold",
@@ -344,7 +332,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tether-gold",
-    "sortOrder": 28,
+    "sortOrder": 27,
     "retiredAt": null
   },
   {
@@ -356,6 +344,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "uniswap",
+    "sortOrder": 28,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:usd1-wlfi",
+    "symbol": "USD1",
+    "name": "USD1",
+    "category": "crypto",
+    "unit": "1 USD1",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "usd1-wlfi",
     "sortOrder": 29,
     "retiredAt": null
   },
@@ -444,30 +444,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
-    "category": "crypto",
-    "unit": "1 USYC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:quant-network",
-    "symbol": "QNT",
-    "name": "Quant",
-    "category": "crypto",
-    "unit": "1 QNT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "quant-network",
-    "sortOrder": 38,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:bittensor",
     "symbol": "TAO",
     "name": "Bittensor",
@@ -476,7 +452,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "bittensor",
-    "sortOrder": 39,
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "category": "crypto",
+    "unit": "1 USYC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "hashnote-usyc",
+    "sortOrder": 38,
     "retiredAt": null
   },
   {
@@ -488,7 +476,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
-    "sortOrder": 40,
+    "sortOrder": 39,
     "retiredAt": null
   },
   {
@@ -500,6 +488,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "shiba-inu",
+    "sortOrder": 40,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:quant-network",
+    "symbol": "QNT",
+    "name": "Quant",
+    "category": "crypto",
+    "unit": "1 QNT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "quant-network",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:falcon-finance",
-    "symbol": "USDF",
-    "name": "Falcon USD",
-    "category": "crypto",
-    "unit": "1 USDF",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "falcon-finance",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -560,19 +548,19 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
-    "sortOrder": 46,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
-    "id": "crypto:united-stables",
-    "symbol": "U",
-    "name": "United Stables",
+    "id": "crypto:falcon-finance",
+    "symbol": "USDF",
+    "name": "Falcon USD",
     "category": "crypto",
-    "unit": "1 U",
+    "unit": "1 USDF",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "united-stables",
-    "sortOrder": 47,
+    "sourceSymbol": "falcon-finance",
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -584,6 +572,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "pax-gold",
+    "sortOrder": 47,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:united-stables",
+    "symbol": "U",
+    "name": "United Stables",
+    "category": "crypto",
+    "unit": "1 U",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "united-stables",
     "sortOrder": 48,
     "retiredAt": null
   },
