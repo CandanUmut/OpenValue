@@ -228,18 +228,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:stellar",
-    "symbol": "XLM",
-    "name": "Stellar",
-    "category": "crypto",
-    "unit": "1 XLM",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "stellar",
-    "sortOrder": 20,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:dai",
     "symbol": "DAI",
     "name": "Dai",
@@ -248,6 +236,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "dai",
+    "sortOrder": 20,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:stellar",
+    "symbol": "XLM",
+    "name": "Stellar",
+    "category": "crypto",
+    "unit": "1 XLM",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "stellar",
     "sortOrder": 21,
     "retiredAt": null
   },
@@ -336,18 +336,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:uniswap",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "category": "crypto",
-    "unit": "1 UNI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "uniswap",
-    "sortOrder": 28,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:usd1-wlfi",
     "symbol": "USD1",
     "name": "USD1",
@@ -356,7 +344,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "usd1-wlfi",
-    "sortOrder": 29,
+    "sortOrder": 28,
     "retiredAt": null
   },
   {
@@ -368,6 +356,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "ripple-usd",
+    "sortOrder": 29,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:uniswap",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "category": "crypto",
+    "unit": "1 UNI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "uniswap",
     "sortOrder": 30,
     "retiredAt": null
   },
@@ -444,14 +444,14 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
+    "id": "crypto:hashnote-usyc",
+    "symbol": "USYC",
+    "name": "Circle USYC",
     "category": "crypto",
-    "unit": "1 TAO",
+    "unit": "1 USYC",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "bittensor",
+    "sourceSymbol": "hashnote-usyc",
     "sortOrder": 37,
     "retiredAt": null
   },
@@ -468,26 +468,26 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:rain",
-    "symbol": "RAIN",
-    "name": "Rain",
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
     "category": "crypto",
-    "unit": "1 RAIN",
+    "unit": "1 TAO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "rain",
+    "sourceSymbol": "bittensor",
     "sortOrder": 39,
     "retiredAt": null
   },
   {
-    "id": "crypto:hashnote-usyc",
-    "symbol": "USYC",
-    "name": "Circle USYC",
+    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
+    "symbol": "EURSAFO",
+    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
     "category": "crypto",
-    "unit": "1 USYC",
+    "unit": "1 EURSAFO",
     "quoteCurrency": "USD",
     "source": "coingecko",
-    "sourceSymbol": "hashnote-usyc",
+    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
     "sortOrder": 40,
     "retiredAt": null
   },
@@ -504,18 +504,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:spiko-amundi-overnight-swap-fund-eur",
-    "symbol": "EURSAFO",
-    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
-    "category": "crypto",
-    "unit": "1 EURSAFO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
-    "sortOrder": 42,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:crypto-com-chain",
     "symbol": "CRO",
     "name": "Cronos",
@@ -524,6 +512,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "crypto-com-chain",
+    "sortOrder": 42,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:rain",
+    "symbol": "RAIN",
+    "name": "Rain",
+    "category": "crypto",
+    "unit": "1 RAIN",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "rain",
     "sortOrder": 43,
     "retiredAt": null
   },
