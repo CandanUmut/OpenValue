@@ -372,18 +372,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:sui",
-    "symbol": "SUI",
-    "name": "Sui",
-    "category": "crypto",
-    "unit": "1 SUI",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "sui",
-    "sortOrder": 31,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:the-open-network",
     "symbol": "GRAM",
     "name": "Gram (prev. Toncoin)",
@@ -392,6 +380,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "the-open-network",
+    "sortOrder": 31,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:sui",
+    "symbol": "SUI",
+    "name": "Sui",
+    "category": "crypto",
+    "unit": "1 SUI",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "sui",
     "sortOrder": 32,
     "retiredAt": null
   },
@@ -408,18 +408,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:ondo-us-dollar-yield",
-    "symbol": "USDY",
-    "name": "Ondo US Dollar Yield",
-    "category": "crypto",
-    "unit": "1 USDY",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "ondo-us-dollar-yield",
-    "sortOrder": 34,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:hedera-hashgraph",
     "symbol": "HBAR",
     "name": "Hedera",
@@ -428,6 +416,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hedera-hashgraph",
+    "sortOrder": 34,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:ondo-us-dollar-yield",
+    "symbol": "USDY",
+    "name": "Ondo US Dollar Yield",
+    "category": "crypto",
+    "unit": "1 USDY",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "ondo-us-dollar-yield",
     "sortOrder": 35,
     "retiredAt": null
   },
@@ -468,6 +468,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "category": "crypto",
+    "unit": "1 TAO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bittensor",
+    "sortOrder": 39,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:hashnote-usyc",
     "symbol": "USYC",
     "name": "Circle USYC",
@@ -476,7 +488,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "hashnote-usyc",
-    "sortOrder": 39,
+    "sortOrder": 40,
     "retiredAt": null
   },
   {
@@ -488,18 +500,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "spiko-amundi-overnight-swap-fund-eur",
-    "sortOrder": 40,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
-    "category": "crypto",
-    "unit": "1 TAO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bittensor",
     "sortOrder": 41,
     "retiredAt": null
   },
@@ -540,18 +540,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:falcon-finance",
-    "symbol": "USDF",
-    "name": "Falcon USD",
-    "category": "crypto",
-    "unit": "1 USDF",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "falcon-finance",
-    "sortOrder": 45,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -560,6 +548,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
+    "sortOrder": 45,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:falcon-finance",
+    "symbol": "USDF",
+    "name": "Falcon USD",
+    "category": "crypto",
+    "unit": "1 USDF",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "falcon-finance",
     "sortOrder": 46,
     "retiredAt": null
   },
