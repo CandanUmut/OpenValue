@@ -84,18 +84,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:figure-heloc",
-    "symbol": "FIGR_HELOC",
-    "name": "Figure Heloc",
-    "category": "crypto",
-    "unit": "1 FIGR_HELOC",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "figure-heloc",
-    "sortOrder": 8,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:tron",
     "symbol": "TRX",
     "name": "TRON",
@@ -104,6 +92,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "tron",
+    "sortOrder": 8,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:figure-heloc",
+    "symbol": "FIGR_HELOC",
+    "name": "Figure Heloc",
+    "category": "crypto",
+    "unit": "1 FIGR_HELOC",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "figure-heloc",
     "sortOrder": 9,
     "retiredAt": null
   },
@@ -168,18 +168,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:whitebit",
-    "symbol": "WBT",
-    "name": "WhiteBIT Coin",
-    "category": "crypto",
-    "unit": "1 WBT",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "whitebit",
-    "sortOrder": 15,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:chainlink",
     "symbol": "LINK",
     "name": "Chainlink",
@@ -188,6 +176,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "chainlink",
+    "sortOrder": 15,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:whitebit",
+    "symbol": "WBT",
+    "name": "WhiteBIT Coin",
+    "category": "crypto",
+    "unit": "1 WBT",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "whitebit",
     "sortOrder": 16,
     "retiredAt": null
   },
@@ -528,6 +528,18 @@
     "retiredAt": null
   },
   {
+    "id": "crypto:bitway",
+    "symbol": "BTW",
+    "name": "Bitway",
+    "category": "crypto",
+    "unit": "1 BTW",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bitway",
+    "sortOrder": 44,
+    "retiredAt": null
+  },
+  {
     "id": "crypto:okb",
     "symbol": "OKB",
     "name": "OKB",
@@ -536,7 +548,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "okb",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "retiredAt": null
   },
   {
@@ -548,7 +560,7 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "falcon-finance",
-    "sortOrder": 45,
+    "sortOrder": 46,
     "retiredAt": null
   },
   {
@@ -560,18 +572,6 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "rain",
-    "sortOrder": 46,
-    "retiredAt": null
-  },
-  {
-    "id": "crypto:bitway",
-    "symbol": "BTW",
-    "name": "Bitway",
-    "category": "crypto",
-    "unit": "1 BTW",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bitway",
     "sortOrder": 47,
     "retiredAt": null
   },
