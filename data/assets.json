@@ -444,18 +444,6 @@
     "retiredAt": null
   },
   {
-    "id": "crypto:bittensor",
-    "symbol": "TAO",
-    "name": "Bittensor",
-    "category": "crypto",
-    "unit": "1 TAO",
-    "quoteCurrency": "USD",
-    "source": "coingecko",
-    "sourceSymbol": "bittensor",
-    "sortOrder": 37,
-    "retiredAt": null
-  },
-  {
     "id": "crypto:quant-network",
     "symbol": "QNT",
     "name": "Quant",
@@ -464,6 +452,18 @@
     "quoteCurrency": "USD",
     "source": "coingecko",
     "sourceSymbol": "quant-network",
+    "sortOrder": 37,
+    "retiredAt": null
+  },
+  {
+    "id": "crypto:bittensor",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "category": "crypto",
+    "unit": "1 TAO",
+    "quoteCurrency": "USD",
+    "source": "coingecko",
+    "sourceSymbol": "bittensor",
     "sortOrder": 38,
     "retiredAt": null
   },
