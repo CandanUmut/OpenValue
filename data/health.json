@@ -1,52 +1,52 @@
 {
   "frankfurter": {
     "provider": "frankfurter",
-    "lastAttemptAt": "2026-11-27T16:49:00.089Z",
-    "lastSuccessAt": "2026-11-27T16:49:00.089Z",
+    "lastAttemptAt": "2026-11-28T00:34:36.443Z",
+    "lastSuccessAt": "2026-11-28T00:34:36.443Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
-    "windowDate": "2026-11-27",
-    "requestsInWindow": 4
+    "windowDate": "2026-11-28",
+    "requestsInWindow": 2
   },
   "gold-api": {
     "provider": "gold-api",
-    "lastAttemptAt": "2026-11-27T18:56:23.231Z",
-    "lastSuccessAt": "2026-11-27T18:56:23.231Z",
+    "lastAttemptAt": "2026-11-28T00:34:37.282Z",
+    "lastSuccessAt": "2026-11-28T00:34:37.282Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
-    "windowDate": "2026-11-27",
-    "requestsInWindow": 16
+    "windowDate": "2026-11-28",
+    "requestsInWindow": 4
   },
   "coingecko": {
     "provider": "coingecko",
-    "lastAttemptAt": "2026-11-27T18:56:23.373Z",
-    "lastSuccessAt": "2026-11-27T18:56:23.373Z",
+    "lastAttemptAt": "2026-11-28T00:34:37.423Z",
+    "lastSuccessAt": "2026-11-28T00:34:37.423Z",
     "lastErrorAt": "2026-09-30T00:25:44.276Z",
     "lastError": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
     "consecutiveFailures": 0,
-    "windowDate": "2026-11-27",
-    "requestsInWindow": 4
+    "windowDate": "2026-11-28",
+    "requestsInWindow": 1
   },
   "fred": {
     "provider": "fred",
-    "lastAttemptAt": "2026-11-27T16:49:07.049Z",
-    "lastSuccessAt": "2026-11-27T16:49:07.049Z",
+    "lastAttemptAt": "2026-11-28T00:34:43.547Z",
+    "lastSuccessAt": "2026-11-28T00:34:43.547Z",
     "lastErrorAt": "2026-10-21T20:41:52.456Z",
     "lastError": "every FRED series failed — FEDFUNDS: no usable observations; CPIAUCSL: no usable observations; UNRATE: no usable observations; DGS10: no usable observations; DGS2: no usable observations; M2SL: no usable observations",
     "consecutiveFailures": 0,
-    "windowDate": "2026-11-27",
-    "requestsInWindow": 12
+    "windowDate": "2026-11-28",
+    "requestsInWindow": 6
   },
   "nasdaq": {
     "provider": "nasdaq",
-    "lastAttemptAt": "2026-11-27T18:57:10.377Z",
-    "lastSuccessAt": "2026-11-27T18:57:10.377Z",
+    "lastAttemptAt": "2026-11-28T00:35:33.771Z",
+    "lastSuccessAt": "2026-11-28T00:35:33.771Z",
     "lastErrorAt": null,
     "lastError": null,
     "consecutiveFailures": 0,
-    "windowDate": "2026-11-27",
-    "requestsInWindow": 76
+    "windowDate": "2026-11-28",
+    "requestsInWindow": 19
   }
 }
